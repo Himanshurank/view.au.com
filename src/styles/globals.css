@@ -1,33 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Golos+Text:wght@400..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+	font-family: "DM Sans", sans-serif;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.hamburger {
+	height: 36px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+.hamburger span {
+	width: 24px;
+	height: 2px;
+	background: #333333;
+	transform: translateX(-4px);
+	transition: 0.5s;
+}
+
+.active:nth-child(1) {
+	transform: translateY(13px) rotate(135deg);
+}
+.active:nth-child(2) {
+	transform: translateY(5px) rotate(135deg);
+	opacity: 0;
+}
+.active:nth-child(3) {
+	transform: translateY(-6.5px) rotate(45deg);
+}
+
+.leftSideAni {
+	animation: 0.3s 1 forwards slideIn;
+}
+.closeAni {
+	animation: 0.1s 1 forwards slideOut;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateX(-100%);
+	}
+
+	to {
+		transform: translateX(0);
+	}
+}
+@keyframes slideOut {
+	from {
+		transform: translateX(0);
+	}
+
+	to {
+		transform: translateX(-100%);
+	}
+}
+
+img {
+	z-index: -1;
 }
