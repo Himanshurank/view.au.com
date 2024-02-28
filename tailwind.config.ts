@@ -7,12 +7,14 @@ const config: Config = {
 			width: {
 				"1200px": "1200px",
 				"295px": "295px",
+				"44%": "44%",
 			},
 			maxWidth: {
 				"1200px": "1200px",
 			},
 			height: {
 				"64px": "64px",
+				"500px": "500px",
 			},
 			backgroundColor: {
 				"primary-blue": "#0073CF",
@@ -21,11 +23,28 @@ const config: Config = {
 				"banner-lightblue": "#E8F4FD",
 			},
 			textColor: {
+				"primary-blue": "#0073CF",
 				"primary-black": "#333333",
+				gray: "rgb(51,51,51)",
 				"light-black": "#666666",
 			},
 			borderColor: {
 				"primary-black": "#333333",
+			},
+			fontSize: {
+				"74px": "74px",
+				"44px": "44px",
+			},
+			lineHeight: {
+				"82px": "82px",
+				"52px": "52px",
+			},
+			padding: {
+				"17": "75px",
+				"112px": "112px",
+			},
+			screens: {
+				lgc: "1200px",
 			},
 			fontFamily: {
 				golos: ["Golos Text", "sans-serif"],

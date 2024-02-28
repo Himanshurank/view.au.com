@@ -1,25 +1,24 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 
-const Navbar = () => {
-	const [isShowSidebar, setIsShowSIdebar] = useState(false);
+interface Iprops {
+	sidebarToggle: () => void;
+	isShowSidebar: boolean;
+}
 
-	const sidebarToggle = () => {
-		setIsShowSIdebar(!isShowSidebar);
-	};
+const Navbar = (props: Iprops) => {
 	return (
 		<>
-			{isShowSidebar && <Sidebar isShowSidebar={isShowSidebar} />}
-			<div className="w-screen border-b font-medium fixed top-0 bg-white flex justify-center items-center">
-				<nav className="w-1200px flex h-12 items-center z-50 lg:h-64px ">
-					<div className="hamburger lg:hidden" onClick={sidebarToggle}>
-						<span className={isShowSidebar ? "active" : ""}></span>
-						<span className={isShowSidebar ? "active" : ""}></span>
-						<span className={isShowSidebar ? "active" : ""}></span>
+			<div className="w-full border-b font-medium sticky top-0 bg-white flex justify-center items-center z-50">
+				<nav className="w-full flex h-12 items-center lgc:h-64px lgc:max-w-1200px">
+					<div className="hamburger lgc:hidden" onClick={props.sidebarToggle}>
+						<span className={props.isShowSidebar ? "active" : ""}></span>
+						<span className={props.isShowSidebar ? "active" : ""}></span>
+						<span className={props.isShowSidebar ? "active" : ""}></span>
 					</div>
-					<div className="w-full flex justify-between items-center mx-6 lg:mx-2">
-						<div>
-							<svg width="72" className="lg:w-24" viewBox="0 0 109 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<div className="w-full flex justify-between items-center mx-4 lgc:mx-0">
+						<div className="w-20 h-6">
+							<svg width="100%" height="100%" className="lg:w-24" viewBox="0 0 109 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<g id="Logo (Without .com.au)">
 									<path id="path140" d="M12.2588 18.8479C10.5977 18.8641 9.22765 17.5233 9.21145 15.8594C9.19526 14.1952 10.5361 12.8278 12.2004 12.8121C12.2125 12.8116 12.2242 12.8116 12.2359 12.8116C13.884 12.8152 15.2316 14.1484 15.2478 15.8005C15.2554 16.607 14.9491 17.3681 14.3841 17.9434C13.8196 18.5191 13.0649 18.8403 12.2588 18.8479ZM23.2187 23.7431L16.9035 18.9608C17.5327 18.0261 17.8674 16.9259 17.8566 15.7753C17.8265 12.6726 15.2667 10.1798 12.1752 10.2032C9.07291 10.2334 6.57293 12.7819 6.60262 15.8846C6.63275 18.9649 9.14488 21.4509 12.2175 21.4572C12.2395 21.4572 12.262 21.4568 12.284 21.4568C13.4153 21.446 14.4916 21.1032 15.4038 20.4775L20.151 26.8386C20.1519 26.839 20.8995 27.7297 21.8854 27.7791C22.4135 27.8043 22.956 27.5718 23.4512 27.0819L23.5074 27.0253C23.9806 26.5341 24.206 26.011 24.1745 25.473C24.1169 24.4906 23.2272 23.7507 23.2187 23.7431Z" fill="#0073CF" />
 									<path id="path144" d="M61.3805 15.0676L61.3966 14.948C61.824 11.8723 64.2074 9.88505 67.468 9.88505C70.6517 9.88505 72.8958 11.825 73.324 14.9484L73.3402 15.0676H61.3805ZM67.468 6.203C61.5158 6.203 57.1951 10.5598 57.1951 16.5628C57.1951 22.6405 61.5158 27.0521 67.468 27.0521C70.5456 27.0521 73.4184 25.8975 75.3494 23.8842C75.7209 23.4919 75.9121 22.9553 75.873 22.4124C75.8379 21.9266 75.6247 21.5056 75.2734 21.2285C74.4012 20.5228 73.2516 20.8237 72.5512 21.4004C70.9999 22.6778 69.7652 23.37 67.6848 23.37C64.2996 23.37 61.8316 21.3486 61.3966 18.2203L61.3805 18.1006H75.555C76.6174 18.1006 77.4819 17.2361 77.4819 16.1732C77.3182 10.3043 73.1998 6.203 67.468 6.203Z" fill="#333333" />
@@ -31,18 +30,18 @@ const Navbar = () => {
 								</g>
 							</svg>
 						</div>
-						<ul className=" space-x-2 hidden lg:flex">
-							<li className="px-3 py-2 rounded-lg hover:bg-hover-light-gray font-medium">Buy</li>
-							<li className="px-3 py-2 rounded-lg hover:bg-hover-light-gray font-medium">Rent</li>
-							<li className="px-3 py-2 rounded-lg hover:bg-hover-light-gray font-medium">Sold</li>
-							<li className="px-3 py-2 rounded-lg hover:bg-hover-light-gray font-medium">Estimate</li>
-							<li className="px-3 py-2 rounded-lg hover:bg-hover-light-gray font-medium">
+						<ul className="hidden lgc:flex justify-center items-center gap-2 lg:ml-7">
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">Buy</li>
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">Rent</li>
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">Sold</li>
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">Estimate</li>
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">
 								<select className="outline-none bg-transparent" name="More" id="more">
 									<option value="More">More</option>
 								</select>
 							</li>
 						</ul>
-						<button className="bg-primary-blue text-white rounded-lg hover:bg-btn-hover-blue font-bold text-sm py-1.5 px-2 lg:px-4 lg:py-2 lg:text-base">Join / Sign In</button>
+						<button className="bg-primary-blue text-white rounded-lg hover:bg-btn-hover-blue font-bold text-sm py-1.5 px-2 lgc:px-4 lgc:py-2.5 lgc:text-base">Join / Sign In</button>
 					</div>
 				</nav>
 			</div>

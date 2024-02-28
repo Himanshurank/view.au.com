@@ -8,14 +8,11 @@ const Footer = () => {
 		["Real Estate For Sale", "Rental Properties", "Recently Sold Properties", "New Developments", "View Insurance"],
 		["Terms & Conditions", "Privacy Policy", "Sitemap"],
 	];
-	const mdFooterList = [
-		["Location Profiles", "Real Estate News", "Auction Results", "About Us", "FAQs", "Privacy Policy"],
-		["Estimate", "Real Estate Advice", "Agent Login", "Contact", "Terms & Conditions", "Sitemap"],
-	];
+	const mdFooterList = [["Location Profiles", "Estimate", "Real Estate News", "Real Estate Advice", "Auction Results", "Agent Login", "About Us", "Contact", "FAQs", "Terms & Conditions", "Privacy Policy", "Sitemap"]];
 	return (
 		<>
-			<div className="flex justify-between items-center h-[72px] border-b">
-				<div className="flex w-full justify-center items-center gap-6 py-6 lg:justify-start lg:w-auto">
+			<div className="flex justify-between items-center h-[72px] border-b mt-2.5">
+				<div className="flex w-full justify-center items-center py-6 gap-8 lg:gap-6 lg:justify-start lg:w-auto">
 					<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g clip-path="url(#clip0_1780_79655)">
 							<path d="M24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 17.9895 4.3882 22.954 10.125 23.8542V15.4688H7.07812V12H10.125V9.35625C10.125 6.34875 11.9166 4.6875 14.6576 4.6875C15.9701 4.6875 17.3438 4.92188 17.3438 4.92188V7.875H15.8306C14.34 7.875 13.875 8.80008 13.875 9.75V12H17.2031L16.6711 15.4688H13.875V23.8542C19.6118 22.954 24 17.9895 24 12Z" fill="#666666" />
@@ -64,47 +61,50 @@ const Footer = () => {
 				</div>
 				<div className="hidden lg:flex">
 					<ul className="flex gap-6">
-						<li>Agent Login</li>
-						<li>About Us</li>
-						<li>Contact</li>
-						<li>FAQs</li>
+						<li className="hover:text-primary-blue hover:underline cursor-pointer">Agent Login</li>
+						<li className="hover:text-primary-blue hover:underline cursor-pointer">About Us</li>
+						<li className="hover:text-primary-blue hover:underline cursor-pointer">Contact</li>
+						<li className="hover:text-primary-blue hover:underline cursor-pointer">FAQs</li>
 					</ul>
 				</div>
 			</div>
 			<div className="py-6 border-b hidden lg:flex">
 				<ul className="space-y-4 w-295px">
 					{lgFooterList[0].map((list) => (
-						<li key={list}>{list}</li>
+						<li className="hover:text-primary-blue hover:underline cursor-pointer" key={list}>
+							{list}
+						</li>
 					))}
 				</ul>
 				<ul className="space-y-4 w-295px">
 					{lgFooterList[1].map((list) => (
-						<li key={list}>{list}</li>
+						<li className="hover:text-primary-blue hover:underline cursor-pointer" key={list}>
+							{list}
+						</li>
 					))}
 				</ul>
 				<ul className="space-y-4 w-295px">
 					{lgFooterList[2].map((list) => (
-						<li key={list}>{list}</li>
+						<li className="hover:text-primary-blue hover:underline cursor-pointer" key={list}>
+							{list}
+						</li>
 					))}
 				</ul>
 				<ul className="space-y-4 w-295px">
 					{lgFooterList[3].map((list) => (
-						<li key={list}>{list}</li>
+						<li className="hover:text-primary-blue hover:underline cursor-pointer" key={list}>
+							{list}
+						</li>
 					))}
 				</ul>
 			</div>
-			<div className="py-6 border-b flex justify-center items-center text-center lg:hidden">
-				<ul className="space-y-4 w-295px">
-					{mdFooterList[0].map((list) => (
-						<li key={list}>{list}</li>
-					))}
-				</ul>
-				<ul className="space-y-4 w-295px">
-					{mdFooterList[1].map((list) => (
-						<li key={list}>{list}</li>
-					))}
-				</ul>
-			</div>
+			<ul className="py-6 border-b border-at-light-500 lg:hidden grid grid-cols-2 gap-2 place-items-center">
+				{mdFooterList[0].map((list) => (
+					<li className="text-light-black hover:text-primary-blue hover:underline cursor-pointer mb-2" key={list}>
+						{list}
+					</li>
+				))}
+			</ul>
 			<div className="mt-9 flex flex-col justify-center items-center lg:flex-row lg:justify-between">
 				<svg width="94" height="31" viewBox="0 0 109 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 					<g id="Logo (Without .com.au)">
@@ -117,14 +117,14 @@ const Footer = () => {
 						<path id="path164" d="M23.5429 8.18329L12.7631 0.303261C12.1986 -0.109205 11.4298 -0.100212 10.8752 0.325748L0.618474 8.20353C0.228498 8.50265 0 8.96639 0 9.45757V26.2621C0 27.1351 0.707983 27.8436 1.58149 27.8436H7.09108H8.35322H8.45847H8.64829H13.7094C14.5924 27.8436 15.3053 27.1162 15.2828 26.2279C15.2603 25.3625 14.502 24.6954 13.6366 24.6954H8.92717H8.73735H7.93581H7.45992H3.84443C3.45986 24.6954 3.14814 24.3837 3.14814 23.9991V10.5731C3.14814 10.3563 3.24845 10.1525 3.42027 10.0207L10.868 4.30062C11.4546 3.85038 12.2678 3.84048 12.8647 4.27678L20.7546 10.0441C20.9341 10.1755 21.0403 10.3842 21.0403 10.6068V17.1055C21.0403 17.9885 21.7671 18.7018 22.6555 18.6789C23.5209 18.6569 24.188 17.8985 24.188 17.0326V9.45398C24.188 8.95155 23.9487 8.47971 23.5429 8.18329Z" fill="#0073CF" />
 					</g>
 				</svg>
-				<div className="space-x-2 lg:flex">
+				<div className="lg:flex lg:space-x-2">
 					<p className="text-sm text-center text-light-black lg:w-36">Part of View Media Group (VMG)</p>
-					<div className="flex justify-center items-center">
-						<Image src={viewMediaImg} width={110} height={23} alt="media group logo" />
+					<div className="flex justify-center items-center mb-4">
+						<Image src={viewMediaImg} width={110} height={24} alt="media group logo" />
 					</div>
 				</div>
 			</div>
-			<p className="text-sm font-normal py-2 text-center lg:text-left lg:p-0">Copyright © 2001-2024 | view.com.au Ltd</p>
+			<p className="text-sm font-normal pb-2 text-center lg:text-left">Copyright © 2001-2024 | view.com.au Ltd</p>
 		</>
 	);
 };

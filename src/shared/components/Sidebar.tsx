@@ -1,10 +1,8 @@
 import React from "react";
-interface IProps {
-	isShowSidebar: boolean;
-}
-const Sidebar = (props: IProps) => {
+
+const Sidebar = () => {
 	return (
-		<div className={props.isShowSidebar ? "leftSideAni w-full h-full fixed top-0 left-0 bg-white pt-12 lg:hidden overflow-scroll" : "closeAni w-full h-full fixed top-0 left-0 bg-white pt-12 lg:hidden overflow-scroll"}>
+		<div className={"leftSideAni w-full h-full fixed top-0 left-0 bg-white pt-12 lgc:hidden overflow-scroll"}>
 			<ul>
 				<li className="px-5 py-3 font-medium text-2xl text-black">Buy</li>
 				<li className="px-5 py-3 font-medium text-2xl text-black">Rent</li>
