@@ -6,7 +6,7 @@ interface Iprops {
 	isShowSidebar: boolean;
 }
 
-const Navbar = (props: Iprops) => {
+const Header = (props: Iprops) => {
 	return (
 		<>
 			<div className="w-full border-b font-medium sticky top-0 bg-white flex justify-center items-center z-50">
@@ -49,4 +49,4 @@ const Navbar = (props: Iprops) => {
 	);
 };
 
-export default Navbar;
+export default Header;

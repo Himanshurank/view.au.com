@@ -15,12 +15,14 @@ const config: Config = {
 			height: {
 				"64px": "64px",
 				"500px": "500px",
+				"198px": "198px",
 			},
 			backgroundColor: {
 				"primary-blue": "#0073CF",
 				"hover-light-gray": "#f6f6f6",
 				"btn-hover-blue": "#0464b0",
 				"banner-lightblue": "#E8F4FD",
+				"primary-black": "#333333",
 			},
 			textColor: {
 				"primary-blue": "#0073CF",
