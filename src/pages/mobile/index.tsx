@@ -19,7 +19,7 @@ const MobilePage: React.FC = () => {
 					<ApplicationsButtons />
 				</div>
 			</HeroSection>
-			<section className="my-16 lg:mb-1 lg:flex lg:items-center lg:h-500">
+			<section className="my-16 px-4 lg:mb-1 lg:flex lg:items-center lg:h-500 lg:mt-10">
 				<div className="flex flex-col items-center lg:items-start lg:w-1/2 lg:pl-17 lg:pr-8">
 					<Information title="Save and track." subTitle="Shortlist your favorite properties to keep track of upcoming open for inspections and auction. Login with your view.com.au account to sync your saved properties between your computer and mobile devices." />
 					<div className="flex gap-4 w-full mb-8 px-6 lg:px-0">

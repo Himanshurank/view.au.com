@@ -31,11 +31,11 @@ const Header = (props: Iprops) => {
 							</svg>
 						</div>
 						<ul className="hidden lgc:flex justify-center items-center gap-2 lg:ml-7">
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">Buy</li>
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">Rent</li>
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">Sold</li>
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">Estimate</li>
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-hover-light-gray font-medium cursor-pointer">
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">Buy</li>
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">Rent</li>
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">Sold</li>
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">Estimate</li>
+							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">
 								<select className="outline-none bg-transparent" name="More" id="more">
 									<option value="More">More</option>
 								</select>
