@@ -62,7 +62,12 @@ body {
 	}
 }
 
-.ans {
-	height: 100%;
-	transition: 0.5s;
+.faq-content {
+	height: 0;
+	overflow: hidden;
+	transition: height 0.5s ease;
+}
+
+.faq-open {
+	height: auto;
 }
