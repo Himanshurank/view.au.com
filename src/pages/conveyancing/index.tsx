@@ -5,7 +5,6 @@ import settleEasyLogo from "../../../public/assets/conveyancing/settle-easy.svg"
 import Accordion from "@/shared/components/Accordion";
 import CustomerFeedback from "@/shared/components/CustomerFeedback";
 import RedeemOfferForm from "@/shared/components/RedeemOfferForm";
-
 interface IFeedback {
 	name: string;
 	comment: string;
@@ -27,6 +26,8 @@ const conveyancingPage = () => {
 		},
 	];
 
+	const pageDescription = ["Settle Easy provides reliable, secure, fast and hassle-free conveyancing services to help you buy or sell property.", "Think of Settle Easy as a legal expert in your corner. Someone to guide you through the process and to provide you with a seamless experience in the lead up to settlement.", "Alongside the $220 conveyancing voucher, you will also be eligible for a free contract review during your conveyancing transaction, knowing no surprises are waiting.", "Simply fill out the form and a member from the Settle Easy Success Specialist team will get in touch within 24 hours.", "This offer is eligible for customers transacting in Victoria, New South Wales and Queensland."];
+
 	return (
 		<>
 			<HeroSection title="Buying or selling?" subTitle="Redeem your $220 conveyancing voucher and free contract review" classes="flex flex-col-reverse lg:flex-row lg:justify-between">
@@ -45,18 +46,18 @@ const conveyancingPage = () => {
 							In partnership with view.com.au,{" "}
 							<a href="#" className="underline hover:text-primary-blue">
 								Settle Easy
-							</a>{" "}
+							</a>
 							is currently offering new customers a $220 conveyancing voucher on their trusted{" "}
 							<a href="#" className="underline hover:text-primary-blue">
 								online conveyancing services
-							</a>{" "}
+							</a>
 							and a free contract review. You&apos;ll only pay $880 incl. GST plus disbursements on a standard conveyancing transaction. Redeem today and use within 12 months.
 						</p>
-						<p className="text-base font-normal mb-4">Settle Easy provides reliable, secure, fast and hassle-free conveyancing services to help you buy or sell property.</p>
-						<p className="text-base font-normal mb-4">Think of Settle Easy as a legal expert in your corner. Someone to guide you through the process and to provide you with a seamless experience in the lead up to settlement.</p>
-						<p className="text-base font-normal mb-4">Alongside the $220 conveyancing voucher, you will also be eligible for a free contract review during your conveyancing transaction, knowing no surprises are waiting.</p>
-						<p className="text-base font-normal mb-4">Simply fill out the form and a member from the Settle Easy Success Specialist team will get in touch within 24 hours.</p>
-						<p className="text-base font-normal mb-4">This offer is eligible for customers transacting in Victoria, New South Wales and Queensland.</p>
+						{pageDescription.map((disc, i) => (
+							<p className="text-base font-normal mb-4" key={i}>
+								{disc}
+							</p>
+						))}
 					</div>
 					<div>
 						<h2 className="text-base font-bold undefined mb-4 lg:mb-6 ">Frequently Asked Questions</h2>
@@ -67,10 +68,6 @@ const conveyancingPage = () => {
 			<section>
 				<CustomerFeedback feedBacks={feedBacks} title={"What Settle Easy customers are saying..."} />
 			</section>
-
-			{/* <section>
-				<Form />
-			</section> */}
 		</>
 	);
 };
