@@ -29,8 +29,8 @@ const Accordion = () => {
 		},
 	];
 	const [isShowFAQs, setIsShowFAQs] = useState(Array(accordionFAQsList.length).fill(false));
-	const [height, setHeight] = useState<string>("");
-	const scrollHeightRef = useRef<HTMLDivElement | null>(null);
+	const [height, setHeight] = useState<string[]>(Array(accordionFAQsList.length).fill("0px"));
+	const scrollHeightRef = useRef<HTMLDivElement[] | null[]>([]);
 
 	const showFAQs = (i: number) => {
 		const newShowFAQs = [...isShowFAQs];
@@ -38,9 +38,13 @@ const Accordion = () => {
 		setIsShowFAQs(newShowFAQs);
 	};
 	useEffect(() => {
-		if (scrollHeightRef.current) {
-			setHeight(`${scrollHeightRef.current.scrollHeight}px`);
-		}
+		const newHeight: string[] = [];
+		scrollHeightRef.current.forEach((ref, i) => {
+			if (ref) {
+				newHeight[i] = isShowFAQs[i] ? `${ref.scrollHeight}px` : "0px";
+			}
+		});
+		setHeight(newHeight);
 	}, [isShowFAQs]);
 
 	return (
@@ -51,7 +55,7 @@ const Accordion = () => {
 						<h6 className="font-bold ">{list.qus}</h6>
 						<span className="text-2xl font-medium pb-1">{isShowFAQs[i] ? "-" : "+"}</span>
 					</div>
-					<div ref={scrollHeightRef} className="overflow-hidden transition-all duration-500 mb-4" style={{ height: isShowFAQs[i] ? `${height}` : "0px" }}>
+					<div ref={(el) => (scrollHeightRef.current[i] = el)} className="overflow-hidden transition-all duration-500" style={{ height: isShowFAQs[i] ? `${height[i]}` : "0px" }}>
 						{Array.isArray(list.ans) ? (
 							list.ans.map((item, index) =>
 								typeof item === "string" ? (
@@ -59,7 +63,7 @@ const Accordion = () => {
 										{item}
 									</p>
 								) : Array.isArray(item) ? (
-									<ul key={index} className="list-disc pl-7 text-sm">
+									<ul key={index} className="list-disc pl-7 text-sm mb-4">
 										{item.map((subItem, subIndex) => (
 											<li key={subIndex}>{subItem}</li>
 										))}

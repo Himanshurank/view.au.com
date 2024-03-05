@@ -5,14 +5,18 @@ import Image from "next/image";
 
 const CustomerFeedback = (props: any) => {
 	const [isShowComment, setIsShowComment] = useState(Array(props.feedBacks.length).fill(false));
-	const [height, setHeight] = useState<string>("");
-	const scrollHeightRef = useRef<HTMLDivElement | null>(null);
+	const [height, setHeight] = useState<string[]>([]);
+	const scrollHeightRef = useRef<HTMLDivElement[] | null[]>([]);
 
 	useEffect(() => {
-		if (scrollHeightRef.current) {
-			setHeight(`${scrollHeightRef.current.scrollHeight}px`);
-		}
-	}, []);
+		const newHeight: string[] = [];
+		scrollHeightRef.current.forEach((ref, i) => {
+			if (ref) {
+				newHeight[i] = isShowComment[i] ? `${ref.scrollHeight}px` : "0px";
+			}
+		});
+		setHeight(newHeight);
+	}, [isShowComment]);
 
 	const showComment = (i: number) => {
 		const newShowComment = [...isShowComment];
@@ -36,7 +40,7 @@ const CustomerFeedback = (props: any) => {
 							</div>
 							<p className="text-xs font-normal text-light-black">{feedback.time}</p>
 						</div>
-						<div ref={scrollHeightRef} className="overflow-hidden transition-all duration-500 ease-in-out" style={{ height: isShowComment[i] ? `${height}` : "75px" }}>
+						<div ref={(el) => (scrollHeightRef.current[i] = el)} className="overflow-hidden transition-all duration-500 ease-in-out" style={{ height: isShowComment[i] ? `${height[i]}` : "75px" }}>
 							<p>{feedback.comment}</p>
 						</div>
 

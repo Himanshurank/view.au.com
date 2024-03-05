@@ -4,7 +4,7 @@ import Image from "next/image";
 import settleEasyLogo from "../../../public/assets/conveyancing/settle-easy.svg";
 import Accordion from "@/shared/components/Accordion";
 import CustomerFeedback from "@/shared/components/CustomerFeedback";
-import FeedbackForm from "@/shared/components/FeedbackForm";
+import RedeemOfferForm from "@/shared/components/RedeemOfferForm";
 
 interface IFeedback {
 	name: string;
@@ -39,7 +39,7 @@ const conveyancingPage = () => {
 					<div className="w-full h-198px rounded-xl overflow-hidden lg:h-[446px]">
 						<iframe className="w-full h-full" src="https://www.youtube.com/embed/SklG0T_W0ao?si=9Jrb7eeGTNx2lNTa" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 					</div>
-					<FeedbackForm />
+					<RedeemOfferForm />
 					<div className="mb-8">
 						<p className="text-base font-normal mb-4">
 							In partnership with view.com.au,{" "}
@@ -67,6 +67,10 @@ const conveyancingPage = () => {
 			<section>
 				<CustomerFeedback feedBacks={feedBacks} title={"What Settle Easy customers are saying..."} />
 			</section>
+
+			{/* <section>
+				<Form />
+			</section> */}
 		</>
 	);
 };
