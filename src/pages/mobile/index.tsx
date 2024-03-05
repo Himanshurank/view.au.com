@@ -1,17 +1,12 @@
 import React from "react";
-import { useRouter } from "next/router";
 import HeroSection from "@/shared/components/HeroSection";
-import ApplicationsButtons from "@/shared/components/ApplicationsButtons";
+import ApplicationsButtons from "@/shared/components/buttons/ApplicationsButtons";
 import mobileAppImg from "../../../public/assets/mobile/mobileViewPage.png";
 import Image from "next/image";
 import tabletAppImg from "../../../public/assets/mobile/tabletViewPage.png";
 import Information from "@/shared/components/information/Information";
 
 const MobilePage: React.FC = () => {
-	const router = useRouter();
-	// useEffect(() => {
-	// 	router.push("/conveyancing");
-	// }, []);
 	return (
 		<>
 			<HeroSection title="Explore properties wherever and whenever you like." subTitle="Available on iOS and Android, the view.com.au app helps you keep on top of your property search with the latest real estate listings for sale, rent, recently sold, as well as unlisted properties.">

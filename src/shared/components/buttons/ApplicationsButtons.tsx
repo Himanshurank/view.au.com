@@ -1,6 +1,6 @@
 import React from "react";
-import appStoreButton from "../../../public/assets/mobile/appStoreLogo.svg";
-import playStoreButton from "../../../public/assets/mobile/playStoreLogo.svg";
+import appStoreButton from "../../../../public/assets/mobile/appStoreLogo.svg";
+import playStoreButton from "../../../../public/assets/mobile/playStoreLogo.svg";
 import Image from "next/image";
 
 const ApplicationsButtons = () => {

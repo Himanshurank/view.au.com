@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Sidebar from "./Sidebar";
 import Link from "next/link";
+import Button from "./buttons/Button";
 
 interface Iprops {
 	sidebarToggle: () => void;
@@ -8,6 +9,7 @@ interface Iprops {
 }
 
 const Header = (props: Iprops) => {
+	const headerMenu = ["Buy", "Rent", "Sold", "Estimate"];
 	return (
 		<>
 			<div className="w-full border-b font-medium sticky top-0 bg-white flex justify-center items-center z-50">
@@ -32,17 +34,20 @@ const Header = (props: Iprops) => {
 							</svg>
 						</div>
 						<ul className="hidden lgc:flex justify-center items-center gap-2 lg:ml-7">
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">Buy</li>
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">Rent</li>
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">Sold</li>
-							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">Estimate</li>
+							{headerMenu.map((menu) => (
+								<li key={menu} className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">
+									{menu}
+								</li>
+							))}
 							<li className="px-3 py-2 rounded-lg text-gray hover:bg-light-gray font-medium cursor-pointer">
 								<select className="outline-none bg-transparent" name="More" id="more">
 									<option value="More">More</option>
 								</select>
 							</li>
 						</ul>
-						<button className="bg-primary-blue text-white rounded-lg hover:bg-btn-hover-blue font-bold text-sm py-1.5 px-2 lgc:px-4 lgc:py-2.5 lgc:text-base">Join / Sign In</button>
+						<Button buttonType={"button"} classes="text-sm py-1.5 px-2 lgc:px-4 lgc:py-2.5 lgc:text-base">
+							Join / Sign In
+						</Button>
 					</div>
 				</nav>
 			</div>
