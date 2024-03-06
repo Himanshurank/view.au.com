@@ -9,7 +9,7 @@ import Information from "@/shared/components/information/Information";
 const MobilePage: React.FC = () => {
 	return (
 		<>
-			<HeroSection title="Explore properties wherever and whenever you like." subTitle="Available on iOS and Android, the view.com.au app helps you keep on top of your property search with the latest real estate listings for sale, rent, recently sold, as well as unlisted properties.">
+			<HeroSection title="Explore properties wherever and whenever you like." subTitle="Available on iOS and Android, the view.com.au app helps you keep on top of your property search with the latest real estate listings for sale, rent, recently sold, as well as unlisted properties." subTitleClasses="lg:text-lg">
 				<div className="flex gap-4 mt-6 lg:mt-12">
 					<ApplicationsButtons />
 				</div>
@@ -28,11 +28,11 @@ const MobilePage: React.FC = () => {
 			<section className="mb-2 lg:flex lg:flex-row-reverse lg:justify-between lg:items-center lg:h-500 lg:mb-9">
 				<div className="flex flex-col items-center w-full lg:items-start lg:w-44% lgc:pr-17 lgc:pl-112px ">
 					<Information title="Search, plan and research properties." subTitle="Search any property in Australia, get price data and suburb information, plus points of interest." />
-					<div className="flex gap-4 w-full px-6 lg:px-0">
+					<div className="flex gap-4 w-full px-10 lg:px-0">
 						<ApplicationsButtons />
 					</div>
 				</div>
-				<div className="text-right px-6 mt-6 lg:mt-0 lg:px-0 ">
+				<div className="text-right px-10 mt-6 lg:mt-0 lg:px-0 ">
 					<div className="flex justify-end  lgc:pl-17">
 						<Image src={tabletAppImg} alt="tablet view" />
 					</div>

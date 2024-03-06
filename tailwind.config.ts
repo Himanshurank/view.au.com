@@ -5,8 +5,9 @@ const config: Config = {
 	theme: {
 		extend: {
 			width: {
-				"1200px": "1200px",
 				"295px": "295px",
+				"1200px": "1200px",
+				"38%": "38%",
 				"44%": "44%",
 			},
 			maxWidth: {
@@ -14,8 +15,10 @@ const config: Config = {
 			},
 			height: {
 				"64px": "64px",
-				"500px": "500px",
+				"72px": "72px",
 				"198px": "198px",
+				"446px": "446px",
+				"500px": "500px",
 			},
 			backgroundColor: {
 				"primary-blue": "#0073CF",

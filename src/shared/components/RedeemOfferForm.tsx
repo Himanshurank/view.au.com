@@ -35,7 +35,7 @@ const RedeemOfferForm = () => {
 	};
 
 	return (
-		<div className="border rounded-xl mt-8 lg:absolute lg:w-[38%] lg:right-0 lg:top-0 lg:mt-0">
+		<div className="border rounded-xl mt-8 lg:absolute lg:w-38% lg:right-0 lg:top-0 lg:mt-0">
 			<p className="text-sm font-bold m-6">Enter your details for your $220 conveyancing voucher and a free contract review</p>
 			<form onSubmit={handleSubmit(onSubmit)} className="px-4">
 				<InputField

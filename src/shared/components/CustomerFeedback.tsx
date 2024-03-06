@@ -25,11 +25,11 @@ const CustomerFeedback = (props: any) => {
 	};
 
 	return (
-		<div className="bg-light-gray rounded-xl">
-			<div className="mx-4 pt-6 mb-4 lg:pl-10 lg:mx-auto lg:text-2xl lg:mt-10 lg:mb-6 ">
-				<h6 className="text-base font-bold ">{props.title}</h6>
+		<div className="bg-light-gray rounded-xl lg:mt-16 lg:mb-3">
+			<div className="mx-4 pt-6 mb-4 lg:pl-10 lg:mx-auto lg:pt-10 lg:mb-6 ">
+				<h6 className="text-base font-bold lg:text-2xl">{props.title}</h6>
 			</div>
-			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pb-6 px-4">
+			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pb-6 px-4 lg:px-10 lg:pb-10">
 				{props.feedBacks.map((feedback: any, i: number) => (
 					<div key={i} className="border rounded-xl p-4 shadow-sm bg-white h-fit">
 						<div className="flex justify-between mb-4">
