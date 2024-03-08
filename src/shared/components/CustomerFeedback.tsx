@@ -25,10 +25,8 @@ const CustomerFeedback = (props: any) => {
 	};
 
 	return (
-		<div className="bg-light-gray rounded-xl lg:mt-16 lg:mb-3">
-			<div className="mx-4 pt-6 mb-4 lg:pl-10 lg:mx-auto lg:pt-10 lg:mb-6 ">
-				<h6 className="text-base font-bold lg:text-2xl">{props.title}</h6>
-			</div>
+		<>
+			<h6 className="mx-4 pt-6 mb-4 lg:pl-10 lg:mx-auto lg:pt-10 lg:mb-6 text-base font-bold lg:text-2xl">{props.title}</h6>
 			<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pb-6 px-4 lg:px-10 lg:pb-10">
 				{props.feedBacks.map((feedback: any, i: number) => (
 					<div key={i} className="border rounded-xl p-4 shadow-sm bg-white h-fit">
@@ -48,12 +46,12 @@ const CustomerFeedback = (props: any) => {
 							<button className="text-primary-blue mt-2 flex gap-2 items-center" onClick={() => showComment(i)}>
 								Show more<span className={isShowComment[i] ? "rotate-180" : ""}>{<IoIosArrowDown />}</span>
 							</button>
-							<h6 className="text-sm font-bold mt-4">{feedback.name}</h6>
+							<p className="text-sm font-bold mt-4">{feedback.name}</p>
 						</div>
 					</div>
 				))}
 			</div>
-		</div>
+		</>
 	);
 };
 

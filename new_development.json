@@ -1,0 +1,1328 @@
+{
+    "developmentDetail": {
+        "id": "63eaec5f-581c-442f-9de9-657939a7baf7",
+        "title": "Grand Reve",
+        "status": "published",
+        "projectStatus": null,
+        "featuredWeight": 25,
+        "discr": "development",
+        "updatedAt": "2024-03-04T01:04:01.000000Z",
+        "totalProperties": 196,
+        "classification": "Apartments",
+        "showcaseHeaders": {
+            "faq": null,
+            "about": null,
+            "articles": null,
+            "location": null,
+            "childListing": null,
+            "suburbInsights": null,
+            "supplierInsights": null,
+            "featuresAmenities": null
+        },
+        "projectTypes": "Apartments, Penthouses, Studio",
+        "priceSearch": "0",
+        "priceDisplay": 1,
+        "bedrooms": "1-3",
+        "bathrooms": "1-3",
+        "carSpaces": "1-3",
+        "studyroom": "1",
+        "private_pool": "",
+        "address": {
+            "id": "6153590c-958e-4b0e-a435-2bc1eb37b97a",
+            "latitude": "-33.72911",
+            "longitude": "151.01012",
+            "country": "Australia",
+            "state": "New South Wales",
+            "shortenState": "NSW",
+            "area": "Castle Hill",
+            "thoroughfare": "Garthowen Crescent",
+            "thoroughfareNumber": "6 - 18",
+            "postalCode": "2154",
+            "region": null,
+            "buildingName": null,
+            "slug": "castle-hill-2154",
+            "updatedAt": "2024-03-06 22:31:51"
+        },
+        "properties": [
+            {
+                "id": "6489ed03-30d8-495c-b9a6-caa05ee9d677",
+                "title": "TEST PENTHOUSE",
+                "priceDisplay": "Contact for price",
+                "price": "0",
+                "priceFrom": "0",
+                "priceTo": "1,121",
+                "bedrooms": "1",
+                "bathrooms": "1",
+                "carSpaces": "1",
+                "livingAreas": "",
+                "discr": "penthouse",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": null,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2024-02-13 12:05:56",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {
+                    "listType": [
+                        {
+                            "id": "ada941c6-7341-436e-a1a3-dd9744214097",
+                            "type": "list-type",
+                            "location": "grand-reve/test-penthouse/gallery/image/images-1200x5501__original__original.jpg",
+                            "name": "images-1200x5501__original.jpg",
+                            "textAlternative": "Grand Reve - Castle Hill, New South Wales - Investment Property",
+                            "size": 329346,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/test-penthouse/gallery/image/images-1200x5501__original__original.jpg",
+                            "position": 0,
+                            "createdAt": "2024-02-13 12:10:22",
+                            "updatedAt": "2024-02-13 12:10:36"
+                        }
+                    ]
+                },
+                "studyroom": "",
+                "private_pool": "",
+                "enquire_only": 0,
+                "slug": "2121-6-18-garthowen-crescent-castle-hill-new-south-wales",
+                "unit_number": "2121",
+                "isUnitNumberHidden": 0,
+                "description": {
+                    "textListing": "TEST",
+                    "textProfile": "\u003cp\u003eASDASDLorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur eget eros sit amet congue. Suspendisse vulputate dui eget ante pretium bibendum. Cras facilisis a urna id vestibulum. Duis a commodo enim, ac ullamcorper turpis. Nulla ultrices quis mauris in imperdiet. Nulla facilisi. Curabitur sit amet ante mauris. Fusce vitae tincidunt ante, in suscipit risus.\u003c/p\u003e\u003cp style=\"text-align:justify;\"\u003eMauris suscipit blandit auctor. Nullam venenatis egestas mi. Vestibulum porttitor vel ante in fermentum. Integer sagittis non elit eget pellentesque. Curabitur lacinia purus sed pellentesque bibendum. Nulla vitae posuere purus. Donec sed ornare tortor, eget dapibus mauris.\u003c/p\u003e\u003cp style=\"text-align:justify;\"\u003eDonec sodales, purus eu commodo maximus, tortor mauris venenatis odio, et semper eros nisl vitae dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, est nec tincidunt gravida, purus erat lacinia urna, id auctor turpis magna consequat velit. Quisque eget arcu sed libero pellentesque aliquam sit amet et tellus. Nam lacinia aliquet libero sit amet euismod. Integer risus felis, dapibus nec neque et, pulvinar pretium sem. Etiam ultricies augue libero, non elementum urna aliquam quis. Vestibulum sed tincidunt lorem, vitae cursus ipsum.\u003c/p\u003e",
+                    "textTransactional": "TEST"
+                }
+            },
+            {
+                "id": "d4e058b2-d9fd-408b-908c-872a93670ac2",
+                "title": "test no floorplan",
+                "priceDisplay": "Contact for price",
+                "price": "0",
+                "priceFrom": "0",
+                "priceTo": "0",
+                "bedrooms": "1",
+                "bathrooms": "",
+                "carSpaces": "3",
+                "livingAreas": "",
+                "discr": "studio",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": null,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2023-05-25 17:19:41",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {},
+                "studyroom": "",
+                "private_pool": "",
+                "enquire_only": null,
+                "slug": null,
+                "unit_number": null,
+                "isUnitNumberHidden": 1,
+                "description": {
+                    "textListing": null,
+                    "textProfile": null,
+                    "textTransactional": null
+                }
+            },
+            {
+                "id": "ef1af6bf-c90d-4345-bf7c-dd9bee527fb3",
+                "title": "test",
+                "priceDisplay": "Sold",
+                "price": "1",
+                "priceFrom": "1",
+                "priceTo": "0",
+                "bedrooms": "1",
+                "bathrooms": "",
+                "carSpaces": "",
+                "livingAreas": "",
+                "discr": "studio",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": null,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2023-05-25 17:15:18",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {
+                    "floorPlan": [
+                        {
+                            "id": "1df9c89f-6780-49e5-8840-c31f33f1b411",
+                            "type": "floor-plan",
+                            "location": "grand-reve/file/floor-plan/screen-shot-2021-05-12-at-1.04.28-pm.png",
+                            "name": "Screen Shot 2021-05-12 at 1.04.28 PM.png",
+                            "textAlternative": null,
+                            "size": 15178,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/floor-plan/screen-shot-2021-05-12-at-1.04.28-pm.png",
+                            "position": 0,
+                            "createdAt": "2023-05-25 17:19:05",
+                            "updatedAt": "2023-05-25 17:19:05"
+                        }
+                    ]
+                },
+                "studyroom": "1",
+                "private_pool": "",
+                "enquire_only": 0,
+                "slug": "test1-6-18-garthowen-crescent-castle-hill-new-south-wales",
+                "unit_number": "Test1",
+                "isUnitNumberHidden": 1,
+                "description": {
+                    "textListing": null,
+                    "textProfile": null,
+                    "textTransactional": null
+                }
+            },
+            {
+                "id": "dfe45ea9-711c-407b-82b3-aae1005bb5da",
+                "title": "TL.02",
+                "priceDisplay": "$560,000",
+                "price": "560,000",
+                "priceFrom": "560,000",
+                "priceTo": "0",
+                "bedrooms": "1",
+                "bathrooms": "1",
+                "carSpaces": "",
+                "livingAreas": "",
+                "discr": "apartment",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": 87,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2021-03-02 11:51:01",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {
+                    "listType": [
+                        {
+                            "id": "1543c564-3204-4732-a0cd-3c191932887c",
+                            "type": "list-type",
+                            "location": "grand-reve/tl-02/gallery/image/12__original.jpeg",
+                            "name": "12.jpeg",
+                            "textAlternative": "Grand Reve - Castle Hill, New South Wales - Investment Property",
+                            "size": 127316,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/tl-02/gallery/image/12__original.jpeg",
+                            "position": 0,
+                            "createdAt": "2024-02-19 13:51:46",
+                            "updatedAt": "2024-02-19 13:51:59"
+                        },
+                        {
+                            "id": "193937ca-bd63-4d92-a7cd-342827f98028",
+                            "type": "list-type",
+                            "location": "grand-reve/tl-02/gallery/image/5__original.jpeg",
+                            "name": "5.jpeg",
+                            "textAlternative": "Grand Reve - Castle Hill, New South Wales - Investment Property",
+                            "size": 162804,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/tl-02/gallery/image/5__original.jpeg",
+                            "position": 0,
+                            "createdAt": "2024-02-19 13:51:54",
+                            "updatedAt": "2024-02-19 13:51:59"
+                        },
+                        {
+                            "id": "a8339bfc-07d9-49bb-a888-bca73ae5a379",
+                            "type": "list-type",
+                            "location": "grand-reve/tl-02/gallery/image/19__original.jpeg",
+                            "name": "19.jpeg",
+                            "textAlternative": "Grand Reve - Castle Hill, New South Wales - Investment Property",
+                            "size": 163094,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/tl-02/gallery/image/19__original.jpeg",
+                            "position": 0,
+                            "createdAt": "2024-02-19 13:51:41",
+                            "updatedAt": "2024-02-19 13:51:59"
+                        }
+                    ],
+                    "thumbnail": [
+                        {
+                            "id": "322f1b22-8f35-42e1-9d37-c723b7625ef5",
+                            "type": "thumbnail",
+                            "location": "grand-reve/file/thumbnail/hero1__original.jpg",
+                            "name": "hero1__original.jpg",
+                            "textAlternative": null,
+                            "size": 450402,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/thumbnail/hero1__original.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-03 15:48:05",
+                            "updatedAt": "2021-03-03 15:48:05"
+                        }
+                    ]
+                },
+                "studyroom": "1",
+                "private_pool": "",
+                "enquire_only": 0,
+                "slug": "tl02-6-18-garthowen-crescent-castle-hill-new-south-wales",
+                "unit_number": "TL02",
+                "isUnitNumberHidden": 0,
+                "description": {
+                    "textListing": "Test Sub Heading",
+                    "textProfile": "\u003cp\u003e\u003cstrong\u003eARTICLE TEXT\u003c/strong\u003e\u003c/p\u003e\u003cp style=\"text-align:justify;\"\u003eLorem ipsum dolor sit amet, consectetur adipiscing elit. In efficitur eget eros sit amet congue. Suspendisse vulputate dui eget ante pretium bibendum. Cras facilisis a urna id vestibulum. Duis a commodo enim, ac ullamcorper turpis. Nulla ultrices quis mauris in imperdiet. Nulla facilisi. Curabitur sit amet ante mauris. Fusce vitae tincidunt ante, in suscipit risus.\u003c/p\u003e\u003cp style=\"text-align:justify;\"\u003eMauris suscipit blandit auctor. Nullam venenatis egestas mi. Vestibulum porttitor vel ante in fermentum. Integer sagittis non elit eget pellentesque. Curabitur lacinia purus sed pellentesque bibendum. Nulla vitae posuere purus. Donec sed ornare tortor, eget dapibus mauris.\u003c/p\u003e\u003cp style=\"text-align:justify;\"\u003eDonec sodales, purus eu commodo maximus, tortor mauris venenatis odio, et semper eros nisl vitae dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies, est nec tincidunt gravida, purus erat lacinia urna, id auctor turpis magna consequat velit. Quisque eget arcu sed libero pellentesque aliquam sit amet et tellus. Nam lacinia aliquet libero sit amet euismod. Integer risus felis, dapibus nec neque et, pulvinar pretium sem. Etiam ultricies augue libero, non elementum urna aliquam quis. Vestibulum sed tincidunt lorem, vitae cursus ipsum.\u003c/p\u003e",
+                    "textTransactional": "Test transactional text"
+                }
+            },
+            {
+                "id": "4552d6fd-4721-4132-9aeb-85dafbeccb0a",
+                "title": "A6.02",
+                "priceDisplay": "$680,000",
+                "price": "680,000",
+                "priceFrom": "680,000",
+                "priceTo": "0",
+                "bedrooms": "1",
+                "bathrooms": "1",
+                "carSpaces": "1",
+                "livingAreas": "",
+                "discr": "apartment",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": 57,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2021-03-02 11:51:24",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {
+                    "thumbnail": [
+                        {
+                            "id": "e88b114f-dbb8-421e-8b3b-4baac280df56",
+                            "type": "thumbnail",
+                            "location": "grand-reve/file/thumbnail/groundlevel_bbqarea__original.jpg",
+                            "name": "groundlevel_bbqarea__original.jpg",
+                            "textAlternative": null,
+                            "size": 474339,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/thumbnail/groundlevel_bbqarea__original.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-03 15:48:55",
+                            "updatedAt": "2021-03-03 15:48:55"
+                        }
+                    ]
+                },
+                "studyroom": "",
+                "private_pool": "",
+                "enquire_only": 0,
+                "slug": "a602-6-18-garthowen-crescent-castle-hill-new-south-wales",
+                "unit_number": "A602",
+                "isUnitNumberHidden": 1,
+                "description": {
+                    "textListing": null,
+                    "textProfile": null,
+                    "textTransactional": null
+                }
+            },
+            {
+                "id": "18429d4f-6437-4efc-9b60-9ad38d709278",
+                "title": "A3.01",
+                "priceDisplay": "$865,000",
+                "price": "865,000",
+                "priceFrom": "865,000",
+                "priceTo": "0",
+                "bedrooms": "2",
+                "bathrooms": "2",
+                "carSpaces": "1",
+                "livingAreas": "",
+                "discr": "apartment",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": 96,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2021-03-02 11:51:52",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {
+                    "thumbnail": [
+                        {
+                            "id": "7aab1e20-5bc9-4075-a498-4178a132e688",
+                            "type": "thumbnail",
+                            "location": "grand-reve/file/thumbnail/kitchen__original.jpg",
+                            "name": "kitchen__original.jpg",
+                            "textAlternative": null,
+                            "size": 136195,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/thumbnail/kitchen__original.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-03 15:50:36",
+                            "updatedAt": "2021-03-03 15:50:36"
+                        }
+                    ]
+                },
+                "studyroom": "",
+                "private_pool": "",
+                "enquire_only": 0,
+                "slug": null,
+                "unit_number": null,
+                "isUnitNumberHidden": 1,
+                "description": {
+                    "textListing": null,
+                    "textProfile": null,
+                    "textTransactional": null
+                }
+            },
+            {
+                "id": "6b9dd260-fd3e-4423-9ebf-6d22d207e079",
+                "title": "AG.10",
+                "priceDisplay": "$1,160,000",
+                "price": "1,160,000",
+                "priceFrom": "1,160,000",
+                "priceTo": "0",
+                "bedrooms": "2",
+                "bathrooms": "2",
+                "carSpaces": "2",
+                "livingAreas": "",
+                "discr": "apartment",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": 147,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2021-03-02 11:52:30",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {
+                    "thumbnail": [
+                        {
+                            "id": "b231c406-3b9b-40b1-a8d5-fe24ec7729a6",
+                            "type": "thumbnail",
+                            "location": "grand-reve/file/thumbnail/lounge__original.jpg",
+                            "name": "lounge__original.jpg",
+                            "textAlternative": null,
+                            "size": 182124,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/thumbnail/lounge__original.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-03 15:49:52",
+                            "updatedAt": "2021-03-03 15:49:52"
+                        }
+                    ]
+                },
+                "studyroom": "",
+                "private_pool": "",
+                "enquire_only": null,
+                "slug": null,
+                "unit_number": null,
+                "isUnitNumberHidden": 1,
+                "description": {
+                    "textListing": null,
+                    "textProfile": null,
+                    "textTransactional": null
+                }
+            },
+            {
+                "id": "d51d30ff-9fb6-4a73-899d-e870eecf0b9d",
+                "title": "A8.04",
+                "priceDisplay": "$1,350,000",
+                "price": "1,350,000",
+                "priceFrom": "1,350,000",
+                "priceTo": "0",
+                "bedrooms": "3",
+                "bathrooms": "3",
+                "carSpaces": "2",
+                "livingAreas": "",
+                "discr": "apartment",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": 106,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2021-03-02 11:52:58",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {
+                    "thumbnail": [
+                        {
+                            "id": "6a3edd63-9174-4a68-b6f0-d4b5ea2d1cf5",
+                            "type": "thumbnail",
+                            "location": "grand-reve/file/thumbnail/external_graden__original.jpg",
+                            "name": "external_graden__original.jpg",
+                            "textAlternative": null,
+                            "size": 434277,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/thumbnail/external_graden__original.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-03 15:51:07",
+                            "updatedAt": "2021-03-03 15:51:07"
+                        }
+                    ]
+                },
+                "studyroom": "",
+                "private_pool": "",
+                "enquire_only": null,
+                "slug": null,
+                "unit_number": null,
+                "isUnitNumberHidden": 1,
+                "description": {
+                    "textListing": null,
+                    "textProfile": null,
+                    "textTransactional": null
+                }
+            },
+            {
+                "id": "b871b678-d6d2-4643-b9ba-cb93c5d2d771",
+                "title": "A10.05",
+                "priceDisplay": "$1,695,000",
+                "price": "1,695,000",
+                "priceFrom": "1,695,000",
+                "priceTo": "0",
+                "bedrooms": "3",
+                "bathrooms": "2",
+                "carSpaces": "2",
+                "livingAreas": "",
+                "discr": "apartment",
+                "frontage": null,
+                "depth": null,
+                "levels": null,
+                "aspect": null,
+                "areaTotal": 149,
+                "areaExternal": null,
+                "areaInternal": null,
+                "createdAt": "2021-03-02 11:53:35",
+                "useFloorPlan": 0,
+                "isHidden": 0,
+                "files": {
+                    "thumbnail": [
+                        {
+                            "id": "bd71be59-5ecf-46e9-8ff4-955dafb26089",
+                            "type": "thumbnail",
+                            "location": "grand-reve/file/thumbnail/hero1__original-1-.jpg",
+                            "name": "hero1__original (1).jpg",
+                            "textAlternative": null,
+                            "size": 450402,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/thumbnail/hero1__original-1-.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-03 15:52:07",
+                            "updatedAt": "2021-03-03 15:52:07"
+                        }
+                    ]
+                },
+                "studyroom": "",
+                "private_pool": "",
+                "enquire_only": null,
+                "slug": null,
+                "unit_number": null,
+                "isUnitNumberHidden": 1,
+                "description": {
+                    "textListing": null,
+                    "textProfile": null,
+                    "textTransactional": null
+                }
+            }
+        ],
+        "image": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/thumbnail/grandreve_cgi_ext_crop_final.jpg",
+        "files": {
+            "featuredThumbnail": [
+                {
+                    "id": "0a990584-f8f4-4f1a-be8a-6790f9a4d7cb",
+                    "type": "featured-thumbnail",
+                    "location": "grand-reve/file/featured-thumbnail/grandreve_cgi_ext_crop_final.jpg",
+                    "name": "GrandReve_CGI_EXT_Crop_Final.jpg",
+                    "textAlternative": null,
+                    "size": 1604814,
+                    "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/featured-thumbnail/grandreve_cgi_ext_crop_final.jpg",
+                    "position": 0,
+                    "createdAt": "2021-04-16 12:37:45",
+                    "updatedAt": "2021-04-16 12:37:45"
+                },
+                {
+                    "id": "3a801bfa-9600-42c9-bb96-e65edd61847b",
+                    "type": "featured-thumbnail",
+                    "location": "grand-reve/file/featured-thumbnail/hero1.jpg",
+                    "name": "Hero1.jpg",
+                    "textAlternative": null,
+                    "size": 932959,
+                    "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/featured-thumbnail/hero1.jpg",
+                    "position": 0,
+                    "createdAt": "2021-03-02 12:01:00",
+                    "updatedAt": "2021-03-02 12:01:00"
+                }
+            ],
+            "video": [
+                {
+                    "id": "1e0b527b-076f-4237-ab04-ca487b124e25",
+                    "type": "video",
+                    "location": "grand-reve/file/video/grand_reve-gallery-04__1200x550.png",
+                    "name": "grand_reve-gallery-04__1200x550.png",
+                    "textAlternative": "FF08ohAgQl4",
+                    "size": 1369565,
+                    "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/video/grand_reve-gallery-04__1200x550.png",
+                    "position": 0,
+                    "createdAt": "2021-04-16 13:44:14",
+                    "updatedAt": "2021-04-16 13:44:38"
+                }
+            ],
+            "thumbnail": [
+                {
+                    "id": "df2fb9dc-3f85-4174-8e23-3a991b2af6ee",
+                    "type": "thumbnail",
+                    "location": "grand-reve/file/thumbnail/grandreve_cgi_ext_crop_final.jpg",
+                    "name": "GrandReve_CGI_EXT_Crop_Final.jpg",
+                    "textAlternative": null,
+                    "size": 1604814,
+                    "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/thumbnail/grandreve_cgi_ext_crop_final.jpg",
+                    "position": 0,
+                    "createdAt": "2021-04-16 12:37:45",
+                    "updatedAt": "2021-04-16 12:37:45"
+                }
+            ],
+            "brochureThumbnail": [
+                {
+                    "id": "f34c6bc3-8977-4534-9c96-4bcc48f5d0ee",
+                    "type": "brochureThumbnail",
+                    "location": "grand-reve/file/brochureThumbnail/screen-shot-2023-06-26-at-9.55.51-am.png",
+                    "name": "Screen Shot 2023-06-26 at 9.55.51 AM.png",
+                    "textAlternative": null,
+                    "size": 418813,
+                    "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/file/brochureThumbnail/screen-shot-2023-06-26-at-9.55.51-am.png",
+                    "position": 0,
+                    "createdAt": "2023-06-30 12:58:36",
+                    "updatedAt": "2023-06-30 12:58:36"
+                }
+            ]
+        },
+        "galleries": [
+            {
+                "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/gallery/image/grandreve_cgi_ext_crop_final__original.jpg",
+                "altTag": "Grand Reve Apartments -  6-18 Garthowen Crescent Castle Hill"
+            },
+            {
+                "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/gallery/image/grand_reve-gallery-01__original.jpg",
+                "altTag": "Grand Reve Apartments - 6-18 Garthowen Crescent Castle Hill"
+            },
+            {
+                "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/gallery/image/grand_reve-gallery-03__original.jpg",
+                "altTag": "Grand Reve Apartments - 6-18 Garthowen Crescent Castle Hill"
+            },
+            {
+                "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/gallery/image/grand_reve-gallery-05__original.jpg",
+                "altTag": "Grand Reve Apartments - 6-18 Garthowen Crescent Castle Hill"
+            },
+            {
+                "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/gallery/image/grand_reve-gallery-06__original.jpg",
+                "altTag": "Grand Reve Apartments - 6-18 Garthowen Crescent Castle Hill"
+            },
+            {
+                "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/gallery/image/grand_reve-gallery-02__original.png",
+                "altTag": "Grand Reve Apartments - 6-18 Garthowen Crescent Castle Hill"
+            },
+            {
+                "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/gallery/image/grand_reve-gallery-04__original.png",
+                "altTag": "Grand Reve Apartments - 6-18 Garthowen Crescent Castle Hill"
+            },
+            {
+                "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve/gallery/image/grand_reve-gallery-07__original.png",
+                "altTag": "Grand Reve Apartments - 6-18 Garthowen Crescent Castle Hill"
+            }
+        ],
+        "amenities": [],
+        "slug": {
+            "id": "759a1925-67d8-4701-a009-91f2a1b68bcd",
+            "name": "grand-reve",
+            "pageTitle": null,
+            "createdAt": "2021-03-02 11:46:56",
+            "updatedAt": "2021-03-02 11:46:56"
+        },
+        "articles": [
+            {
+                "id": "29381f81-4bd9-4226-81bc-73bc66f5af5c",
+                "title": "Grand Reve is piquing the interest of first home buyers and investors alike",
+                "shortTitle": null,
+                "listingText": "Grand Reve is piquing the interest of first home buyers and investors alike",
+                "articleText": "\u003cp\u003eSince entering the market, Kassis Homes’ highly anticipated Grand Reve has performed exceptionally well with both first home buyers and investors alike. Designed by the acclaimed Turner Studio, the development offers 196 architecturally designed apartments presented in a wide range of floor plans to suit all buyer types. This, together with a highly achievable starting price point of $560,000 has made Grand Reve the development to watch for those looking to take their first step into the property market and savvy property investors alike.\u0026nbsp;\u003c/p\u003e\u003cfigure class=\"image\"\u003e\u003cimg src=\"https://metronome-upload.s3-ap-southeast-2.amazonaws.com/articles/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/image/greve1.jpeg\" alt=\"grand reve apartments and developments residential tower sydney new south wales castle hill living lounge dining kitchen\"\u003e\u003c/figure\u003e\u003cp\u003eLocated idyllically on a quiet cul de sac at Garthowen Crescent, Grand Reve enjoys a balance of serenity and urban connectivity. Despite being only a short stroll from Castle Towers shopping precinct, the ensconced and tranquil surroundings cleverly screen residents from the hustle and bustle of a lively community.\u0026nbsp;\u003c/p\u003e\u003cp\u003eFrom the streetscape, the development’s pursuit of quality is immediately noticeable. The facade is marked by a textured brick podium with two towers rising above. Industry-acclaimed landscape architects Arcadia cleverly mingles lush greenery with the built space by presenting three distinct communal spaces where residents can connect with nature in the company of their neighbours, friends and family. Smaller landscaped spaces are dotted throughout the development - offering intimate zones for quiet reflection and terraced areas perfectly suited as gathering areas.\u0026nbsp;\u003c/p\u003e\u003cp\u003eInside, all Grand Reve homes - ranging from studios, one, two, three and oversized apartment options - feature intelligently designed floor plans that maximise the livable space. The oversized two and three-bedroom properties include premium kitchens featuring Wolf appliances and Sub Zero fridges. All residents can take advantage of the 12-hour concierge service for an effortless lifestyle.\u0026nbsp;\u003c/p\u003e\u003cfigure class=\"image\"\u003e\u003cimg src=\"https://metronome-upload.s3-ap-southeast-2.amazonaws.com/articles/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/image/greve2.jpeg\" alt=\"grand reve apartments and developments residential tower sydney new south wales castle hill communal garden landscape\"\u003e\u003c/figure\u003e\u003cp\u003eThe various government incentives currently available have made Grand Reve particularly attractive to first home buyers. Financial incentives for first home buyers include a $10k grant on properties priced up to $600k and significant stamp duty savings on properties priced up to $800k. “One of the benefits of getting in early is the ability to choose one of the best-positioned apartments at Grand Reve. This, coupled with the notion of a two-year time frame until project completion allows first home buyers a rare opportunity to continue saving in preparation for settlement,” comments Adam Sparkes, Associate Director of McGrath Projects.\u0026nbsp;\u003c/p\u003e\u003cp\u003eThe development has also piqued the interest of savvy property investors thanks to its location, design, level of craftsmanship and overall quality of build. Adam continues, “Of the investors that have bought into Grand Reve, we have seen a mix of first-time investors and sophisticated investors buying with Self Managed Superannuation Funds,” - demonstrating the rare opportunity the development offers to highly experienced investors. Considering the balance Kassis Homes has achieved with such a premium build and urban amenities within arms reach, it’s easy to understand the significant appeal for renters.\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003ca href=\"https://a-d.com.au/new-apartments-developments/nsw/castle-hill-2154/grand-reve\"\u003e\u003cu\u003eFor more information on Grand Reve or to discuss if this is the right property for you, click here.\u0026nbsp;\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e",
+                "status": "published",
+                "enableAudio": false,
+                "readTime": "3 minutes",
+                "createdAt": "2021-07-27 16:01:41",
+                "updatedAt": "2021-07-29T07:05:00.000000Z",
+                "publishedAt": "2 years ago",
+                "publishedAtDatetime": "2021-07-29 00:00:00",
+                "category": {
+                    "id": "753e464a-7d25-4e2b-a034-26fefe9d949d",
+                    "name": "Market insights",
+                    "slug": "market-insights"
+                },
+                "slug": {
+                    "id": "f5a7386b-36b8-4b8d-a3b9-d137f911cb93",
+                    "name": "grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike",
+                    "pageTitle": null,
+                    "createdAt": "2021-07-27 16:01:41",
+                    "updatedAt": "2021-07-27 16:01:41"
+                },
+                "images": [
+                    {
+                        "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/file/thumbnail/grandrevehero.jpeg",
+                        "altTag": null
+                    }
+                ],
+                "files": {
+                    "image": [
+                        {
+                            "id": "2d4a746b-0d66-4eb4-ad2d-c52ec2677c14",
+                            "type": "image",
+                            "location": "articles/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/image/greve1.jpeg",
+                            "name": "greve1.jpeg",
+                            "textAlternative": null,
+                            "size": 230487,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/articles/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/image/greve1.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-07-27 16:03:03",
+                            "updatedAt": "2021-07-27 16:03:03"
+                        },
+                        {
+                            "id": "8f7573a8-0876-4b64-849b-ef47ce23363f",
+                            "type": "image",
+                            "location": "articles/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/image/greve2.jpeg",
+                            "name": "greve2.jpeg",
+                            "textAlternative": null,
+                            "size": 495382,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/articles/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/image/greve2.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-07-27 16:03:31",
+                            "updatedAt": "2021-07-27 16:03:31"
+                        }
+                    ],
+                    "hero": [
+                        {
+                            "id": "3834f26d-5f4f-495d-8382-ee7c4a8e8480",
+                            "type": "hero",
+                            "location": "grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/file/hero/grandrevehero.jpeg",
+                            "name": "grandrevehero.jpeg",
+                            "textAlternative": null,
+                            "size": 325806,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/file/hero/grandrevehero.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-07-27 16:02:33",
+                            "updatedAt": "2021-07-27 16:02:33"
+                        }
+                    ],
+                    "featuredThumbnail": [
+                        {
+                            "id": "f3316008-f086-472f-a5d0-967e07792f48",
+                            "type": "featured-thumbnail",
+                            "location": "grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/file/featured-thumbnail/grandrevehero.jpeg",
+                            "name": "grandrevehero.jpeg",
+                            "textAlternative": null,
+                            "size": 325806,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/file/featured-thumbnail/grandrevehero.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-07-27 16:02:38",
+                            "updatedAt": "2021-07-27 16:02:38"
+                        }
+                    ],
+                    "thumbnail": [
+                        {
+                            "id": "fc383700-9d15-457e-8dd2-1bb003abee2e",
+                            "type": "thumbnail",
+                            "location": "grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/file/thumbnail/grandrevehero.jpeg",
+                            "name": "grandrevehero.jpeg",
+                            "textAlternative": null,
+                            "size": 325806,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve-is-piquing-the-interest-of-first-home-buyers-and-investors-alike/file/thumbnail/grandrevehero.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-07-27 16:02:38",
+                            "updatedAt": "2021-07-27 16:02:38"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "3333b7b3-08a2-4942-bdcd-e990d6997515",
+                "title": "Redefining luxury in the Hills area - Grand Reve offers an exquisite selection of apartments for all price points.",
+                "shortTitle": null,
+                "listingText": "Redefining luxury in the Hills area - Grand Reve offers an exquisite selection of apartments for all price points.",
+                "articleText": "\u003cp\u003eA collaboration between Kassis Homes, Arcadia landscaping and the expert team at Turner Studio, Grand Reve apartments at Castle Hill offer unsurpassed quality living for the most discerning buyers.\u0026nbsp;\u003c/p\u003e\u003cp\u003eThe development offers a generous range of floor plans suitable for a variety of purchasers including owner occupiers, investors, upgraders young professional families and downsizers looking to cash out of large traditional houses. On offer is a curated collection of studio, 1, 2 and 3 bedroom apartments as well as oversized 2 and 3 bedroom homes - including a number of split level townhouse style dwellings. Regardless of the size or configuration, each Grand Reve home features an immaculate design and the highest quality fittings and fixtures at an exceptionally affordable price point.\u0026nbsp;\u003c/p\u003e\u003cp style=\"text-align:center;\"\u003e\u003ci\u003e“With over 37 different plan types [at Grand Reve] we have something to suit the most discerning buyer.”\u003c/i\u003e\u003c/p\u003e\u003cp style=\"text-align:center;\"\u003eSam Kassis, Kassis Homes\u003c/p\u003e\u003cfigure class=\"image\"\u003e\u003cimg src=\"https://cdn.apartmentdevelopments.com.au/articles/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/image/grand1.jpeg\" alt=\"grand reve castle hill nsw sydney residential apartments and developments luxury affordable lounge living dining kitchen open plan\"\u003e\u003c/figure\u003e\u003cp\u003eThroughout all Grand Reve homes, architects Nick Tuner and Stephen Cox, together with interior designer Kristen Wayman of Tuner Studio have ensured superior style and quality are at the forefront. “When it came to appliances, we only chose the best. We have Wolf appliances as standard and Sub Zero in some of the higher end apartments,” says Kristi. Brass fixtures and drawer pulls add a touch of luxury while the Wolf gas cooktops and ovens ensure both practicality and longevity of the property.\u0026nbsp;\u003c/p\u003e\u003cp\u003eEngineered oak timber flooring, stone bench tops and masterfully crafted curved timber joinery elevate both the kitchens and bathrooms across all apartments - offering premium quality and elegant design to buyers across all price points.\u0026nbsp;\u003c/p\u003e\u003cp\u003eWith the open plan layout, the living, kitchen and dining areas are incredibly generous. The spacious proportions are further enhanced by the accented 2.7m high ceilings and an abundance of soothing natural light. The term ‘dining in’ is offered a new, luxurious feel at the Grand Reve apartments; large double sliding doors add simplicity to the design whilst allowing residents to extend their entertaining area into their private terrace courtyard or balcony - offering a seamless indoor outdoor lifestyle.\u0026nbsp;\u003c/p\u003e\u003cfigure class=\"image\"\u003e\u003cimg src=\"https://cdn.apartmentdevelopments.com.au/articles/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/image/grand-2.jpeg\" alt=\"grand reve castle hill nsw sydney residential apartments and developments luxury affordable terrace communal outdoor indoor balcony garden water feature landscaping\"\u003e\u003c/figure\u003e\u003cp\u003eOutside, residents are encouraged to immerse themselves in the verdant sanctuary where time seems to stand still. The careful marriage of landscaping and built space offers a truly flawless design where both elements intertwine and operate as an integrated and sustainable system for all to enjoy.\u0026nbsp;\u003c/p\u003e\u003cp\u003eAcross the development, Arcadia has offered three curated and considered communal spaces where residents can connect with nature in the company of neighbours, friends and family. Smaller intimate spaces provide zones for reflection whilst tree groves, terraced landscape areas and low wall seating offer informal gathering areas perfect for unwinding.\u0026nbsp;\u003c/p\u003e\u003cp\u003eThe twin towers of the development connect at the podium level offering residents spectacular views towards the Sydney cityscape and the outlying Hills district. The landscaped podium gardens are peppered with seating pods and resident dining areas.\u0026nbsp;\u003c/p\u003e\u003cp\u003eStudio apartments are priced from $560,000 with larger 3 bedroom floor plans starting at $1,495,000. Within its first week of launch, Grand Reve has sold several apartments to a range of buyers, clearly demonstrating the high demand for these well-priced luxury apartments. Unsurpassed quality is certainly on offer at Grand Reve - \u003ca href=\"https://www.a-d.com.au/apartments/new-south-wales/grand-reve\"\u003e\u003cu\u003eif you’re wondering which Grand Reve home is right for you, click here for more information.\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e",
+                "status": "published",
+                "enableAudio": false,
+                "readTime": "3 minutes",
+                "createdAt": "2021-04-14 11:58:56",
+                "updatedAt": "2021-04-14T22:42:59.000000Z",
+                "publishedAt": "2 years ago",
+                "publishedAtDatetime": "2021-04-15 00:00:00",
+                "category": {
+                    "id": "753e464a-7d25-4e2b-a034-26fefe9d949d",
+                    "name": "Market insights",
+                    "slug": "market-insights"
+                },
+                "slug": {
+                    "id": "6edfa9e3-1838-468e-a74e-74fd349c2521",
+                    "name": "redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points",
+                    "pageTitle": null,
+                    "createdAt": "2021-04-14 11:58:56",
+                    "updatedAt": "2021-04-14 11:58:56"
+                },
+                "images": [
+                    {
+                        "url": "https://d126h31mg8tzcs.cloudfront.net/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/file/thumbnail/gr-hero.jpeg",
+                        "altTag": null
+                    }
+                ],
+                "files": {
+                    "image": [
+                        {
+                            "id": "13dd7997-f895-4514-9f67-c34074194d2c",
+                            "type": "image",
+                            "location": "articles/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/image/grand-2.jpeg",
+                            "name": "grand 2.jpeg",
+                            "textAlternative": null,
+                            "size": 495382,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/articles/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/image/grand-2.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-04-14 12:00:21",
+                            "updatedAt": "2021-04-14 12:00:21"
+                        },
+                        {
+                            "id": "c2946578-9afd-467e-ba39-44adf9af77b5",
+                            "type": "image",
+                            "location": "articles/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/image/grand1.jpeg",
+                            "name": "grand1.jpeg",
+                            "textAlternative": null,
+                            "size": 230487,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/articles/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/image/grand1.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-04-14 12:00:03",
+                            "updatedAt": "2021-04-14 12:00:03"
+                        }
+                    ],
+                    "thumbnail": [
+                        {
+                            "id": "23772bfc-74df-4d22-8139-f587d6aff906",
+                            "type": "thumbnail",
+                            "location": "redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/file/thumbnail/gr-hero.jpeg",
+                            "name": "GR HERO.jpeg",
+                            "textAlternative": null,
+                            "size": 325806,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/file/thumbnail/gr-hero.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-04-14 11:59:11",
+                            "updatedAt": "2021-04-14 11:59:11"
+                        }
+                    ],
+                    "featuredThumbnail": [
+                        {
+                            "id": "be06cebf-0636-418c-afba-837aaa6365c1",
+                            "type": "featured-thumbnail",
+                            "location": "redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/file/featured-thumbnail/gr-hero.jpeg",
+                            "name": "GR HERO.jpeg",
+                            "textAlternative": null,
+                            "size": 325806,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/file/featured-thumbnail/gr-hero.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-04-14 11:59:11",
+                            "updatedAt": "2021-04-14 11:59:11"
+                        }
+                    ],
+                    "hero": [
+                        {
+                            "id": "d60ccfac-987f-4f6c-8b57-d3dcddc4e052",
+                            "type": "hero",
+                            "location": "redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/file/hero/gr-hero.jpeg",
+                            "name": "GR HERO.jpeg",
+                            "textAlternative": null,
+                            "size": 325806,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/redefining-luxury-in-the-hills-area-grand-reve-offers-an-exquisite-selection-of-apartments-for-all-price-points/file/hero/gr-hero.jpeg",
+                            "position": 0,
+                            "createdAt": "2021-04-14 11:59:07",
+                            "updatedAt": "2021-04-14 11:59:07"
+                        }
+                    ]
+                }
+            },
+            {
+                "id": "59e71ccc-dfd5-4c74-bb1b-b3cd21694de0",
+                "title": "Grand Reve is destined to set a new benchmark for luxury apartment living – unlike anything that has been offered in the Hills area.",
+                "shortTitle": null,
+                "listingText": "Grand Reve is destined to set a new benchmark for luxury apartment living – unlike anything that has been offered in the Hills area.",
+                "articleText": "\u003cp\u003eGrand Reve by Kassis Homes is set to raise the benchmark for luxury apartment living in Castle Hill. Beautifully designed by the expert team at Turner Studio, these immaculately appointed homes have been curated to deliver the highest quality of finishes and inclusions - resulting in a flair in form and functionality unique to the heart of the Hills area.\u0026nbsp;\u003c/p\u003e\u003cp\u003eIdyllically set in the quiet cul-de-sac at Garthowen Crescent, the location offers both serenity and vibrancy to its residents. The ensconced and tranquil immediate surroundings screen the abundance of urban amenities available - only a short stroll from the dynamic heart of Castle Hill, residents will have quick access to the Metro and Castle Hill Towers shopping centre for a connected life without compromise.\u003c/p\u003e\u003cfigure class=\"image\"\u003e\u003cimg src=\"https://cdn.apartmentdevelopments.com.au/articles/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/image/grand-reve-1.jpg\"\u003e\u003c/figure\u003e\u003cp\u003eWith substantial forecasted population growth, and the newly established North West rail link, Castle Hill is rapidly becoming a highly sought after location in respect to both amenities and affordability - particularly when compared to neighbouring established apartment precincts such as Chatswood and St. Leonards.\u0026nbsp;\u003c/p\u003e\u003cp\u003eJohn McGrath, founder of McGrath Estate Agents comments, “there’s a great range of options for every single buyer from studios right through to oversized three bedroom sky homes. If you’re coming out of a [traditional] house and looking for something of real scale and size for entertaining and living as though you’re still in a house, we have that on offer.” Grand Reve boasts a range of homes to suit a variety of lifestyle needs across downsizers, upsizers, first home buyers and investors alike. Ranging from studios, 1, 2, 3 and oversized apartment options, each Grand Reve home features intelligently designed floorplans that maximise the liveable space for an uncompromised lifestyle. Additionally, the development also offers a selection of terrace style, split-level townhouse apartment configuration.\u0026nbsp;\u003c/p\u003e\u003cp\u003eSam Kassis, owner of Kassis Homes elaborates; “with over 37 different plan types [at Grand Reve] we have something to suit the most discerning buyer. Plans include studio apartments with their own large private garden entry, one bedroom and two bedroom designs, as well as oversized two and three bedrooms - many with split level terrace-style designs.” Perched at the highest point on the street offers Grand Reve residents spectacular district views spanning all the way to the majestic Blue Mountains - offering a picturesque backdrop to their new homes. \u0026nbsp;\u003c/p\u003e\u003cfigure class=\"image\"\u003e\u003cimg src=\"https://cdn.apartmentdevelopments.com.au/articles/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/image/grand-reve-2.jpg\"\u003e\u003c/figure\u003e\u003cp\u003eWithin its first week of launch, Grand Reve has sold several apartments to a range of buyers including investors, downsizers and first home buyers - clearly evidencing the high demand for these well-priced luxury apartments.\u003c/p\u003e\u003cp\u003eThroughout all Grand Reve homes, superior style and quality are at the forefront. “When it came to the appliances, we only chose the best. We have Wolf appliances as standard and Sub Zero in some of the higher end apartments,” says Kristi Wayman, Director of Turner Studio. Engineered oak timber flooring, stone bench tops and masterfully crafted curved timber joinery elevate the kitchens and bathrooms across all apartments - offering premium quality and elegant design to purchasers.\u0026nbsp;\u003c/p\u003e\u003cp\u003e\u003ca href=\"https://www.a-d.com.au/apartments/new-south-wales/grand-reve\"\u003e\u003cu\u003eIf you’re wondering which Grand Reve apartment you’ll choose, click here for more information.\u0026nbsp;\u003c/u\u003e\u003c/a\u003e\u003c/p\u003e",
+                "status": "published",
+                "enableAudio": false,
+                "readTime": "3 minutes",
+                "createdAt": "2021-03-17 15:00:23",
+                "updatedAt": "2021-03-17T23:04:34.000000Z",
+                "publishedAt": "2 years ago",
+                "publishedAtDatetime": "2021-03-18 00:00:00",
+                "category": {
+                    "id": "753e464a-7d25-4e2b-a034-26fefe9d949d",
+                    "name": "Market insights",
+                    "slug": "market-insights"
+                },
+                "slug": {
+                    "id": "eaf4c985-affc-411e-ac5f-63720522047b",
+                    "name": "grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area",
+                    "pageTitle": null,
+                    "createdAt": "2021-03-17 15:00:23",
+                    "updatedAt": "2021-03-17 15:00:23"
+                },
+                "images": [
+                    {
+                        "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/file/thumbnail/grand-reve-hero.jpg",
+                        "altTag": null
+                    }
+                ],
+                "files": {
+                    "featuredThumbnail": [
+                        {
+                            "id": "09aaab64-18a0-4f42-b67f-64f6bb2c2cb2",
+                            "type": "featured-thumbnail",
+                            "location": "grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/file/featured-thumbnail/grand-reve-hero.jpg",
+                            "name": "Grand reve HERO.jpg",
+                            "textAlternative": null,
+                            "size": 450402,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/file/featured-thumbnail/grand-reve-hero.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-17 15:02:46",
+                            "updatedAt": "2021-03-17 15:02:46"
+                        }
+                    ],
+                    "thumbnail": [
+                        {
+                            "id": "4565781f-8ee0-4fba-ad9a-fb8a6422af30",
+                            "type": "thumbnail",
+                            "location": "grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/file/thumbnail/grand-reve-hero.jpg",
+                            "name": "Grand reve HERO.jpg",
+                            "textAlternative": null,
+                            "size": 450402,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/file/thumbnail/grand-reve-hero.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-17 15:02:46",
+                            "updatedAt": "2021-03-17 15:02:46"
+                        }
+                    ],
+                    "image": [
+                        {
+                            "id": "8913fe5a-b9af-4a4e-9ad0-99d60808c0a6",
+                            "type": "image",
+                            "location": "articles/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/image/grand-reve-2.jpg",
+                            "name": "Grand Reve 2.jpg",
+                            "textAlternative": null,
+                            "size": 136195,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/articles/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/image/grand-reve-2.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-17 15:02:21",
+                            "updatedAt": "2021-03-17 15:02:21"
+                        },
+                        {
+                            "id": "aa833288-f873-4eab-a9e1-1980cb1ddb0e",
+                            "type": "image",
+                            "location": "articles/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/image/grand-reve-1.jpg",
+                            "name": "Grand Reve 1.jpg",
+                            "textAlternative": null,
+                            "size": 182124,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/articles/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/image/grand-reve-1.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-17 15:02:12",
+                            "updatedAt": "2021-03-17 15:02:12"
+                        }
+                    ],
+                    "hero": [
+                        {
+                            "id": "c76f8616-d13d-450a-b262-5825e78541e2",
+                            "type": "hero",
+                            "location": "grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/file/hero/grand-reve-hero.jpg",
+                            "name": "Grand reve HERO.jpg",
+                            "textAlternative": null,
+                            "size": 450402,
+                            "url": "https://d126h31mg8tzcs.cloudfront.net/grand-reve-is-destined-to-set-a-new-benchmark-for-luxury-apartment-living-unlike-anything-that-has-been-offered-in-the-hills-area/file/hero/grand-reve-hero.jpg",
+                            "position": 0,
+                            "createdAt": "2021-03-17 15:02:39",
+                            "updatedAt": "2021-03-17 15:02:39"
+                        }
+                    ]
+                }
+            }
+        ],
+        "displaySuite": {
+            "address": {
+                "id": "d3b2e23a-e1ec-45f2-82ea-438f21097738",
+                "latitude": "-33.73331",
+                "longitude": "151.00491",
+                "country": "Australia",
+                "state": "New South Wales",
+                "shortenState": "NSW",
+                "area": "Castle Hill",
+                "thoroughfare": "Old Northern Road",
+                "thoroughfareNumber": "Shop 233B, 279",
+                "postalCode": "2154",
+                "region": null,
+                "buildingName": null,
+                "slug": "castle-hill-2154",
+                "updatedAt": "2024-03-06 22:31:52"
+            },
+            "inspection": []
+        },
+        "description": {
+            "textListing": "Grand Reve destined to set a new benchmark for Luxury Apartment living in heart of Castle Hill.",
+            "textProfile": "\u003cul\u003e\u003cli\u003e5 minutes’ walk to the Metro line\u003c/li\u003e\u003cli\u003eShort walk to Castle Towers Shopping Centre\u003c/li\u003e\u003cli\u003eQuiet Cul-de-sac location\u003c/li\u003e\u003cli\u003eDesigned by Turner Studio\u003c/li\u003e\u003cli\u003eHigh-end quality finishes\u003c/li\u003e\u003cli\u003e‘Wolf’ kitchen appliances as standard\u003c/li\u003e\u003cli\u003eNew Apartments / Off The Plan\u003c/li\u003e\u003c/ul\u003e\u003cp\u003eDeveloped by award-winning Kassis Homes – with a proven ability to establish stunning quality properties time and time again.\u003c/p\u003e\u003cp\u003eDesigned by Turner Studio in collaboration with Arcadia landscape designs, Grand Reve comprises of a selection of premium apartments boasting a variety of studio, 1, 2 and 3 bedrooms, including a selection of split-level townhouse style apartment configurations appealing to different price points.\u003c/p\u003e\u003cp\u003eUnsurpassed quality with 'Wolf’ kitchen appliances as standard for all apartments. The oversized 2 and 3 bedroom designs will include ‘Sub Zero’ fridges as standard inclusions.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eNow Selling - Book your private appointment or enquire now for more information.\u0026nbsp;\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003e\u003cu\u003eTeam Behind Grand Reve\u003c/u\u003e\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eDeveloper - Kassis Homes\u003c/strong\u003e\u003cbr\u003eSam Kassis has been in the building industry for over 30 years. Starting out as a carpenter he was always buying, renovating and selling properties to make a living. Until he realised that his true passion was in building he gave up Carpentry and started Kassis Classic Homes.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eProject Marketer - McGrath Projects\u003c/strong\u003e\u003cbr\u003eMcGrath Projects is a highly skilled and specialised division of McGrath.\u003cbr\u003e\u003cbr\u003e\u003cstrong\u003eArchitect - Turner Studio\u003c/strong\u003e\u003c/p\u003e\u003cp\u003e\u003cstrong\u003eLandscape Architect - Arcadia\u003c/strong\u003e\u003c/p\u003e\u003ch3\u003e\u0026nbsp;\u003c/h3\u003e",
+            "textTransactional": null
+        },
+        "details": {
+            "items": 196,
+            "levels": null,
+            "completionDate": "Mid 2023",
+            "bedroomOptions": null,
+            "stampDuty": null,
+            "corporateFees": null,
+            "phone": "0",
+            "email": [
+                "adamsparkes@mcgrath.com.au"
+            ],
+            "enquiryConfig": {
+                "show_related": "0",
+                "video_enquiry": "0",
+                "append_subject": "1",
+                "general_enquiry": "1",
+                "all_fields_required": "1",
+                "hide_optional_fields": "1",
+                "display_brochure_thumbnail": "1"
+            }
+        },
+        "notes": [
+            {
+                "content": "uploaded on 2nd, activated on the 3rd March",
+                "createdAt": "2021-03-02 15:29:16",
+                "user": {
+                    "id": "b6a43f86-ae87-4bd1-bc67-fd27b49a8ef3",
+                    "email": "nathan@ad-group.com.au",
+                    "username": "nathan@ad-group.com.au",
+                    "firstName": "Nathan",
+                    "lastName": "Lang",
+                    "createdAt": "2019-05-20 15:59:47",
+                    "updatedAt": "2021-08-02 16:53:05"
+                }
+            }
+        ],
+        "locationMapImgURL": "https://api.mapbox.com/styles/v1/revadmin/clm0dvmgc00q701pffqic4gzj/static/geojson(%7B%22type%22%3A%22FeatureCollection%22%2C%22features%22%3A%5B%7B%22type%22%3A%22Feature%22%2C%22properties%22%3A%7B%22marker-url%22%3A%22https%3A%2F%2Fresi.uatz.view.com.au%2Fviewstatic%2Fimages%2Fstatic%2F65-min%2Flancer%2Fstatic%2Fimages%2Fpin-badge.png%22%7D%2C%22geometry%22%3A%7B%22type%22%3A%22MultiPoint%22%2C%22coordinates%22%3A%5B%5B151.01012%2C-33.72911%5D%2C%5B151.00491%2C-33.73331%5D%5D%7D%7D%5D%7D)/auto/750X250?access_token=pk.eyJ1IjoicmV2YWRtaW4iLCJhIjoiY2xtNjNvNXVtMGZyaTNkbW1xbGcyaG0ybCJ9.vYrDs4m-tRPD7XO1SW90Vg"
+    },
+    "slug": "nsw-castle-hill-2154",
+    "suburbProfile": {
+        "id": 498,
+        "suburbName": "CASTLE HILL",
+        "postcode": "2154",
+        "state": "NSW",
+        "description": null,
+        "fileName": "suburbs/0000498-s1-C501075.jpg"
+    },
+    "statusCode": 200,
+    "revReqId": "3e94ed9c-18f3-48d5-889f-e37bd1980dc6",
+    "suburb": "castle hill",
+    "state": "nsw",
+    "developmentSlug": "grand-reve",
+    "postalCode": 2154,
+    "insight": {
+        "data": {
+            "LocalityPid": 7484,
+            "Sa1TruncatedId": "",
+            "Address": {
+                "StreetAddress": "",
+                "Suburb": "castle hill"
+            },
+            "PocketInsights": {
+                "Title": "",
+                "Subtitle": "",
+                "Suburb": "castle hill",
+                "DisplayNoWagesText": false,
+                "AreaStatistics": {
+                    "OccupationTypeFirst": "Professional",
+                    "OccupationTypeSecond": "Managers",
+                    "OccupationTypeThird": "Clerical",
+                    "OccupationTypeFourth": "Sales Workers",
+                    "OccupationTypeFifth": "Trades",
+                    "PercentageUnder19": "27",
+                    "Percentage19To30": "11",
+                    "Percentage31To40": "12",
+                    "Percentage41To50": "14",
+                    "PercentageAbove50": "36",
+                    "Households": {
+                        "Childless Couples": 30.5,
+                        "Couples with Children": 57.8,
+                        "Single Parents": 10.7,
+                        "Other": 1
+                    },
+                    "Occupancy": {
+                        "Owns Outright": 35.6,
+                        "Purchaser": 38.9,
+                        "Renting": 19.8,
+                        "Other": 3.8,
+                        "Not Stated": 2
+                    }
+                },
+                "Wages": {
+                    "Labels": [
+                        "$0-$16K",
+                        "$16K-$31K",
+                        "$31K-$52K",
+                        "$52K-$78K",
+                        "$78K-$130K",
+                        "$130K-$182K",
+                        "$182K+"
+                    ],
+                    "SuburbValues": {
+                        "Name": "castle hill",
+                        "Values": [
+                            3,
+                            8,
+                            8,
+                            11,
+                            21,
+                            14,
+                            25
+                        ]
+                    }
+                },
+                "MortgageRepayments": {
+                    "Labels": [
+                        "Under $300",
+                        "$300-$999",
+                        "$1K-$1.4K",
+                        "$1.4K-$1.8K",
+                        "$1.8K-$2.4K",
+                        "$2.4K-$3K",
+                        "Over $3K"
+                    ],
+                    "SuburbValues": {
+                        "Name": "castle hill",
+                        "Values": [
+                            6,
+                            7,
+                            8,
+                            8,
+                            17,
+                            12,
+                            38
+                        ]
+                    }
+                }
+            },
+            "SuburbTrends": {
+                "Title": "",
+                "LocalityTrendsHouse": {
+                    "LatestMedianPrice": "2271247.795",
+                    "LatestMedianLease": "973.57",
+                    "MedianSalePrice": {
+                        "Labels": [
+                            "2023-02-28",
+                            "2023-03-31",
+                            "2023-04-30",
+                            "2023-05-31",
+                            "2023-06-30",
+                            "2023-07-31",
+                            "2023-08-31",
+                            "2023-09-30",
+                            "2023-10-31",
+                            "2023-11-30",
+                            "2023-12-31",
+                            "2024-01-31"
+                        ],
+                        "SortLabels": [
+                            "Feb 23",
+                            "Mar 23",
+                            "Apr 23",
+                            "May 23",
+                            "Jun 23",
+                            "Jul 23",
+                            "Aug 23",
+                            "Sep 23",
+                            "Oct 23",
+                            "Nov 23",
+                            "Dec 23",
+                            "Jan 24"
+                        ],
+                        "Series": [
+                            "2011447.725",
+                            "2064846.15",
+                            "2105151.15",
+                            "2142166.19",
+                            "2237149.09",
+                            "2281037.43",
+                            "2295400.2",
+                            "2297703.2",
+                            "2310992.93",
+                            "2287549.29",
+                            "2262744.22",
+                            "2271247.795"
+                        ]
+                    },
+                    "MedianRentalPrice": {
+                        "Labels": [
+                            "2023-02-28",
+                            "2023-03-31",
+                            "2023-04-30",
+                            "2023-05-31",
+                            "2023-06-30",
+                            "2023-07-31",
+                            "2023-08-31",
+                            "2023-09-30",
+                            "2023-10-31",
+                            "2023-11-30",
+                            "2023-12-31",
+                            "2024-01-31"
+                        ],
+                        "SortLabels": [
+                            "Feb 23",
+                            "Mar 23",
+                            "Apr 23",
+                            "May 23",
+                            "Jun 23",
+                            "Jul 23",
+                            "Aug 23",
+                            "Sep 23",
+                            "Oct 23",
+                            "Nov 23",
+                            "Dec 23",
+                            "Jan 24"
+                        ],
+                        "Series": [
+                            "894.28",
+                            "912.74",
+                            "909.59",
+                            "911.51",
+                            "923.04",
+                            "940.33",
+                            "949.605",
+                            "947.11",
+                            "950.75",
+                            "958.75",
+                            "967.37",
+                            "973.57"
+                        ]
+                    }
+                },
+                "LocalityTrendsUnit": {
+                    "LatestMedianPrice": "1027385.69",
+                    "LatestMedianLease": "711.64",
+                    "MedianSalePrice": {
+                        "Labels": [
+                            "2023-02-28",
+                            "2023-03-31",
+                            "2023-04-30",
+                            "2023-05-31",
+                            "2023-06-30",
+                            "2023-07-31",
+                            "2023-08-31",
+                            "2023-09-30",
+                            "2023-10-31",
+                            "2023-11-30",
+                            "2023-12-31",
+                            "2024-01-31"
+                        ],
+                        "SortLabels": [
+                            "Feb 23",
+                            "Mar 23",
+                            "Apr 23",
+                            "May 23",
+                            "Jun 23",
+                            "Jul 23",
+                            "Aug 23",
+                            "Sep 23",
+                            "Oct 23",
+                            "Nov 23",
+                            "Dec 23",
+                            "Jan 24"
+                        ],
+                        "Series": [
+                            "879823.795",
+                            "933805.93",
+                            "945639.57",
+                            "956309.22",
+                            "940748.73",
+                            "971605.78",
+                            "988398.77",
+                            "1009273.53",
+                            "1005505.365",
+                            "1006920.335",
+                            "995370.18",
+                            "1027385.69"
+                        ]
+                    },
+                    "MedianRentalPrice": {
+                        "Labels": [
+                            "2023-02-28",
+                            "2023-03-31",
+                            "2023-04-30",
+                            "2023-05-31",
+                            "2023-06-30",
+                            "2023-07-31",
+                            "2023-08-31",
+                            "2023-09-30",
+                            "2023-10-31",
+                            "2023-11-30",
+                            "2023-12-31",
+                            "2024-01-31"
+                        ],
+                        "SortLabels": [
+                            "Feb 23",
+                            "Mar 23",
+                            "Apr 23",
+                            "May 23",
+                            "Jun 23",
+                            "Jul 23",
+                            "Aug 23",
+                            "Sep 23",
+                            "Oct 23",
+                            "Nov 23",
+                            "Dec 23",
+                            "Jan 24"
+                        ],
+                        "Series": [
+                            "638.54",
+                            "653.06",
+                            "657.77",
+                            "671.84",
+                            "685.895",
+                            "693.535",
+                            "701.75",
+                            "705.3",
+                            "715.42",
+                            "711.085",
+                            "712.115",
+                            "711.64"
+                        ]
+                    }
+                }
+            },
+            "Sa1Boundary": {
+                "GMapRequestUrl": ""
+            },
+            "IsBot": false
+        },
+        "statusCode": 200
+    },
+    "breadcrumb": [
+        {
+            "@type": "ListItem",
+            "item": "https://view.com.au/for-sale/",
+            "position": 1,
+            "name": "New Development"
+        },
+        {
+            "@type": "ListItem",
+            "item": "https://view.com.au/for-sale/vic/",
+            "position": 2,
+            "name": "VIC"
+        },
+        {
+            "@type": "ListItem",
+            "item": "https://view.com.au/for-sale/vic/in-inner-east/",
+            "position": 3,
+            "name": "Inner East"
+        },
+        {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Richmond"
+        }
+    ],
+    "page": "/new-developments/[slug]/development-details/[developmentDetailSlug]",
+    "query": {
+        "slug": "nsw-castle-hill-2154",
+        "developmentDetailSlug": "grand-reve"
+    }
+}

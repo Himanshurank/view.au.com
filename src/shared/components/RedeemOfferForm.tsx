@@ -100,7 +100,7 @@ const RedeemOfferForm = () => {
 					<label htmlFor="state" className="ml-1 mb-1  font-medium text-sm">
 						State<span className="text-red-500">*</span>
 					</label>
-					<select defaultValue="" {...register("state", { required: "State is required" })} id="state" className={`border outline-none rounded-lg py-2 px-4 ${errors.state ? "border-red-600" : "focus:border-blue-600"} `}>
+					<select defaultValue="" {...register("state", { required: "State is required" })} id="state" className={`border outline-none rounded-lg py-2  ${errors.state ? "border-red-600" : "focus:border-blue-600"} `}>
 						<option value="" disabled>
 							Select your state
 						</option>
@@ -115,13 +115,13 @@ const RedeemOfferForm = () => {
 					</label>
 					<textarea {...register("comment")} id="comment" placeholder="Add a message" className="border outline-none rounded-lg pt-2 p-3 focus:border-blue-600 placeholder:text-light-black"></textarea>
 				</div>
-				<div className="mt-5 mb-3 lg:mt-6">
-					<Button buttonType="submit" classes="py-2 font-bold flex justify-center items-center w-full">
-						<Image src={emailIcon} alt="email icon" />
-						<p className="px-2">Redeem Offer</p>
-					</Button>
-				</div>
-				<p className="text-xs text-center mb-6 px-2 text-light-black  ">
+
+				<Button buttonType="submit" classes="mt-5 mb-3 lg:mt-6 py-2 font-bold flex justify-center items-center w-full">
+					<Image src={emailIcon} alt="email icon" />
+					<p className="px-2">Redeem Offer</p>
+				</Button>
+
+				<p className="text-xs text-center mb-6 px-2 text-light-black md:px-8 ">
 					By submitting your details, you acknowledge that you accept our{" "}
 					<a href="#" className="text-primary-blue hover:underline">
 						Privacy Policy

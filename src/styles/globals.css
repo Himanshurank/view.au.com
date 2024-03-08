@@ -62,12 +62,34 @@ body {
 	}
 }
 
-.faq-content {
-	height: 0;
-	overflow: hidden;
-	transition: height 0.5s ease;
+.property-description ul {
+	padding: 28px 42px;
+	list-style: disc;
 }
 
-.faq-open {
-	height: auto;
+.property-description p {
+	letter-spacing: 0.1px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 160% !important;
+}
+
+.property-description p + p {
+	margin: 28px 0;
+}
+
+.property-description h3 {
+	font-size: 1.8rem;
+	line-height: 2.5rem;
+	margin-bottom: 1.5rem;
+}
+.property-description-read-more::before {
+	position: absolute;
+	bottom: 70px;
+	left: 0;
+	display: block;
+	width: 100%;
+	height: 100px;
+	background: linear-gradient(180deg, hsla(0, 0%, 100%, 0.25), #fff 90%);
+	content: "";
 }

@@ -27,7 +27,11 @@ const Footer = () => {
 			<div className="flex justify-between items-center h-72px border-b mt-2.5">
 				<div className="flex w-full justify-center items-center py-6 gap-8 lg:gap-6 lg:justify-start lg:w-auto">
 					{socialIcons.map((icon, i) => {
-						return <Image key={i} width="24" height="24" src={icon} alt="fb icon" />;
+						return (
+							<a key={i} href="#">
+								<Image width="24" height="24" src={icon} alt="fb icon" />
+							</a>
+						);
 					})}
 				</div>
 				<div className="hidden lg:flex">

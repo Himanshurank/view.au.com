@@ -17,6 +17,8 @@ const config: Config = {
 				"64px": "64px",
 				"72px": "72px",
 				"198px": "198px",
+				"200px": "200px",
+				"360px": "360px",
 				"446px": "446px",
 				"500px": "500px",
 			},
@@ -37,8 +39,9 @@ const config: Config = {
 				"primary-black": "#333333",
 			},
 			fontSize: {
-				"74px": "74px",
+				"18px": "18px",
 				"44px": "44px",
+				"74px": "74px",
 			},
 			lineHeight: {
 				"82px": "82px",
