@@ -1,42 +1,33 @@
-"use client";
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import Image from "next/image";
-import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
+import { IoIosArrowForward } from "react-icons/io";
 import HeroSection from "@/shared/components/HeroSection";
-import BreadCrumb from "@/module/components/BreadCrumb";
 import Button from "@/shared/components/buttons/Button";
-import PropertiesList from "@/module/components/PropertiesList";
 import fbIcon from "../../../../../public/assets/common/facebookLogo.svg";
 import tweeterIcon from "../../../../../public/assets/common/tweeterLogo.svg";
 import mailOpeIcon from "../../../../../public/assets/common/mail-border-open.svg";
 import mailCloseIcon from "../../../../../public/assets/common/mail-fill-close.svg";
-import bedIcon from "../../../../../public/assets/newdevelopment/bed.svg";
-import bathIcon from "../../../../../public/assets/newdevelopment/bath.svg";
-import parkingCarIcon from "../../../../../public/assets/newdevelopment/parking.svg";
-import mapIcon from "../../../../../public/assets/newdevelopment/location.svg";
-import homeSizeIcon from "../../../../../public/assets/newdevelopment/homesize.svg";
-import mapImage from "../../../../../public/assets/newdevelopment/map.png";
 import castleHill from "../../../../../public/assets/newdevelopment/Castle_Hill.jpg";
+import BreadCrumb from "@/module/components/newDevelopment/BreadCrumb";
+import PropertiesList from "@/module/components/newDevelopment/PropertiesList";
+import PropertiesFeatures from "@/module/components/newDevelopment/PropertiesFeatures";
+import PropertiesKeyInfo from "@/module/components/newDevelopment/PropertiesKeyInfo";
+import PropertyDescription from "@/module/components/newDevelopment/PropertyDescription";
+import PropertiesLocation from "@/module/components/newDevelopment/PropertiesLocation";
+import PropertiesInsights from "@/module/components/newDevelopment/PropertiesInsights";
 
 const PropertiesDetailPage = (props: any) => {
-	const [isShowDescription, setIsShowDescription] = useState(false);
-	const [height, setHeight] = useState<string>("");
-	const scrollHeightRef = useRef<any>();
-
 	const heroIcon = [fbIcon, tweeterIcon, mailCloseIcon];
 	const imageUrl = props.galleries[0].url;
-
-	const onShowDescription = () => {
-		setIsShowDescription(!isShowDescription);
+	const propertiesDisplayLocationProps = {
+		location: `${props.displaySuite.address.thoroughfareNumber} ${props.displaySuite.address.thoroughfare}, ${props.displaySuite.address.area}, ${props.displaySuite.address.shortenState} ${props.displaySuite.address.postalCode}`,
+		classification: props.classification,
+		size: props.totalProperties,
 	};
-
-	useEffect(() => {
-		let newHeight: string = "";
-		if (scrollHeightRef.current) {
-			newHeight = isShowDescription ? `${scrollHeightRef.current.scrollHeight}px` : "0px";
-		}
-		setHeight(newHeight);
-	}, [isShowDescription]);
+	const propertiesLocation = {
+		location: `${props.address.thoroughfareNumber} ${props.address.thoroughfare}, ${props.address.area}, ${props.address.state} ${props.address.postalCode}`,
+		title: props.title,
+	};
 
 	return (
 		<>
@@ -44,8 +35,8 @@ const PropertiesDetailPage = (props: any) => {
 				<BreadCrumb />
 			</section>
 
-			<section className="mb-8 lg:flex lg:justify-between">
-				<HeroSection classes="mb-0 lg:mb-0" title={props.title} subTitle={`${props.address.thoroughfareNumber} ${props.address.thoroughfare}, ${props.address.area}, ${props.address.state} ${props.address.postalCode}`}>
+			<section className="mb-8 lg:flex lg:justify-between lg:pr-4">
+				<HeroSection sectionClasses="w-full" classes="mb-0 lg:mb-0 w-full" title={props.title} subTitle={`${props.address.thoroughfareNumber} ${props.address.thoroughfare}, ${props.address.area}, ${props.address.state} ${props.address.postalCode}`}>
 					<div className="lg:flex lg:justify-between lg:items-center">
 						<Button buttonType="button" classes="py-2 px-4 mt-8">
 							<div className="flex gap-2">
@@ -80,53 +71,14 @@ const PropertiesDetailPage = (props: any) => {
 							<h2 className="font-medium mt-4 mb-2 text-18px lg:text-2xl">{`${props.address.thoroughfareNumber} ${props.address.thoroughfare}, ${props.address.area}, ${props.address.state} ${props.address.postalCode}`}</h2>
 						</div>
 						<div className="flex mb-2 lg:mb-4">
-							<div className="flex items-center gap-2 pr-2 border-r">
-								<Image src={bedIcon} alt="Bed icon" />
-								<p>{props.bedrooms}</p>
-							</div>
-							<div className="flex items-center gap-2 px-2 border-r">
-								<Image src={bathIcon} alt="Bath icon" />
-								<p>{props.bathrooms}</p>
-							</div>
-							<div className="flex items-center gap-2 pl-2">
-								<Image src={parkingCarIcon} alt="parking icon" />
-								<p>{props.carSpaces}</p>
-							</div>
+							<PropertiesFeatures property={props} classes={"mb-4"} />
 						</div>
 						<div className="lg:flex border-b pb-8">
-							<div className="mb-2 lg:border-r lg:pr-6">
-								<div className="flex gap-2 mb-1 items-center">
-									<Image src={mapIcon} alt="map icon" />
-									<p className="text-sm font-normal text-light-black">Display Location</p>
-								</div>
-								<p>{`${props.displaySuite.address.thoroughfareNumber} ${props.displaySuite.address.thoroughfare}, ${props.displaySuite.address.area}, ${props.displaySuite.address.shortenState} ${props.displaySuite.address.postalCode}`}</p>
-							</div>
-							<div className="mb-2 lg:border-r lg:px-6">
-								<div className="flex gap-2 mb-1 items-center">
-									<Image src={mapIcon} alt="map icon" />
-									<p className="text-sm font-normal text-light-black">Property Type</p>
-								</div>
-								<p>{props.classification}</p>
-							</div>
-							<div className="mb-2 lg:pl-6">
-								<div className="flex gap-2 mb-1 items-center">
-									<Image src={homeSizeIcon} alt="home size icon" />
-									<p className="text-sm font-normal text-light-black">Size</p>
-								</div>
-								<p>{props.totalProperties}</p>
-							</div>
+							<PropertiesKeyInfo props={propertiesDisplayLocationProps} />
 						</div>
 
 						<section className="mb-8 mt-6 lgc:mt-8 border-b pb-8 relative">
-							<div ref={scrollHeightRef} className="overflow-hidden transition-all duration-500 ease-in-out " style={{ height: isShowDescription ? `${height}` : "200px" }}>
-								<div className="property-description" dangerouslySetInnerHTML={{ __html: props.description.textProfile }} />
-							</div>
-							<button className={`flex items-center gap-2 text-primary-blue mt-2 ${!isShowDescription ? "property-description-read-more" : ""}`} onClick={onShowDescription}>
-								Read Less{" "}
-								<span className={isShowDescription ? "rotate-180" : ""}>
-									<IoIosArrowDown />
-								</span>
-							</button>
+							<PropertyDescription description={props.description.textProfile} />
 						</section>
 
 						<section className="border-b pb-8 mb-8">
@@ -144,38 +96,11 @@ const PropertiesDetailPage = (props: any) => {
 
 					<section className="px-4 border-b">
 						<h2 className="text-at-lg font-bold">Location Of {props.title}</h2>
-						<div className="h-200px mt-8 mb-4 rounded-xl overflow-hidden relative ">
-							<Image src={mapImage} objectFit="cover" layout="responsive" alt="map image" />
-						</div>
-						<div className="mb-4">
-							<h6 className="text-sm font-bold">Development Location</h6>
-							<p className="text-xs font-normal">{`${props.address.thoroughfareNumber} ${props.address.thoroughfare}, ${props.address.area}, ${props.address.state} ${props.address.postalCode}`}</p>
-						</div>
-						<div className="mb-4">
-							<h6 className="text-sm font-bold">Display Location</h6>
-							<p className="text-xs font-normal">{`${props.displaySuite.address.thoroughfareNumber} ${props.displaySuite.address.thoroughfare}, ${props.displaySuite.address.area}, ${props.displaySuite.address.shortenState} ${props.displaySuite.address.postalCode}`}</p>
-						</div>
-						<div className="mb-4">
-							<h6 className="text-sm font-bold">Display Open Hours</h6>
-							<p className="text-xs font-normal">Not Available</p>
-						</div>
-						<Button buttonType="button" classes="w-full py-2 mb-4 lg:mb-8">
-							Request a private appointment
-						</Button>
+						<PropertiesLocation location={propertiesLocation} displayLocation={propertiesDisplayLocationProps} />
 					</section>
 
 					<section className="px-4 border-b">
-						<h3 className="text-18px font-bold pt-8">Insights on {props.address.area}</h3>
-						<ul className="flex flex-col gap-3 my-10 w-full">
-							<li className="p-4 border rounded-lg cursor-pointer flex justify-between items-center shadow-sm">
-								<h3 className="text-base font-bold">Meet the Neighbours near {props.address.area}</h3>
-								<IoIosArrowDown />
-							</li>
-							<li className="p-4 border rounded-lg cursor-pointer flex justify-between items-center shadow-sm">
-								<h3 className="text-base font-bold">{props.address.area} Suburb Trends</h3>
-								<IoIosArrowDown />
-							</li>
-						</ul>
+						<PropertiesInsights area={props.address.area} />
 					</section>
 
 					<section className="px-4 pt-12">

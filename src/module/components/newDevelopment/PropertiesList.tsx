@@ -1,9 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import noImage from "../../../public/assets/common/no-image.png";
-import bedIcon from "../../../public/assets/newdevelopment/bed.svg";
-import bathIcon from "../../../public/assets/newdevelopment/bath.svg";
-import parkingCarIcon from "../../../public/assets/newdevelopment/parking.svg";
+import noImage from "../../../../public/assets/common/no-image.png";
+import bedIcon from "../../../../public/assets/newdevelopment/bed.svg";
+import bathIcon from "../../../../public/assets/newdevelopment/bath.svg";
+import parkingCarIcon from "../../../../public/assets/newdevelopment/parking.svg";
+import PropertiesFeatures from "./PropertiesFeatures";
 
 const PropertiesList = (props: any) => {
 	return (
@@ -16,24 +17,7 @@ const PropertiesList = (props: any) => {
 							<p className="text-18px font-bold ">{property.title}</p>
 							<p className="text-base font-normal text-light-black">{property.priceDisplay === "Contact for price" ? "Under Offer" : property.priceDisplay}</p>
 							<div className="flex text-light-black gap-3 text-sm">
-								{property.bedrooms && (
-									<div className="flex gap-2 pr-2 justify-between items-center border-r">
-										<Image src={bedIcon} alt="Bed icon" />
-										<p>{property.bedrooms}</p>
-									</div>
-								)}
-								{property.bathrooms && (
-									<div className="flex gap-2 pr-2 justify-between items-center border-r">
-										<Image src={bathIcon} alt="Bed icon" />
-										<p>{property.bathrooms}</p>
-									</div>
-								)}
-								{property.carSpaces && (
-									<div className="flex gap-2 pr-2 justify-between items-center border-r">
-										<Image src={parkingCarIcon} alt="Bed icon" />
-										<p>{property.carSpaces}</p>
-									</div>
-								)}
+								<PropertiesFeatures property={property} />
 								<p className="flex gap-2 justify-between items-center">{property.discr}</p>
 							</div>
 						</div>
