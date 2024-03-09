@@ -4,29 +4,34 @@ import bedIcon from "../../../../public/assets/newdevelopment/bed.svg";
 import bathIcon from "../../../../public/assets/newdevelopment/bath.svg";
 import parkingCarIcon from "../../../../public/assets/newdevelopment/parking.svg";
 
-const PropertiesFeatures = (props: any) => {
+interface featureProps {
+	name: string;
+	value: string;
+}
+
+const iconMap = {
+	bathroom: bathIcon as string,
+	bedroom: bedIcon as string,
+	parkingCar: parkingCarIcon as string,
+};
+
+const PropertiesFeature = (props: any) => {
+	const features = [
+		{ icon: bathIcon, value: props.property.bedrooms },
+		{ icon: bedIcon, value: props.property.bathrooms },
+		{ icon: parkingCarIcon, value: props.property.carSpaces },
+	];
+
 	return (
 		<>
-			{props.property.bedrooms && (
-				<div className="flex gap-2 pr-2 justify-between items-center border-r">
-					<Image src={bedIcon} alt="Bed icon" />
-					<p>{props.property.bedrooms}</p>
+			{features.map((feature, i) => (
+				<div key={i} className="flex gap-2 pr-2 justify-between items-center border-r">
+					<Image src={feature.icon} alt="Bed icon" />
+					<p>{feature.value}</p>
 				</div>
-			)}
-			{props.property.bathrooms && (
-				<div className="flex gap-2 pr-2 justify-between items-center border-r">
-					<Image src={bathIcon} alt="Bed icon" />
-					<p>{props.property.bathrooms}</p>
-				</div>
-			)}
-			{props.property.carSpaces && (
-				<div className="flex gap-2 pr-2 justify-between items-center border-r">
-					<Image src={parkingCarIcon} alt="Bed icon" />
-					<p>{props.property.carSpaces}</p>
-				</div>
-			)}
+			))}
 		</>
 	);
 };
 
-export default PropertiesFeatures;
+export default PropertiesFeature;
