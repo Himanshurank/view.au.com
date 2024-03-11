@@ -15,7 +15,8 @@ const conveyancingPage = () => {
 					<Image src={settleEasyLogo} alt="settle easy logo" />
 				</div>
 			</HeroSection>
-			<section className="px-4 relative">
+
+			<section className="relative">
 				<div className="lg:w-3/5 ">
 					<div className="w-full h-198px rounded-xl overflow-hidden lg:h-446px">
 						<iframe className="w-full h-full" src="https://www.youtube.com/embed/SklG0T_W0ao?si=9Jrb7eeGTNx2lNTa" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
@@ -45,6 +46,7 @@ const conveyancingPage = () => {
 					</div>
 				</div>
 			</section>
+
 			<section className="bg-light-gray rounded-xl lg:mt-16 lg:mb-3">
 				<CustomerFeedback feedBacks={feedBacks} title={"What Settle Easy customers are saying..."} />
 			</section>

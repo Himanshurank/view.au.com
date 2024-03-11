@@ -63,7 +63,7 @@ body {
 }
 
 .property-description ul {
-	padding: 28px 42px;
+	padding: 28px 42px 0 42px;
 	list-style: disc;
 }
 
@@ -85,7 +85,7 @@ body {
 }
 .property-description-read-more::before {
 	position: absolute;
-	bottom: 70px;
+	bottom: 50px;
 	left: 0;
 	display: block;
 	width: 100%;

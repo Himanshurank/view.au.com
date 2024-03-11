@@ -16,6 +16,7 @@ const config: Config = {
 			height: {
 				"64px": "64px",
 				"72px": "72px",
+				"99px": "99px",
 				"198px": "198px",
 				"200px": "200px",
 				"360px": "360px",

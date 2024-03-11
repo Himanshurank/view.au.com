@@ -11,7 +11,7 @@ export interface IProps {
 
 const HeroSection = (props: IProps) => {
 	return (
-		<section className={"px-4 lg:px-4 " + props.sectionClasses}>
+		<section className={props.sectionClasses}>
 			<div className={"p-6 md:px-16 md:py-12 bg-banner-lightblue rounded-xl mb-8 " + props.classes}>
 				<div>
 					<h1 className="text-44px font-golos font-bold leading-52px mr-2 break-words lg:leading-82px lg:text-74px">{props.title}</h1>
