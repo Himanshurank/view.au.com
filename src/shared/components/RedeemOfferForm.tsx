@@ -5,7 +5,7 @@ import { FieldError, FieldValues, useForm } from "react-hook-form";
 import InputField from "./InputField";
 import Button from "./buttons/Button";
 
-interface FormErrors extends FieldValues {
+export interface FormErrors extends FieldValues {
 	firstname?: FieldError | undefined;
 	lastname?: FieldError | undefined;
 	email?: FieldError | undefined;
@@ -24,14 +24,10 @@ const RedeemOfferForm = () => {
 		console.log(data);
 	};
 
-	const isSpaceNotAllowed = (value: string | undefined) => {
+	const inputSpaceValidation = (value: string | undefined, fieldName: string) => {
 		if (!value || value.trim() === "") {
-			return "Not Allow Space";
+			return `${fieldName} is invalid`;
 		}
-		if (value !== value.trimStart()) {
-			return "Not Allow Space";
-		}
-		return true;
 	};
 
 	return (
@@ -46,7 +42,7 @@ const RedeemOfferForm = () => {
 					register={{
 						...register("firstname", {
 							required: "Firstname is required",
-							validate: isSpaceNotAllowed,
+							validate: (value) => inputSpaceValidation(value, "Firstname"),
 						}),
 					}}
 				/>
@@ -58,7 +54,7 @@ const RedeemOfferForm = () => {
 					register={{
 						...register("lastname", {
 							required: "Lastname is required",
-							validate: isSpaceNotAllowed,
+							validate: (value) => inputSpaceValidation(value, "Lastname"),
 						}),
 					}}
 				/>

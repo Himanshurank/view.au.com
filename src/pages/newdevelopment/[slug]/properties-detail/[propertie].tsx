@@ -3,13 +3,13 @@ import Image from "next/image";
 import { IoIosArrowForward } from "react-icons/io";
 import HeroSection from "@/shared/components/HeroSection";
 import Button from "@/shared/components/buttons/Button";
-import BreadCrumb from "@/module/components/newDevelopment/BreadCrumb";
-import PropertiesList from "@/module/components/newDevelopment/PropertiesList";
-import PropertiesFeatures from "@/module/components/newDevelopment/PropertiesFeatures";
-import PropertiesKeyInfo from "@/module/components/newDevelopment/PropertiesKeyInfo";
-import PropertyDescription from "@/module/components/newDevelopment/PropertyDescription";
-import PropertiesLocation from "@/module/components/newDevelopment/PropertiesLocation";
-import PropertiesInsights from "@/module/components/newDevelopment/PropertiesInsights";
+import BreadCrumb from "@/module/newDevlopment/components/BreadCrumb";
+import PropertiesList from "@/module/newDevlopment/components/PropertiesList";
+import PropertiesFeatures from "@/module/newDevlopment/components/PropertiesFeatures";
+import PropertiesKeyInfo from "@/module/newDevlopment/components/PropertiesKeyInfo";
+import PropertyDescription from "@/module/newDevlopment/components/PropertyDescription";
+import PropertiesLocation from "@/module/newDevlopment/components/PropertiesLocation";
+import PropertiesInsights from "@/module/newDevlopment/components/PropertiesInsights";
 import fbIcon from "../../../../../public/assets/common/facebookLogo.svg";
 import tweeterIcon from "../../../../../public/assets/common/tweeterLogo.svg";
 import mailOpeIcon from "../../../../../public/assets/common/mail-border-open.svg";
@@ -21,39 +21,38 @@ import mapIcon from "../../../../../public/assets/newdevelopment/location.svg";
 import homeSizeIcon from "../../../../../public/assets/newdevelopment/homesize.svg";
 
 const PropertiesDetailPage = (props: any) => {
-	const heroIcon = [fbIcon, tweeterIcon, mailCloseIcon];
-	const imageUrl = props.property.galleries[0].url;
+	const SOCIALICON = [fbIcon, tweeterIcon, mailCloseIcon];
 
-	const propertiesDisplayLocation = {
+	const PROPERTY_DISPLAY_LOCATION = {
 		location: `${props.property.displaySuite.address.thoroughfareNumber} ${props.property.displaySuite.address.thoroughfare}, ${props.property.displaySuite.address.area}, ${props.property.displaySuite.address.shortenState} ${props.property.displaySuite.address.postalCode}`,
 		classification: props.property.classification,
 		size: props.property.totalProperties,
 	};
-	const propertiesLocation = {
+	const PROPERTY_DEVELOPMENT_LOCATION = {
 		location: `${props.property.address.thoroughfareNumber} ${props.property.address.thoroughfare}, ${props.property.address.area}, ${props.property.address.state} ${props.property.address.postalCode}`,
 		title: props.property.title,
 	};
-	const locationDetail = [
-		{ title: "Development Location", location: propertiesLocation.location },
-		{ title: "Display Location", location: propertiesDisplayLocation.location },
+	const LOCATION_DETAILS = [
+		{ title: "Development Location", location: PROPERTY_DEVELOPMENT_LOCATION.location },
+		{ title: "Display Location", location: PROPERTY_DISPLAY_LOCATION.location },
 		{ title: "Display Open Hours", location: "Not Available" },
 	];
-	const features = [
+	const PROPERTY_FEATURES = [
 		{ icon: bathIcon, value: props.property.bathrooms },
 		{ icon: bedIcon, value: props.property.bedrooms },
 		{ icon: parkingCarIcon, value: props.property.carSpaces },
 	];
-	const insights = [{ title: `Meet the Neighbours near ${props.property.address.area}` }, { title: `${props.property.address.area} Suburb Trends` }];
-	const keyInfo = [
-		{ icon: mapIcon, alt: "map icon", title: "Display Location", value: propertiesDisplayLocation.location },
-		{ icon: mapIcon, alt: "map icon", title: "Property Type", value: propertiesDisplayLocation.classification },
-		{ icon: homeSizeIcon, alt: "home size icon", title: "Size", value: propertiesDisplayLocation.size },
+	const SUBURB_INSIGHT = [{ title: `Meet the Neighbours near ${props.property.address.area}` }, { title: `${props.property.address.area} Suburb Trends` }];
+	const KEY_INFO = [
+		{ icon: mapIcon, alt: "map icon", title: "Display Location", value: PROPERTY_DISPLAY_LOCATION.location },
+		{ icon: mapIcon, alt: "map icon", title: "Property Type", value: PROPERTY_DISPLAY_LOCATION.classification },
+		{ icon: homeSizeIcon, alt: "home size icon", title: "Size", value: PROPERTY_DISPLAY_LOCATION.size },
 	];
 
 	return (
 		<>
 			<section className="px-4">
-				<BreadCrumb />
+				<BreadCrumb breadCrumb={props.breadcrumb} />
 			</section>
 
 			<section className="mb-8 lg:flex lg:justify-between gap-4">
@@ -66,7 +65,7 @@ const PropertiesDetailPage = (props: any) => {
 							</div>
 						</Button>
 						<div className="flex gap-2 ml-1 mt-4">
-							{heroIcon.map((icon, i) => (
+							{SOCIALICON.map((icon, i) => (
 								<div key={i} className="w-8 h-8 flex justify-center items-center rounded-full bg-light-gray ">
 									<a href="#" className="w-4 h-4">
 										<Image src={icon} alt="icon" />
@@ -77,8 +76,8 @@ const PropertiesDetailPage = (props: any) => {
 					</div>
 				</HeroSection>
 				<div className="px-4 mt-4 lg:w-2/5 lg:h-auto lg:mt-0 lg:p-0">
-					<div className="w-full h-44 lg:h-full relative overflow-hidden rounded-lg">
-						<Image src={imageUrl} layout="fill" objectFit="cover" alt="properties image" />
+					<div className="w-full h-44 lg:h-full relative overflow-hidden rounded-lg ">
+						<Image src={props.property.galleries[0].url} layout="fill" objectFit="cover" alt="properties image" />
 						<button className=" text-black bg-white rounded-lg text-sm font-medium py-2 px-3 absolute top-3 right-3">8 Photos</button>
 					</div>
 				</div>
@@ -89,42 +88,29 @@ const PropertiesDetailPage = (props: any) => {
 					<section className="px-4 ">
 						<div className="mb-2">
 							<p className="font-medium text-18px">About {props.property.title}</p>
-							<h2 className="font-medium mt-4 mb-2 text-18px lg:text-2xl">{`${props.property.address.thoroughfareNumber} ${props.property.address.thoroughfare}, ${props.property.address.area}, ${props.property.address.state} ${props.property.address.postalCode}`}</h2>
+							<h2 className="font-medium mt-4 mb-2 text-18px lg:text-2xl">{`${PROPERTY_DEVELOPMENT_LOCATION.location}`}</h2>
 						</div>
 						<p className="mb-2">From $13,000</p>
-						<div className="flex mb-2 lg:mb-4">
-							<PropertiesFeatures features={features} classes={"mb-4"} />
-						</div>
-						<div className="lg:flex border-b pb-8">
-							<PropertiesKeyInfo keyInfo={keyInfo} />
-						</div>
 
-						<section className="mb-8 mt-6 lgc:mt-8 border-b pb-8 relative">
-							<PropertyDescription description={props.property.description.textProfile} />
-						</section>
+						<PropertiesFeatures features={PROPERTY_FEATURES} classes={"mb-4"} />
 
-						<section className="border-b pb-8 mb-8">
+						<PropertiesKeyInfo keyInfo={KEY_INFO} />
+
+						<PropertyDescription description={props.property.description.textProfile} />
+
+						<div className="border-b pb-8 mb-8">
 							<h2 className="text-18px font-bold mb-6 lg:mb-4">Features And Amenities Of {props.property.title}</h2>
 							<div className="w-full h-40 rounded-xl overflow-hidden lg:h-360px">
-								<iframe className="h-full w-full" src="https://www.youtube.com/embed/FF08ohAgQl4?si=pc6xCbIyX_w8si5M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+								<iframe className="h-full w-full" src="https://www.youtube.com/embed/FF08ohAgQl4?si=pc6xCbIyX_w8si5M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
 							</div>
-						</section>
+						</div>
 					</section>
 
-					<section className="px-4">
-						<h2 className="text-18px font-bold mb-4">Off-The-Plan Residences For Sale At {props.property.title}</h2>
-						<PropertiesList properties={props.property.properties} />
-					</section>
+					<PropertiesList properties={props.property.properties} title={props.property.title} />
 
-					<section className="px-4">
-						<h2 className="text-at-lg font-bold">Location Of {props.property.title}</h2>
-						<PropertiesLocation locationDetail={locationDetail} />
-					</section>
+					<PropertiesLocation locationDetail={LOCATION_DETAILS} title={props.property.title} />
 
-					<section className="px-4 ">
-						<h2 className="text-18px font-bold pt-8">Insights on {props.property.address.area}</h2>
-						<PropertiesInsights insights={insights} />
-					</section>
+					<PropertiesInsights insights={SUBURB_INSIGHT} area={props.property.address.area} />
 
 					<section className="px-4 pt-12 ">
 						<div className="flex rounded-lg border overflow-hidden cursor-pointer">
@@ -147,17 +133,17 @@ const PropertiesDetailPage = (props: any) => {
 	);
 };
 
+export default PropertiesDetailPage;
+
 export const getServerSideProps = async () => {
-	const response1 = await fetch("http://localhost:8000/developmentDetail");
-	const developmentDetail = await response1.json();
-	const response2 = await fetch("http://localhost:8000/suburbProfile");
-	const suburbProfile = await response2.json();
+	const response1 = await fetch("http://localhost:8000/props");
+	const props = await response1.json();
+
 	return {
 		props: {
-			property: developmentDetail,
-			suburb: suburbProfile,
+			property: props.developmentDetail,
+			suburb: props.suburbProfile,
+			breadcrumb: props.breadcrumb,
 		},
 	};
 };
-
-export default PropertiesDetailPage;
