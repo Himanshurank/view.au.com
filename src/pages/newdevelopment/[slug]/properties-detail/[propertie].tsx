@@ -51,12 +51,12 @@ const PropertiesDetailPage = (props: any) => {
 
 	return (
 		<>
-			<section className="px-4">
+			<section className="px-4 lg:px-0">
 				<BreadCrumb breadCrumb={props.breadcrumb} />
 			</section>
 
 			<section className="mb-8 lg:flex lg:justify-between gap-4">
-				<HeroSection sectionClasses="lg:w-3/5 lg:px-0" classes="mb-0 lg:mb-0 w-full" title={props.property.title} subTitle={`${props.property.address.thoroughfareNumber} ${props.property.address.thoroughfare}, ${props.property.address.area}, ${props.property.address.state} ${props.property.address.postalCode}`}>
+				<HeroSection sectionClasses="px-4 lg:w-3/5 lg:px-0" classes="mb-0 lg:mb-0 w-full" title={props.property.title} subTitle={`${props.property.address.thoroughfareNumber} ${props.property.address.thoroughfare}, ${props.property.address.area}, ${props.property.address.state} ${props.property.address.postalCode}`}>
 					<div className="lg:flex lg:justify-between lg:items-center">
 						<Button buttonType="button" classes="py-2 px-4 mt-8">
 							<div className="flex gap-2">
@@ -83,9 +83,9 @@ const PropertiesDetailPage = (props: any) => {
 				</div>
 			</section>
 
-			<section className="lg:flex">
+			<section className="lg:flex px-4 lg:px-0">
 				<article className="w-full lg:w-8/12">
-					<section className="px-4 ">
+					<section>
 						<div className="mb-2">
 							<p className="font-medium text-18px">About {props.property.title}</p>
 							<h2 className="font-medium mt-4 mb-2 text-18px lg:text-2xl">{`${PROPERTY_DEVELOPMENT_LOCATION.location}`}</h2>
@@ -112,7 +112,7 @@ const PropertiesDetailPage = (props: any) => {
 
 					<PropertiesInsights insights={SUBURB_INSIGHT} area={props.property.address.area} />
 
-					<section className="px-4 pt-12 ">
+					<section className="pt-12">
 						<div className="flex rounded-lg border overflow-hidden cursor-pointer">
 							<div className="h-99px w-[90px] lg:w-[190px] relative">
 								<Image src={`https://resi.uatz.view.com.au/viewstatic/images/listing/200-min/${props.suburb.fileName}`} objectFit="cover" layout="fill" alt="castle Hill" />

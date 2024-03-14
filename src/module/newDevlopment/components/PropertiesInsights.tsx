@@ -23,7 +23,7 @@ const PropertiesInsights = (props: any) => {
 	}, [isShowInsight]);
 
 	return (
-		<section className="px-4 ">
+		<section>
 			<h2 className="text-18px font-bold pt-8">Insights on {props.area}</h2>
 			<div className="border-b">
 				<ul className="flex flex-col gap-4 my-10 w-full border-b">

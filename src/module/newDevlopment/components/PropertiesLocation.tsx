@@ -5,7 +5,7 @@ import mapImage from "../../../../public/assets/newdevelopment/map.png";
 
 const PropertiesLocation = (props: any) => {
 	return (
-		<section className="px-4">
+		<section>
 			<h2 className="text-at-lg font-bold">Location Of {props.title}</h2>
 			<div className="border-b">
 				<div className="h-200px mt-8 mb-4 rounded-xl overflow-hidden relative ">

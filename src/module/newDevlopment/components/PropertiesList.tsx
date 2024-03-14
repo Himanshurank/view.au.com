@@ -8,7 +8,7 @@ import PropertiesFeatures from "./PropertiesFeatures";
 
 const PropertiesList = (props: any) => {
 	return (
-		<section className="px-4">
+		<section>
 			<h2 className="text-18px font-bold mb-4">Off-The-Plan Residences For Sale At {props.title}</h2>
 			<div className="border-b border-at-light-500 pb-8 my-8 w-full">
 				<ul>
