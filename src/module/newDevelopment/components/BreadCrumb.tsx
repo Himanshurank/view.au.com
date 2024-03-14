@@ -3,7 +3,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const BreadCrumb = (props: any) => {
 	return (
-		<div className="flex gap-3 pb-8 overflow-x-auto text-light-black">
+		<div className="flex gap-3 pb-4 overflow-x-auto text-light-black">
 			<ul className="flex items-center gap-3 ">
 				{props.breadCrumb?.map((link: any, i: number) => {
 					return (

@@ -3,13 +3,13 @@ import Image from "next/image";
 import { IoIosArrowForward } from "react-icons/io";
 import HeroSection from "@/shared/components/HeroSection";
 import Button from "@/shared/components/buttons/Button";
-import BreadCrumb from "@/module/newDevlopment/components/BreadCrumb";
-import PropertiesList from "@/module/newDevlopment/components/PropertiesList";
-import PropertiesFeatures from "@/module/newDevlopment/components/PropertiesFeatures";
-import PropertiesKeyInfo from "@/module/newDevlopment/components/PropertiesKeyInfo";
-import PropertyDescription from "@/module/newDevlopment/components/PropertyDescription";
-import PropertiesLocation from "@/module/newDevlopment/components/PropertiesLocation";
-import PropertiesInsights from "@/module/newDevlopment/components/PropertiesInsights";
+import BreadCrumb from "@/module/newDevelopment/components/BreadCrumb";
+import PropertiesList from "@/module/newDevelopment/components/PropertiesList";
+import PropertiesFeatures from "@/module/newDevelopment/components/PropertiesFeatures";
+import PropertiesKeyInfo from "@/module/newDevelopment/components/PropertiesKeyInfo";
+import PropertyDescription from "@/module/newDevelopment/components/PropertyDescription";
+import PropertiesLocation from "@/module/newDevelopment/components/PropertiesLocation";
+import PropertiesInsights from "@/module/newDevelopment/components/PropertiesInsights";
 import fbIcon from "../../../../../public/assets/common/facebookLogo.svg";
 import tweeterIcon from "../../../../../public/assets/common/tweeterLogo.svg";
 import mailOpeIcon from "../../../../../public/assets/common/mail-border-open.svg";
@@ -136,8 +136,8 @@ const PropertiesDetailPage = (props: any) => {
 export default PropertiesDetailPage;
 
 export const getServerSideProps = async () => {
-	const response1 = await fetch("http://localhost:8000/props");
-	const props = await response1.json();
+	const response = await fetch("http://localhost:8000/props");
+	const props = await response.json();
 
 	return {
 		props: {

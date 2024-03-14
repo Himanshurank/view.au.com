@@ -1,7 +1,7 @@
 import Button from "@/shared/components/buttons/Button";
 import Image from "next/image";
 import React from "react";
-import mapImage from "../../../../public/assets/newdevelopment/map.png";
+import mapImage from "../../../../public/assets/map.png";
 
 const PropertiesLocation = (props: any) => {
 	return (
