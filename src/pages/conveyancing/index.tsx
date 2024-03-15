@@ -15,7 +15,6 @@ const conveyancingPage = () => {
 					<Image src={settleEasyLogo} alt="settle easy logo" />
 				</div>
 			</HeroSection>
-
 			<section className="relative px-4 lg:px-0">
 				<div className="lg:w-3/5 ">
 					<div className="w-full h-198px rounded-xl overflow-hidden lg:h-446px">

@@ -33,7 +33,7 @@ const MobilePage: React.FC = () => {
 					</div>
 				</div>
 				<div className="text-right px-10 mt-6 lg:mt-0 lg:px-0 ">
-					<div className="flex justify-end  lgc:pl-17">
+					<div className="flex justify-end lgc:pl-17">
 						<Image src={tabletAppImg} alt="tablet view" />
 					</div>
 				</div>

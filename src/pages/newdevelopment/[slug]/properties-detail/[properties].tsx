@@ -3,11 +3,11 @@ import Image from "next/image";
 import { IoIosArrowForward } from "react-icons/io";
 import HeroSection from "@/shared/components/HeroSection";
 import Button from "@/shared/components/buttons/Button";
-import BreadCrumb from "@/module/newDevelopment/components/BreadCrumb";
+import BreadCrumb from "@/shared/components/BreadCrumb";
 import PropertiesList from "@/module/newDevelopment/components/PropertiesList";
 import PropertiesFeatures from "@/module/newDevelopment/components/PropertiesFeatures";
 import PropertiesKeyInfo from "@/module/newDevelopment/components/PropertiesKeyInfo";
-import PropertyDescription from "@/module/newDevelopment/components/PropertyDescription";
+import DescriptionDropDown from "@/shared/components/DescriptionDropDown";
 import PropertiesLocation from "@/module/newDevelopment/components/PropertiesLocation";
 import PropertiesInsights from "@/module/newDevelopment/components/PropertiesInsights";
 import fbIcon from "../../../../../public/assets/common/facebookLogo.svg";
@@ -96,7 +96,7 @@ const PropertiesDetailPage = (props: any) => {
 
 						<PropertiesKeyInfo keyInfo={KEY_INFO} />
 
-						<PropertyDescription description={props.property.description.textProfile} />
+						<DescriptionDropDown classes="mb-8 mt-6 lg:mt-8 pb-8" description={props.property.description.textProfile} globalStyle={true} />
 
 						<div className="border-b pb-8 mb-8">
 							<h2 className="text-18px font-bold mb-6 lg:mb-4">Features And Amenities Of {props.property.title}</h2>

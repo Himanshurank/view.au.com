@@ -5,6 +5,7 @@ const config: Config = {
 	theme: {
 		extend: {
 			width: {
+				"1px": "1px",
 				"295px": "295px",
 				"1200px": "1200px",
 				"38%": "38%",
@@ -22,6 +23,7 @@ const config: Config = {
 				"360px": "360px",
 				"446px": "446px",
 				"500px": "500px",
+				"58": "14.5rem",
 			},
 			backgroundColor: {
 				"primary-blue": "#0073CF",
@@ -42,6 +44,7 @@ const config: Config = {
 			},
 			fontSize: {
 				"18px": "18px",
+				"20px": "20px",
 				"44px": "44px",
 				"74px": "74px",
 			},
@@ -52,6 +55,9 @@ const config: Config = {
 			padding: {
 				"17": "75px",
 				"112px": "112px",
+			},
+			inset: {
+				"15": "60px",
 			},
 			screens: {
 				lgc: "1200px",
