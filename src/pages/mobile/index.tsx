@@ -9,7 +9,7 @@ import Information from "@/shared/components/information/Information";
 const MobilePage: React.FC = () => {
 	return (
 		<>
-			<HeroSection classes="mb-8" title="Explore properties wherever and whenever you like." subTitle="Available on iOS and Android, the view.com.au app helps you keep on top of your property search with the latest real estate listings for sale, rent, recently sold, as well as unlisted properties." subTitleClasses="lg:text-lg">
+			<HeroSection sectionClasses="mt-6" classes="mb-8" title="Explore properties wherever and whenever you like." subTitle="Available on iOS and Android, the view.com.au app helps you keep on top of your property search with the latest real estate listings for sale, rent, recently sold, as well as unlisted properties." subTitleClasses="lg:text-lg">
 				<div className="flex gap-4 mt-6 lg:mt-12">
 					<ApplicationsButtons />
 				</div>

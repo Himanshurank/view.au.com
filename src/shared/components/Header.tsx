@@ -12,7 +12,7 @@ const Header = (props: Iprops) => {
 	const headerMenu = ["Buy", "Rent", "Sold", "Estimate"];
 	return (
 		<>
-			<div className="w-full border-b font-medium sticky top-0 bg-white flex justify-center items-center z-50">
+			<div id="header" className="w-full border-b font-medium fixed top-0 bg-white flex justify-center items-center z-50">
 				<nav className="w-full flex h-12 items-center lgc:h-64px lgc:max-w-1200px">
 					<div className="hamburger lgc:hidden" onClick={props.sidebarToggle}>
 						<span className={props.isShowSidebar ? "active" : ""}></span>

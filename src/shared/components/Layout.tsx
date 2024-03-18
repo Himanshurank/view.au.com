@@ -18,7 +18,7 @@ const Layout: React.FC<IProps> = (props) => {
 			<Header sidebarToggle={sidebarToggle} isShowSidebar={isShowSidebar} />
 			<div className="h-auto mx-auto md:p-4 pb-0 text-primary-black lg:max-w-1200px lg:p-0 ">
 				{isShowSidebar && <Sidebar />}
-				<main className="py-4 lg:px-0 lg:py-8">{props.children}</main>
+				<main className="py-4 lg:px-0 lg:py-8 mt-12">{props.children}</main>
 				<Footer />
 			</div>
 		</>

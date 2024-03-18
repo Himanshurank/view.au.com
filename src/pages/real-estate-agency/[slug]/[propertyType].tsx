@@ -1,14 +1,12 @@
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useRef } from "react";
+import { useRouter } from "next/router";
 import webIcon from "../../../../public/assets/common/web.svg";
 import fbIcon from "../../../../public/assets/common/facebookLogo.svg";
 import instaLogo from "../../../../public/assets/common/instagramLogo.svg";
 import mailOpeIcon from "../../../../public/assets/common/mail-border-open.svg";
 import linkedinIcon from "../../../../public/assets/common/linkdinLogo.svg";
 import callIcon from "../../../../public/assets/common/callIcon.svg";
-import bathIcon from "../../../../public/assets/newdevelopment/bath.svg";
-import bedIcon from "../../../../public/assets/newdevelopment/bed.svg";
-import parkingCarIcon from "../../../../public/assets/newdevelopment/parking.svg";
 import mapImg from "../../../../public/assets/map.png";
 import HeroSection from "@/shared/components/HeroSection";
 import Button from "@/shared/components/buttons/Button";
@@ -17,8 +15,17 @@ import AgencyPerformance from "@/module/agency/components/AgencyPerformance";
 import DescriptionDropDown from "@/shared/components/DescriptionDropDown";
 import PropertyDisplaySection from "@/module/agency/components/PropertyDisplaySection";
 
-const AgencyPage = (props: any) => {
+const AgencyPropertiesPage = (props: any) => {
 	const SOCIALICON = [fbIcon, instaLogo, linkedinIcon];
+	const listingSectionRef = useRef<HTMLDivElement | any>();
+	const router = useRouter();
+	const path: any = router.query.propertyType;
+
+	// useEffect(() => {
+	// 	if (path !== "rent" || path !== "sales") {
+	// 		router.push("http://localhost:3000/real-estate-agency/biggin-scott-richmond-4326");
+	// 	}
+	// });
 
 	const SALES_PERFORMANCE = [
 		{
@@ -56,6 +63,17 @@ const AgencyPage = (props: any) => {
 			name: "Properties for rent",
 		},
 	];
+
+	useEffect(() => {
+		let elm = listingSectionRef.current;
+		if (elm) {
+			// const rectangle = elm.getBoundingClientRect();
+			// const headerHeight = document.getElementById("header")?.offsetHeight || 0;
+			// window.scrollTo({ top: rectangle.top - headerHeight, behavior: "smooth" });
+			// elm.classList.add("mt-16");
+			elm.scrollIntoView({ behavior: "smooth" });
+		}
+	}, []);
 
 	return (
 		<>
@@ -114,29 +132,29 @@ const AgencyPage = (props: any) => {
 				<p className="text-sm font-normal mt-3 md:text-base">{`In the last 12 months ${props.data.name} has sold ${props.data.numberOfSoldListings} properties and leased ${props.data.numberOfLeasedListings} properties on resi.uatz.view.com.au`}</p>
 				<AgencyPerformance title="Sales Performance" performance={SALES_PERFORMANCE} />
 				<AgencyPerformance title="Rent Performance" performance={RENT_PERFORMANCE} />
-				<div className="h-12 border-b"></div>
+
+				<div ref={listingSectionRef} className="h-12 border-b"></div>
 				<div className="flex flex-1 justify-evenly items-center h-[88px] bg-light-gray rounded-xl mt-8">
 					<a href="http://localhost:3000/real-estate-agency/biggin-scott-richmond-4326" className="w-1/3 h-full relative flex flex-col gap-0.5 justify-center items-center ">
-						<p className="text-20px font-bold text-primary-blue">{props.data.numberOfSoldListings}</p>
-						<p className="text-sm font-bold">Sold</p>
-						<span className="h-1 w-16 bg-primary-blue rounded-t-full absolute bottom-0"></span>
+						<p className="text-20px font-bold ">{props.data.numberOfSoldListings}</p>
+						<p className="text-sm">Sold</p>
 					</a>
 					<span className="h-14 w-1px bg-slate-200"></span>
 					<a href="http://localhost:3000/real-estate-agency/biggin-scott-richmond-4326/sale" className="w-1/3 h-full relative flex flex-col gap-0.5 justify-center items-center ">
-						<p className="text-20px font-bold">{props.data.numberOfBuyListings}</p>
-						<p className="text-sm font-normal">For Sale</p>
+						<p className={`text-20px font-bold ${path === "sale" && "text-primary-blue"}`}>{props.data.numberOfBuyListings}</p>
+						<p className={`text-sm ${path === "sale" && "font-bold"}`}>For Sale</p>
+						{path === "sale" && <span className="h-1 w-16 bg-primary-blue rounded-t-full absolute bottom-0"></span>}
 					</a>
-					<span className="h-14 w-1px bg-slate-200"></span>
+					<span className="h-14 w-1px bg-slate-200 text-primary-blue"></span>
 					<a href="http://localhost:3000/real-estate-agency/biggin-scott-richmond-4326/rent" className="w-1/3 h-full relative flex flex-col gap-0.5 justify-center items-center ">
-						<p className="text-20px font-bold">{props.data.numberOfRentListings}</p>
-						<p className="text-sm font-normal">For Rent</p>
+						<p className={`text-20px font-bold ${path === "rent" && "text-primary-blue"}`}>{props.data.numberOfRentListings}</p>
+						<p className={`text-sm ${path === "rent" && "font-bold"}`}>For Rent</p>
+						{path === "rent" && <span className="h-1 w-16 bg-primary-blue rounded-t-full absolute bottom-0"></span>}
 					</a>
 				</div>
 
 				<h4 className="text-at-lg font-bold mt-8 mb-6">Sold listing in the past 12 months</h4>
-				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-					<PropertyDisplaySection properties={props.data.listings.sold} />
-				</div>
+				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">{path == "rent" ? <PropertyDisplaySection properties={props.data.listings.rent} /> : <PropertyDisplaySection properties={props.data.listings.sale} />}</div>
 			</section>
 
 			<section className="px-4 lg:px-0">
@@ -170,7 +188,7 @@ const AgencyPage = (props: any) => {
 	);
 };
 
-export default AgencyPage;
+export default AgencyPropertiesPage;
 
 export const getServerSideProps = async () => {
 	const response = await fetch("http://localhost:9000/props");

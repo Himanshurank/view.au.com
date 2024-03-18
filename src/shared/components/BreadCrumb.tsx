@@ -7,7 +7,7 @@ const BreadCrumb = (props: any) => {
 			<ul className="flex items-center gap-3 ">
 				{props.breadCrumb?.map((link: any, i: number) => {
 					return (
-						<div key={link.position}>
+						<div key={i}>
 							<li className="flex items-center gap-3 whitespace-nowrap text-sm">
 								<a className={props.breadCrumb.length - 1 === i ? "text-black w-full" : ""} href={link.item}>
 									{link.name}

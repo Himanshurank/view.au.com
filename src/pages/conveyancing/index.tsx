@@ -10,7 +10,7 @@ import { accordionFAQsList, feedBacks, pageDescription } from "@/module/mobile/c
 const conveyancingPage = () => {
 	return (
 		<>
-			<HeroSection title="Buying or selling?" sectionClasses="px-4 lg:px-0" subTitle="Redeem your $220 conveyancing voucher and free contract review" classes="flex flex-col-reverse lg:flex-row lg:justify-between mb-8" subTitleClasses="lg:text-base">
+			<HeroSection title="Buying or selling?" sectionClasses="px-4 lg:px-0 mt-6" subTitle="Redeem your $220 conveyancing voucher and free contract review" classes="flex flex-col-reverse lg:flex-row lg:justify-between mb-8" subTitleClasses="lg:text-base">
 				<div className="flex justify-center items-center w-14 lg:w-32">
 					<Image src={settleEasyLogo} alt="settle easy logo" />
 				</div>

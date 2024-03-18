@@ -51,11 +51,11 @@ const PropertiesDetailPage = (props: any) => {
 
 	return (
 		<>
-			<section className="px-4 lg:px-0">
+			<section className="px-4 lg:px-0 mt-3">
 				<BreadCrumb breadCrumb={props.breadcrumb} />
 			</section>
 
-			<section className="mb-8 lg:flex lg:justify-between gap-4">
+			<section className="mb-8 lg:flex lg:justify-between gap-4 mt-6">
 				<HeroSection sectionClasses="px-4 lg:w-3/5 lg:px-0" classes="mb-0 lg:mb-0 w-full" title={props.property.title} subTitle={`${props.property.address.thoroughfareNumber} ${props.property.address.thoroughfare}, ${props.property.address.area}, ${props.property.address.state} ${props.property.address.postalCode}`}>
 					<div className="lg:flex lg:justify-between lg:items-center">
 						<Button buttonType="button" classes="py-2 px-4 mt-8">
