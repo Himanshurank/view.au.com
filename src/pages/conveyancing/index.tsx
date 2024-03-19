@@ -9,7 +9,7 @@ import { accordionFAQsList, feedBacks, pageDescription } from "@/module/mobile/c
 const conveyancingPage = () => {
 	return (
 		<>
-			<HeroSection title="Buying or selling?" sectionClasses="px-4 lg:px-0 mt-6" subTitle="Redeem your $220 conveyancing voucher and free contract review" classes="flex flex-col-reverse lg:flex-row lg:justify-between mb-8" subTitleClasses="lg:text-base">
+			<HeroSection title="Buying or selling?" sectionClassName="px-4 mt-6 flex flex-col-reverse lg:flex-row lg:justify-between mb-8" subTitle="Redeem your $220 conveyancing voucher and free contract review">
 				<div className="flex justify-center items-center w-14 lg:w-32">
 					<Image src={settleEasyLogo} alt="settle easy logo" />
 				</div>
@@ -38,15 +38,20 @@ const conveyancingPage = () => {
 							</p>
 						))}
 					</article>
-					<div>
-						<h2 className="text-base font-bold undefined mb-4 lg:mb-6 ">Frequently Asked Questions</h2>
-						<Accordion accordionFAQsList={accordionFAQsList} />
-					</div>
+					<h2 className="text-base font-bold mb-4 lg:mb-6 ">Frequently Asked Questions</h2>
+					{accordionFAQsList.map((list, i) => (
+						<Accordion key={i} list={list} />
+					))}
 				</div>
 			</section>
 
 			<section className="bg-light-gray rounded-xl lg:mt-16 lg:mb-3 px-4 lg:px-0">
-				<CustomerFeedback feedBacks={feedBacks} title={"What Settle Easy customers are saying..."} />
+				<h6 className="mx-4 pt-6 mb-4 lg:pl-10 lg:mx-auto lg:pt-10 lg:m b-6 text-base font-bold lg:text-2xl">What Settle Easy customers are saying...</h6>
+				<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pb-6 px-4 lg:px-10 lg:pb-10">
+					{feedBacks.map((feedBack, i) => (
+						<CustomerFeedback key={i} feedBack={feedBack} />
+					))}
+				</div>
 			</section>
 		</>
 	);

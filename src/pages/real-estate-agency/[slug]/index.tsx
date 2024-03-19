@@ -60,7 +60,7 @@ const AgencyPage = (props: any) => {
 			</section>
 
 			<section className="px-4 lg:px-0 mb-8 lg:flex lg:justify-between gap-4">
-				<HeroSection sectionClasses="lg:w-3/5" subTitleClasses="lg:text-base mt-5" title={props.data.name} classes="md:pt-20 pt-12 mb-4 relative lg:mb-0" subTitle={props.data.address}>
+				<HeroSection sectionClassName="lg:w-3/5 md:pt-20 pt-12 mb-4 relative lg:mb-0" subTitleClassName="lg:text-base mt-5" title={props.data.name} subTitle={props.data.address}>
 					<div className="absolute w-full -ml-6 lg:-ml-16 top-0 flex items-center justify-center bg-[#010037] rounded-t-xl py-2">
 						<div className="h-6 w-28 relative">
 							<Image src="https://resi.uatz.view.com.au/viewstatic/images/listing/120-w/821e197e770543fc96928b0d8d9aa349.jpg" layout="fill" alt="agency logo" />
