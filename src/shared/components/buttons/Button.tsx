@@ -1,5 +1,3 @@
-import React, { ButtonHTMLAttributes, DetailedHTMLProps } from "react";
-
 interface IProps {
 	children: string | React.ReactNode;
 	buttonType: "button" | "submit" | "reset";

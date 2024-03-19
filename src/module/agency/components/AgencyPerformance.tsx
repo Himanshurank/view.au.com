@@ -1,5 +1,3 @@
-import React from "react";
-
 const AgencyPerformance = (props: any) => {
 	return (
 		<div className="px-6 py-4 mt-6 w-full flex flex-col gap-2 bg-light-gray rounded-lg">

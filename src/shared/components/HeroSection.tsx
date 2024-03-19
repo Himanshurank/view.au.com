@@ -1,6 +1,3 @@
-import Image from "next/image";
-import React from "react";
-
 export interface IProps {
 	children: React.ReactNode;
 	title: string;

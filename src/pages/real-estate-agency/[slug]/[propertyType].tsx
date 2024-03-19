@@ -22,10 +22,12 @@ const AgencyPropertiesPage = (props: any) => {
 	const path: any = router.query.propertyType;
 
 	// useEffect(() => {
-	// 	if (path !== "rent" || path !== "sales") {
+	// 	if (path != "rent" || path != "sale") {
 	// 		router.push("http://localhost:3000/real-estate-agency/biggin-scott-richmond-4326");
 	// 	}
 	// });
+	const saleImgpath = "https://resi.uatz.view.com.au/viewstatic/images/listing/1-bedroom-apartment-in-east-melbourne-vic-3002/400-w/";
+	const rentImgpath = "https://resi.uatz.view.com.au/viewstatic/images/listing/2-bedroom-apartment-in-richmond-vic-3121/400-w/";
 
 	const SALES_PERFORMANCE = [
 		{

@@ -1,6 +1,3 @@
-import React, { useState } from "react";
-import Sidebar from "./Sidebar";
-import Link from "next/link";
 import Button from "./buttons/Button";
 
 interface Iprops {

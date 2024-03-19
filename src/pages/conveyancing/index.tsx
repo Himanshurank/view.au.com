@@ -1,5 +1,4 @@
 import HeroSection from "@/shared/components/HeroSection";
-import React from "react";
 import Image from "next/image";
 import settleEasyLogo from "../../../public/assets/conveyancing/settle-easy.svg";
 import Accordion from "@/shared/components/Accordion";

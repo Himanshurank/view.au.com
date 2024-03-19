@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 import { IoIosArrowForward } from "react-icons/io";
 import HeroSection from "@/shared/components/HeroSection";

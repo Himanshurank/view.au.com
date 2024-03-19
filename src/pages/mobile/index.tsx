@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "@/shared/components/HeroSection";
 import ApplicationsButtons from "@/shared/components/buttons/ApplicationsButtons";
 import mobileAppImg from "../../../public/assets/mobile/mobileViewPage.png";

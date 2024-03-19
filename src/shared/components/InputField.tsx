@@ -1,6 +1,4 @@
-import React from "react";
 import { FormErrors } from "./RedeemOfferForm";
-import { FieldError, FieldErrors } from "react-hook-form";
 
 interface Iprops {
 	name: string;

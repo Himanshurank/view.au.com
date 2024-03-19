@@ -1,4 +1,3 @@
-import React from "react";
 import newDevSvg from "../../../public/assets/common/NewDevlopment.svg";
 import estimateSvg from "../../../public/assets/common/PriceEstimate.svg";
 import agentSvg from "../../../public/assets/common/FindAgent.svg";

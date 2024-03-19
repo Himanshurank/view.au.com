@@ -1,10 +1,8 @@
 import Image from "next/image";
-import React from "react";
 import noImage from "../../../../public/assets/common/no-image.png";
 import bedIcon from "../../../../public/assets/newdevelopment/bed.svg";
 import bathIcon from "../../../../public/assets/newdevelopment/bath.svg";
 import parkingCarIcon from "../../../../public/assets/newdevelopment/parking.svg";
-import PropertiesFeatures from "./PropertiesFeatures";
 
 const PropertiesList = (props: any) => {
 	return (

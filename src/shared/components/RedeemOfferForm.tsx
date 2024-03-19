@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 import emailIcon from "../../../public/assets/conveyancing/email.svg";
 import { FieldError, FieldValues, useForm } from "react-hook-form";
 import InputField from "./InputField";
