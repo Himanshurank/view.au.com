@@ -43,7 +43,7 @@ const Sidebar = () => {
 		));
 	};
 	return (
-		<div className="leftSideAni w-full h-dvh fixed top-0 left-0 bg-white pt-12 lgc:hidden overflow-scroll z-20">
+		<div className="leftSideAni w-full h-dvh fixed top-0 left-0 bg-white pt-12 lgc:hidden overflow-scroll -z-20">
 			<ul>
 				<li className="px-5 py-3 font-medium text-2xl text-black">Buy</li>
 				<li className="px-5 py-3 font-medium text-2xl text-black">Rent</li>

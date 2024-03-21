@@ -9,13 +9,13 @@ import { accordionFAQsList, feedBacks, pageDescription } from "@/module/mobile/c
 const conveyancingPage = () => {
 	return (
 		<>
-			<HeroSection title="Buying or selling?" sectionClassName="px-4 mt-6 flex flex-col-reverse lg:flex-row lg:justify-between mb-8" subTitle="Redeem your $220 conveyancing voucher and free contract review">
+			<HeroSection title="Buying or selling?" className="px-4 mt-6 flex flex-col-reverse lg:flex-row lg:justify-between mb-8" subTitle="Redeem your $220 conveyancing voucher and free contract review">
 				<div className="flex justify-center items-center w-14 lg:w-32">
 					<Image src={settleEasyLogo} alt="settle easy logo" />
 				</div>
 			</HeroSection>
-			<section className="relative px-4 lg:px-0">
-				<div className="lg:w-3/5 ">
+			<section className="relative">
+				<div className="lg:w-3/5">
 					<div className="w-full h-198px rounded-xl overflow-hidden lg:h-446px">
 						<iframe className="w-full h-full" src="https://www.youtube.com/embed/SklG0T_W0ao?si=9Jrb7eeGTNx2lNTa" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 					</div>
@@ -45,7 +45,7 @@ const conveyancingPage = () => {
 				</div>
 			</section>
 
-			<section className="bg-light-gray rounded-xl lg:mt-16 lg:mb-3 px-4 lg:px-0">
+			<section className="bg-light-gray rounded-xl lg:mt-16 lg:mb-3 mt-4">
 				<h6 className="mx-4 pt-6 mb-4 lg:pl-10 lg:mx-auto lg:pt-10 lg:m b-6 text-base font-bold lg:text-2xl">What Settle Easy customers are saying...</h6>
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pb-6 px-4 lg:px-10 lg:pb-10">
 					{feedBacks.map((feedBack, i) => (

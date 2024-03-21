@@ -111,7 +111,7 @@ const RedeemOfferForm = () => {
 					<textarea {...register("comment")} id="comment" placeholder="Add a message" className="border outline-none rounded-lg pt-2 p-3 focus:border-blue-600 placeholder:text-light-black"></textarea>
 				</div>
 
-				<Button buttonType="submit" classes="mt-5 mb-3 lg:mt-6 py-2 font-bold flex justify-center items-center w-full">
+				<Button buttonType="submit" className="mt-5 mb-3 lg:mt-6 py-2 font-bold flex justify-center items-center w-full">
 					<Image src={emailIcon} alt="email icon" />
 					<p className="px-2">Redeem Offer</p>
 				</Button>

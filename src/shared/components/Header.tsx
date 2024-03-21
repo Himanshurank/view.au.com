@@ -1,23 +1,25 @@
+import Image from "next/image";
 import Button from "./buttons/Button";
+import Sidebar from "./Sidebar";
+import { useState } from "react";
 
-interface Iprops {
-	sidebarToggle: () => void;
-	isShowSidebar: boolean;
-}
-
-const Header = (props: Iprops) => {
+const Header = () => {
 	const headerMenu = ["Buy", "Rent", "Sold", "Estimate"];
+	const [isShowSidebar, setIsShowSIdebar] = useState(false);
+	const sidebarToggle = () => {
+		setIsShowSIdebar(!isShowSidebar);
+	};
 	return (
 		<>
-			<div id="header" className="w-full border-b font-medium fixed top-0 bg-white flex justify-center items-center z-50">
-				<nav className="w-full flex h-12 items-center lgc:h-64px lgc:max-w-1200px">
-					<div className="hamburger lgc:hidden" onClick={props.sidebarToggle}>
-						<span className={props.isShowSidebar ? "active" : ""}></span>
-						<span className={props.isShowSidebar ? "active" : ""}></span>
-						<span className={props.isShowSidebar ? "active" : ""}></span>
+			<div id="header" className="w-full border-b font-medium fixed top-0  flex justify-center items-center z-50">
+				<nav className="w-full flex h-12 items-center  bg-white lgc:h-64px lgc:max-w-1200px ">
+					<div className="hamburger lgc:hidden" onClick={sidebarToggle}>
+						<span className={isShowSidebar ? "active" : ""}></span>
+						<span className={isShowSidebar ? "active" : ""}></span>
+						<span className={isShowSidebar ? "active" : ""}></span>
 					</div>
 					<div className="w-full flex justify-between items-center mx-4 lgc:mx-0">
-						<div className="w-20 h-6">
+						<div className="w-20 h-6 ">
 							<svg width="100%" height="100%" className="lg:w-24" viewBox="0 0 109 28" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<g id="Logo (Without .com.au)">
 									<path id="path140" d="M12.2588 18.8479C10.5977 18.8641 9.22765 17.5233 9.21145 15.8594C9.19526 14.1952 10.5361 12.8278 12.2004 12.8121C12.2125 12.8116 12.2242 12.8116 12.2359 12.8116C13.884 12.8152 15.2316 14.1484 15.2478 15.8005C15.2554 16.607 14.9491 17.3681 14.3841 17.9434C13.8196 18.5191 13.0649 18.8403 12.2588 18.8479ZM23.2187 23.7431L16.9035 18.9608C17.5327 18.0261 17.8674 16.9259 17.8566 15.7753C17.8265 12.6726 15.2667 10.1798 12.1752 10.2032C9.07291 10.2334 6.57293 12.7819 6.60262 15.8846C6.63275 18.9649 9.14488 21.4509 12.2175 21.4572C12.2395 21.4572 12.262 21.4568 12.284 21.4568C13.4153 21.446 14.4916 21.1032 15.4038 20.4775L20.151 26.8386C20.1519 26.839 20.8995 27.7297 21.8854 27.7791C22.4135 27.8043 22.956 27.5718 23.4512 27.0819L23.5074 27.0253C23.9806 26.5341 24.206 26.011 24.1745 25.473C24.1169 24.4906 23.2272 23.7507 23.2187 23.7431Z" fill="#0073CF" />
@@ -42,11 +44,12 @@ const Header = (props: Iprops) => {
 								</select>
 							</li>
 						</ul>
-						<Button buttonType={"button"} classes="text-sm py-1.5 px-2 lgc:px-4 lgc:py-2.5 lgc:text-base">
+						<Button buttonType={"button"} className="text-sm py-1.5 px-2 lgc:px-4 lgc:py-2.5 lgc:text-base">
 							Join / Sign In
 						</Button>
 					</div>
 				</nav>
+				{isShowSidebar && <Sidebar />}
 			</div>
 		</>
 	);

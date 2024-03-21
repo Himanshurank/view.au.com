@@ -1,13 +1,13 @@
 interface IProps {
 	children: string | React.ReactNode;
 	buttonType: "button" | "submit" | "reset";
-	classes?: string;
+	className?: string;
 	onclick?: () => void;
 }
 
 const Button = (props: IProps) => {
 	return (
-		<button onClick={props.onclick} type={props.buttonType} className={`bg-primary-blue text-white hover:bg-btn-hover-blue font-bold rounded-lg ${props.classes}`}>
+		<button onClick={props.onclick} type={props.buttonType} className={`bg-primary-blue text-white hover:bg-btn-hover-blue font-bold rounded-lg ${props.className}`}>
 			{props.children}
 		</button>
 	);

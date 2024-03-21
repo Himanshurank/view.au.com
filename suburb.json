@@ -1,0 +1,2327 @@
+{
+    "props": {
+        "suburbDetail": {
+            "IsBot": false,
+            "Suburb": "Richmond",
+            "PostCode": "3121",
+            "LocalityPid": 5600,
+            "State": "VIC",
+            "SuburbTrends": {
+                "Title": "RICHMOND",
+                "LocalityTrendsHouse": {
+                    "LatestMedianPrice": "1392045.645",
+                    "LatestMedianLease": "875.13",
+                    "MedianSalePrice": {
+                        "Labels": [
+                            "2023-02-28",
+                            "2023-03-31",
+                            "2023-04-30",
+                            "2023-05-31",
+                            "2023-06-30",
+                            "2023-07-31",
+                            "2023-08-31",
+                            "2023-09-30",
+                            "2023-10-31",
+                            "2023-11-30",
+                            "2023-12-31",
+                            "2024-01-31"
+                        ],
+                        "SortLabels": [
+                            "Feb 23",
+                            "Mar 23",
+                            "Apr 23",
+                            "May 23",
+                            "Jun 23",
+                            "Jul 23",
+                            "Aug 23",
+                            "Sep 23",
+                            "Oct 23",
+                            "Nov 23",
+                            "Dec 23",
+                            "Jan 24"
+                        ],
+                        "Series": [
+                            "1353528.3",
+                            "1382494.745",
+                            "1392532.73",
+                            "1442570.86",
+                            "1427276.435",
+                            "1483024.98",
+                            "1461741.17",
+                            "1447685.76",
+                            "1437090.915",
+                            "1399984.88",
+                            "1400410.23",
+                            "1392045.645"
+                        ]
+                    },
+                    "MedianRentalPrice": {
+                        "Labels": [
+                            "2023-02-28",
+                            "2023-03-31",
+                            "2023-04-30",
+                            "2023-05-31",
+                            "2023-06-30",
+                            "2023-07-31",
+                            "2023-08-31",
+                            "2023-09-30",
+                            "2023-10-31",
+                            "2023-11-30",
+                            "2023-12-31",
+                            "2024-01-31"
+                        ],
+                        "SortLabels": [
+                            "Feb 23",
+                            "Mar 23",
+                            "Apr 23",
+                            "May 23",
+                            "Jun 23",
+                            "Jul 23",
+                            "Aug 23",
+                            "Sep 23",
+                            "Oct 23",
+                            "Nov 23",
+                            "Dec 23",
+                            "Jan 24"
+                        ],
+                        "Series": [
+                            "794.705",
+                            "812.565",
+                            "827.29",
+                            "849.52",
+                            "846.51",
+                            "850.03",
+                            "856.295",
+                            "859.52",
+                            "865.46",
+                            "861.745",
+                            "863",
+                            "875.13"
+                        ]
+                    }
+                },
+                "LocalityTrendsUnit": {
+                    "LatestMedianPrice": "643343.57",
+                    "LatestMedianLease": "602.9",
+                    "MedianSalePrice": {
+                        "Labels": [
+                            "2023-02-28",
+                            "2023-03-31",
+                            "2023-04-30",
+                            "2023-05-31",
+                            "2023-06-30",
+                            "2023-07-31",
+                            "2023-08-31",
+                            "2023-09-30",
+                            "2023-10-31",
+                            "2023-11-30",
+                            "2023-12-31",
+                            "2024-01-31"
+                        ],
+                        "SortLabels": [
+                            "Feb 23",
+                            "Mar 23",
+                            "Apr 23",
+                            "May 23",
+                            "Jun 23",
+                            "Jul 23",
+                            "Aug 23",
+                            "Sep 23",
+                            "Oct 23",
+                            "Nov 23",
+                            "Dec 23",
+                            "Jan 24"
+                        ],
+                        "Series": [
+                            "618664.23",
+                            "615387.46",
+                            "613576.085",
+                            "623001.65",
+                            "615128.02",
+                            "620053.1",
+                            "646977.29",
+                            "648104.22",
+                            "648630.33",
+                            "652183.47",
+                            "651608.28",
+                            "643343.57"
+                        ]
+                    },
+                    "MedianRentalPrice": {
+                        "Labels": [
+                            "2023-02-28",
+                            "2023-03-31",
+                            "2023-04-30",
+                            "2023-05-31",
+                            "2023-06-30",
+                            "2023-07-31",
+                            "2023-08-31",
+                            "2023-09-30",
+                            "2023-10-31",
+                            "2023-11-30",
+                            "2023-12-31",
+                            "2024-01-31"
+                        ],
+                        "SortLabels": [
+                            "Feb 23",
+                            "Mar 23",
+                            "Apr 23",
+                            "May 23",
+                            "Jun 23",
+                            "Jul 23",
+                            "Aug 23",
+                            "Sep 23",
+                            "Oct 23",
+                            "Nov 23",
+                            "Dec 23",
+                            "Jan 24"
+                        ],
+                        "Series": [
+                            "549.98",
+                            "565.81",
+                            "576.57",
+                            "587.03",
+                            "595.06",
+                            "596.115",
+                            "595.43",
+                            "593.215",
+                            "595.03",
+                            "599.4",
+                            "595.395",
+                            "602.9"
+                        ]
+                    }
+                }
+            },
+            "PocketInsights": {
+                "Suburb": "RICHMOND",
+                "DisplayNoWagesText": false,
+                "AreaStatistics": {
+                    "OccupationTypeFirst": "Professional",
+                    "OccupationTypeSecond": "Managers",
+                    "OccupationTypeThird": "Clerical",
+                    "OccupationTypeFourth": "Community and Personal Service",
+                    "OccupationTypeFifth": "Sales Workers",
+                    "PercentageUnder19": "13",
+                    "Percentage19To30": "26",
+                    "Percentage31To40": "25",
+                    "Percentage41To50": "13",
+                    "PercentageAbove50": "23",
+                    "Households": {
+                        "Childless Couples": 53.2,
+                        "Couples with Children": 28.7,
+                        "Single Parents": 14.3,
+                        "Other": 3.8
+                    },
+                    "Occupancy": {
+                        "Owns Outright": 18.7,
+                        "Purchaser": 22.1,
+                        "Renting": 56.1,
+                        "Other": 0.5,
+                        "Not Stated": 2.6
+                    }
+                },
+                "Wages": {
+                    "Labels": [
+                        "$0-$16K",
+                        "$16-$31K",
+                        "$31-$52K",
+                        "$52-$78K",
+                        "$78-$130K",
+                        "$130-$182K",
+                        "$182K+"
+                    ],
+                    "SuburbValues": {
+                        "Name": "RICHMOND",
+                        "Values": [
+                            5,
+                            10,
+                            8,
+                            11,
+                            22,
+                            12,
+                            21
+                        ]
+                    }
+                },
+                "MortgageRepayments": {
+                    "Labels": [
+                        "Under $300",
+                        "$300-$999",
+                        "$1K-$1.4K",
+                        "$1.4K-$1.8K",
+                        "$1.8K-$2.4K",
+                        "$2.4K-$3K",
+                        "Over $3K"
+                    ],
+                    "SuburbValues": {
+                        "Name": "RICHMOND",
+                        "Values": [
+                            6,
+                            8,
+                            10,
+                            11,
+                            19,
+                            13,
+                            32
+                        ]
+                    }
+                },
+                "Title": "",
+                "Subtitle": ""
+            },
+            "SuburbMapImgUrl": "https://api.mapbox.com/styles/v1/revadmin/clm0dvmgc00q701pffqic4gzj/static/geojson(%7B%22type%22%3A%22FeatureCollection%22%2C%22features%22%3A%5B%7B%22type%22%3A%22Feature%22%2C%22properties%22%3A%7B%22fill%22%3A%22%23F1d4d2%22%2C%22stroke%22%3A%22%23FF0000%22%2C%22fill-opacity%22%3A0.5%2C%22stroke-width%22%3A2%7D%2C%22geometry%22%3A%7B%22type%22%3A%22MultiPolygon%22%2C%22coordinates%22%3A%5B%5B%5B%5B145.016878%2C-37.82542%5D%2C%5B145.013467%2C-37.825049%5D%2C%5B145.013064%2C-37.827248%5D%2C%5B145.012969%2C-37.827701%5D%2C%5B145.012563%2C-37.827801%5D%2C%5B145.011651%2C-37.827893%5D%2C%5B145.010709%2C-37.827886%5D%2C%5B145.00694%2C-37.827476%5D%2C%5B145.006902%2C-37.827691%5D%2C%5B145.006832%2C-37.828085%5D%2C%5B145.006739%2C-37.828648%5D%2C%5B145.0067%2C-37.82887%5D%2C%5B145.006594%2C-37.829209%5D%2C%5B145.006521%2C-37.829479%5D%2C%5B145.006164%2C-37.831483%5D%2C%5B145.006061%2C-37.831443%5D%2C%5B145.006057%2C-37.831442%5D%2C%5B145.006022%2C-37.831428%5D%2C%5B145.005793%2C-37.831348%5D%2C%5B145.005628%2C-37.831295%5D%2C%5B145.005462%2C-37.831252%5D%2C%5B145.005267%2C-37.831208%5D%2C%5B145.005121%2C-37.831179%5D%2C%5B145.004905%2C-37.831162%5D%2C%5B145.004732%2C-37.831163%5D%2C%5B145.004553%2C-37.831174%5D%2C%5B145.00441%2C-37.831203%5D%2C%5B145.004273%2C-37.831259%5D%2C%5B145.004078%2C-37.831359%5D%2C%5B145.003965%2C-37.83143%5D%2C%5B145.003855%2C-37.83154%5D%2C%5B145.003809%2C-37.831666%5D%2C%5B145.003806%2C-37.831769%5D%2C%5B145.003811%2C-37.831855%5D%2C%5B145.003826%2C-37.831941%5D%2C%5B145.003851%2C-37.832099%5D%2C%5B145.003877%2C-37.832239%5D%2C%5B145.003918%2C-37.832357%5D%2C%5B145.003975%2C-37.832489%5D%2C%5B145.00405%2C-37.832742%5D%2C%5B145.004106%2C-37.832941%5D%2C%5B145.004185%2C-37.833123%5D%2C%5B145.004237%2C-37.833295%5D%2C%5B145.004269%2C-37.833471%5D%2C%5B145.004275%2C-37.833643%5D%2C%5B145.004263%2C-37.833877%5D%2C%5B145.004192%2C-37.83415%5D%2C%5B145.00405%2C-37.834319%5D%2C%5B145.003805%2C-37.834446%5D%2C%5B145.003465%2C-37.834508%5D%2C%5B145.003302%2C-37.834509%5D%2C%5B145.003214%2C-37.83449%5D%2C%5B145.002975%2C-37.834382%5D%2C%5B145.002857%2C-37.834236%5D%2C%5B145.002703%2C-37.834094%5D%2C%5B145.002474%2C-37.833946%5D%2C%5B145.00223%2C-37.833842%5D%2C%5B145.001996%2C-37.833762%5D%2C%5B145.001733%2C-37.83369%5D%2C%5B145.001415%2C-37.83359%5D%2C%5B145.001273%2C-37.83356%5D%2C%5B145.001156%2C-37.83354%5D%2C%5B145.000964%2C-37.833514%5D%2C%5B145.000802%2C-37.833516%5D%2C%5B145.000594%2C-37.833558%5D%2C%5B145.000381%2C-37.833631%5D%2C%5B145.000208%2C-37.833704%5D%2C%5B145.000017%2C-37.833755%5D%2C%5B144.999827%2C-37.833802%5D%2C%5B144.9996%2C-37.83386%5D%2C%5B144.99937%2C-37.833885%5D%2C%5B144.999306%2C-37.833892%5D%2C%5B144.99906%2C-37.833924%5D%2C%5B144.998793%2C-37.833964%5D%2C%5B144.998523%2C-37.834014%5D%2C%5B144.998363%2C-37.834042%5D%2C%5B144.99813%2C-37.834088%5D%2C%5B144.997849%2C-37.834142%5D%2C%5B144.997405%2C-37.834229%5D%2C%5B144.99713%2C-37.834278%5D%2C%5B144.996918%2C-37.834311%5D%2C%5B144.99684%2C-37.834318%5D%2C%5B144.996728%2C-37.834325%5D%2C%5B144.996711%2C-37.834325%5D%2C%5B144.996708%2C-37.834325%5D%2C%5B144.996707%2C-37.834325%5D%2C%5B144.996597%2C-37.834315%5D%2C%5B144.996732%2C-37.832444%5D%2C%5B144.996794%2C-37.832039%5D%2C%5B144.997102%2C-37.83032%5D%2C%5B144.997288%2C-37.829277%5D%2C%5B144.997492%2C-37.828165%5D%2C%5B144.997933%2C-37.825672%5D%2C%5B144.9948%2C-37.825322%5D%2C%5B144.993687%2C-37.825197%5D%2C%5B144.991385%2C-37.824924%5D%2C%5B144.988962%2C-37.824625%5D%2C%5B144.98885%2C-37.824611%5D%2C%5B144.988865%2C-37.824524%5D%2C%5B144.988865%2C-37.824522%5D%2C%5B144.98905%2C-37.823421%5D%2C%5B144.989088%2C-37.823195%5D%2C%5B144.989088%2C-37.823194%5D%2C%5B144.989103%2C-37.823106%5D%2C%5B144.989118%2C-37.823018%5D%2C%5B144.989118%2C-37.823016%5D%2C%5B144.989729%2C-37.819372%5D%2C%5B144.990014%2C-37.817686%5D%2C%5B144.990028%2C-37.817273%5D%2C%5B144.990098%2C-37.816876%5D%2C%5B144.991321%2C-37.809933%5D%2C%5B144.991321%2C-37.809932%5D%2C%5B144.991337%2C-37.809844%5D%2C%5B144.991377%2C-37.809592%5D%2C%5B144.999015%2C-37.810389%5D%2C%5B145.002409%2C-37.810733%5D%2C%5B145.009662%2C-37.811442%5D%2C%5B145.010113%2C-37.81139%5D%2C%5B145.013012%2C-37.811704%5D%2C%5B145.014165%2C-37.811988%5D%2C%5B145.015397%2C-37.81213%5D%2C%5B145.015374%2C-37.812216%5D%2C%5B145.015374%2C-37.812217%5D%2C%5B145.015373%2C-37.812218%5D%2C%5B145.015346%2C-37.81232%5D%2C%5B145.015195%2C-37.812921%5D%2C%5B145.015102%2C-37.813302%5D%2C%5B145.015024%2C-37.813553%5D%2C%5B145.014989%2C-37.813707%5D%2C%5B145.01489%2C-37.813917%5D%2C%5B145.014814%2C-37.814078%5D%2C%5B145.014716%2C-37.814305%5D%2C%5B145.014629%2C-37.81449%5D%2C%5B145.01453%2C-37.814709%5D%2C%5B145.014441%2C-37.81496%5D%2C%5B145.014424%2C-37.815207%5D%2C%5B145.014385%2C-37.815512%5D%2C%5B145.014399%2C-37.815765%5D%2C%5B145.014392%2C-37.81605%5D%2C%5B145.014404%2C-37.816351%5D%2C%5B145.014428%2C-37.816596%5D%2C%5B145.014468%2C-37.816893%5D%2C%5B145.01449%2C-37.817073%5D%2C%5B145.014505%2C-37.8172%5D%2C%5B145.014571%2C-37.817557%5D%2C%5B145.014622%2C-37.817713%5D%2C%5B145.01469%2C-37.817935%5D%2C%5B145.014757%2C-37.818132%5D%2C%5B145.014794%2C-37.818271%5D%2C%5B145.014805%2C-37.818393%5D%2C%5B145.01483%2C-37.818548%5D%2C%5B145.014891%2C-37.8189%5D%2C%5B145.014968%2C-37.819175%5D%2C%5B145.015029%2C-37.81939%5D%2C%5B145.015059%2C-37.819537%5D%2C%5B145.015155%2C-37.819767%5D%2C%5B145.015241%2C-37.819996%5D%2C%5B145.015244%2C-37.820004%5D%2C%5B145.015286%2C-37.820157%5D%2C%5B145.015293%2C-37.820177%5D%2C%5B145.015363%2C-37.82037%5D%2C%5B145.015453%2C-37.820617%5D%2C%5B145.01548%2C-37.820702%5D%2C%5B145.015522%2C-37.820855%5D%2C%5B145.015566%2C-37.821016%5D%2C%5B145.015572%2C-37.821043%5D%2C%5B145.015659%2C-37.821294%5D%2C%5B145.015684%2C-37.821371%5D%2C%5B145.015708%2C-37.821446%5D%2C%5B145.015729%2C-37.821509%5D%2C%5B145.015737%2C-37.821548%5D%2C%5B145.015754%2C-37.821656%5D%2C%5B145.015779%2C-37.82179%5D%2C%5B145.0158%2C-37.821917%5D%2C%5B145.015815%2C-37.822051%5D%2C%5B145.01582%2C-37.822164%5D%2C%5B145.015841%2C-37.822293%5D%2C%5B145.015845%2C-37.822368%5D%2C%5B145.015859%2C-37.822467%5D%2C%5B145.015891%2C-37.822607%5D%2C%5B145.015909%2C-37.822774%5D%2C%5B145.015936%2C-37.822968%5D%2C%5B145.015943%2C-37.823081%5D%2C%5B145.015954%2C-37.823134%5D%2C%5B145.015961%2C-37.823185%5D%2C%5B145.015966%2C-37.823234%5D%2C%5B145.015972%2C-37.823277%5D%2C%5B145.015974%2C-37.823304%5D%2C%5B145.016011%2C-37.823443%5D%2C%5B145.016019%2C-37.823586%5D%2C%5B145.016032%2C-37.823785%5D%2C%5B145.01605%2C-37.823938%5D%2C%5B145.01607%2C-37.824082%5D%2C%5B145.016085%2C-37.8242%5D%2C%5B145.0161%2C-37.824337%5D%2C%5B145.016122%2C-37.824438%5D%2C%5B145.016159%2C-37.824525%5D%2C%5B145.016218%2C-37.824628%5D%2C%5B145.016268%2C-37.824703%5D%2C%5B145.016365%2C-37.824825%5D%2C%5B145.016442%2C-37.824932%5D%2C%5B145.016515%2C-37.825045%5D%2C%5B145.01661%2C-37.825162%5D%2C%5B145.016692%2C-37.825244%5D%2C%5B145.016772%2C-37.825317%5D%2C%5B145.016778%2C-37.825324%5D%2C%5B145.016807%2C-37.825351%5D%2C%5B145.016877%2C-37.825419%5D%2C%5B145.016878%2C-37.82542%5D%5D%5D%5D%7D%7D%5D%7D)/auto/440X360?access_token=pk.eyJ1IjoicmV2YWRtaW4iLCJhIjoiY2xtNjNvNXVtMGZyaTNkbW1xbGcyaG0ybCJ9.vYrDs4m-tRPD7XO1SW90Vg",
+            "Schools": [
+                {
+                    "full_name": "Lynall Hall Community School",
+                    "year_level": "7-12",
+                    "school_level": "Secondary",
+                    "type": "School - Government",
+                    "religion": "Secular",
+                    "gender": "Co-Ed",
+                    "suburb": "Richmond",
+                    "postcode": 3121,
+                    "state": "Victoria",
+                    "latitude": "-37.8161804",
+                    "longitude": "145.00196860000005",
+                    "total_enrolment": 66,
+                    "grade6_fees": null,
+                    "y12_fees": null,
+                    "is_client": 0,
+                    "catchment": null,
+                    "link": "https://www.goodschools.com.au/compare-schools/in-richmond-3121/lynall-hall-community-school"
+                },
+                {
+                    "full_name": "Melbourne Girls' College",
+                    "year_level": "7-12",
+                    "school_level": "Secondary",
+                    "type": "School - Government",
+                    "religion": "Secular",
+                    "gender": "Female",
+                    "suburb": "Richmond",
+                    "postcode": 3121,
+                    "state": "Victoria",
+                    "latitude": "-37.8241647",
+                    "longitude": "145.0151393",
+                    "total_enrolment": 1414,
+                    "grade6_fees": 0,
+                    "y12_fees": 0,
+                    "is_client": 0,
+                    "catchment": null,
+                    "link": "https://www.goodschools.com.au/compare-schools/in-richmond-3121/melbourne-girls-college"
+                },
+                {
+                    "full_name": "Richmond West Primary School",
+                    "year_level": "P-6",
+                    "school_level": "Primary",
+                    "type": "School - Government",
+                    "religion": "Secular",
+                    "gender": "Co-Ed",
+                    "suburb": "Richmond",
+                    "postcode": 3121,
+                    "state": "Victoria",
+                    "latitude": "-37.813547",
+                    "longitude": "144.99539490000006",
+                    "total_enrolment": 314,
+                    "grade6_fees": 0,
+                    "y12_fees": 0,
+                    "is_client": 0,
+                    "catchment": null,
+                    "link": "https://www.goodschools.com.au/compare-schools/in-richmond-3121/richmond-west-primary-school"
+                },
+                {
+                    "full_name": "Yarra Primary School",
+                    "year_level": "P-6",
+                    "school_level": "Primary",
+                    "type": "School - Government",
+                    "religion": "Secular",
+                    "gender": "Co-Ed",
+                    "suburb": "Richmond",
+                    "postcode": 3121,
+                    "state": "Victoria",
+                    "latitude": "-37.8145008",
+                    "longitude": "145.0077781",
+                    "total_enrolment": null,
+                    "grade6_fees": 0,
+                    "y12_fees": 0,
+                    "is_client": 0,
+                    "catchment": null,
+                    "link": "https://www.goodschools.com.au/compare-schools/in-richmond-3121/yarra-primary-school"
+                }
+            ],
+            "SchoolMapImgUrl": "https://api.mapbox.com/styles/v1/revadmin/clm0dvmgc00q701pffqic4gzj/static/geojson(%7B%22type%22%3A%22FeatureCollection%22%2C%22features%22%3A%5B%7B%22type%22%3A%22Feature%22%2C%22properties%22%3A%7B%22marker-url%22%3A%22https%3A%2F%2Fresi.uatz.view.com.au%2Fviewstatic%2Fimages%2Fstatic%2F65-min%2Flancer%2Fstatic%2Fimages%2Fpin-school.png%22%7D%2C%22geometry%22%3A%7B%22type%22%3A%22MultiPoint%22%2C%22coordinates%22%3A%5B%5B145.00196860000005%2C-37.8161804%5D%2C%5B145.0151393%2C-37.8241647%5D%2C%5B144.99539490000006%2C-37.813547%5D%2C%5B145.0077781%2C-37.8145008%5D%5D%7D%7D%5D%7D)/auto/750X169?access_token=pk.eyJ1IjoicmV2YWRtaW4iLCJhIjoiY2xtNjNvNXVtMGZyaTNkbW1xbGcyaG0ybCJ9.vYrDs4m-tRPD7XO1SW90Vg\u0026padding=10",
+            "Disclaimers": {
+                "clCopyright_au": {
+                    "category": "copyright",
+                    "key": "clCopyright_au",
+                    "content": "This publication reproduces materials and content owned or licenced by RP Data Pty Ltd trading as CoreLogic Asia Pacific (CoreLogic) and may include data, statistics, estimates, indices, photographs, maps, tools, calculators (including their outputs), commentary, reports and other information (CoreLogic Data).\u003cbr/\u003e© Copyright 2024.  CoreLogic and its licensors are the sole and exclusive owners of all rights, title and interest (including intellectual property rights) the CoreLogic Data contained in this publication.  All rights reserved."
+                },
+                "clData_anz": {
+                    "category": "disclaimer",
+                    "key": "clData_anz",
+                    "content": "The CoreLogic Data provided in this publication is of a general nature and should not be construed as specific advice or relied upon in lieu of appropriate professional advice.\u003cbr/\u003e\u003cbr\u003eWhile CoreLogic uses commercially reasonable efforts to ensure the CoreLogic Data is current, CoreLogic does not warrant the accuracy, currency or completeness of the CoreLogic Data and to the full extent permitted by law excludes all loss or damage howsoever arising (including through negligence) in connection with the CoreLogic Data."
+                },
+                "abs_au": {
+                    "category": "disclaimer",
+                    "key": "abs_au",
+                    "content": "\u003cp\u003eThis publication contains data and statistics provided by the Australian Bureau of Statistics, available at \u003ca href=http://www.abs.gov.au/\u003ehttp://www.abs.gov.au/\u003c/a\u003e and reproduced under Creative Commons Attribution 2.5 \u003ca href=http://creativecommons.org/licenses/by/2.5/au/legalcode\u003ehttp://creativecommons.org/licenses/by/2.5/au/legalcode\u003c/a\u003e.\u003c/p\u003e"
+                },
+                "state_au": {
+                    "category": "disclaimer",
+                    "key": "stateVic_au",
+                    "content": "The State of Victoria owns the copyright in the Property Sales Data and reproduction of that data in any way without the consent of the State of Victoria will constitute a breach of the Copyright Act 1968 (Cth). The State of Victoria does not warrant the accuracy or completeness of the Property Sales Data and any person using or relying upon such information does so on the basis that the State of Victoria accepts no responsibility or liability whatsoever for any errors, faults, defects or omissions in the information supplied."
+                }
+            },
+            "suburbId": 2895,
+            "profile": {
+                "suburbId": 2895,
+                "images": [
+                    {
+                        "sequence": 1,
+                        "fileName": "suburbs/0002895-s1-99067C9.jpg"
+                    },
+                    {
+                        "sequence": 2,
+                        "fileName": "suburbs/0002895-s2-BA33BAD.jpg"
+                    },
+                    {
+                        "sequence": 3,
+                        "fileName": "suburbs/0002895-s3-B70D872.jpg"
+                    }
+                ],
+                "metaTitle": "Richmond, VIC 3121 - Suburb Profile | view.com.au",
+                "description": "An inner-city community like no other, Richmond is known for its proximity to the city, its multicultural heritage, its plethora of pubs and its claim to fame as the “sporting capital of Australia”. \r\nFlanked by Victoria Street, the heart of the Vietnamese community and affectionately known as “Little Saigon”, and Swan Street, the entry to a multitude of sporting and event venues, the suburb is also renown for Church Street, home to fashionable furniture and design stores. \r\nLife in Richmond is busy, energetic and fun. Begin your day with a cycle along the Yarra River, followed by breakfast at Top Paddock before taking that short commute to work. After work, stop by one of the many pubs in Richmond, catch a gig at the Corner and be home in time for a good night’s sleep. \r\nA traditionally working-class area, Richmond has developed as a rich mix of lifestyles and cultures. If you like to be in the centre of the action, Richmond could be the view for you.\r\n",
+                "headline": "An inner-city oasis, Richmond is loved by young and old for its heritage, location and community feel",
+                "metaDescription": "Richmond has thriving main streets Bridge Road and Swan Street. Browse through our property data, median prices and demographics of Richmond."
+            },
+            "streets": [
+                {
+                    "streetSlug": "abinger-place",
+                    "streetName": "Abinger Place",
+                    "numberOfProperties": 23,
+                    "_id": "KfIXQIoBCa6p0_zIPrHB"
+                },
+                {
+                    "streetSlug": "abinger-street",
+                    "streetName": "Abinger Street",
+                    "numberOfProperties": 265,
+                    "_id": "ZfIXQIoBCa6p0_zIR7E9"
+                },
+                {
+                    "streetSlug": "alban-street",
+                    "streetName": "Alban Street",
+                    "numberOfProperties": 2,
+                    "_id": "b_IXQIoBCa6p0_zIYbIZ"
+                },
+                {
+                    "streetSlug": "albert-place",
+                    "streetName": "Albert Place",
+                    "numberOfProperties": 18,
+                    "_id": "d_IXQIoBCa6p0_zIYbJz"
+                },
+                {
+                    "streetSlug": "albert-street",
+                    "streetName": "Albert Street",
+                    "numberOfProperties": 18,
+                    "_id": "OPIXQIoBCa6p0_zIXbKF"
+                },
+                {
+                    "streetSlug": "alfred-street",
+                    "streetName": "Alfred Street",
+                    "numberOfProperties": 22,
+                    "_id": "yfIXQIoBCa6p0_zIVbGE"
+                },
+                {
+                    "streetSlug": "allans-place",
+                    "streetName": "Allans Place",
+                    "numberOfProperties": 6,
+                    "_id": "H_IXQIoBCa6p0_zIXLII"
+                },
+                {
+                    "streetSlug": "allowah-terrace",
+                    "streetName": "Allowah Terrace",
+                    "numberOfProperties": 10,
+                    "_id": "PPIXQIoBCa6p0_zIXbKh"
+                },
+                {
+                    "streetSlug": "amsterdam-street",
+                    "streetName": "Amsterdam Street",
+                    "numberOfProperties": 45,
+                    "_id": "JvIXQIoBCa6p0_zIXLJm"
+                },
+                {
+                    "streetSlug": "anderson-court",
+                    "streetName": "Anderson Court",
+                    "numberOfProperties": 14,
+                    "_id": "UvIXQIoBCa6p0_zIRLFK"
+                },
+                {
+                    "streetSlug": "appleton-street",
+                    "streetName": "Appleton Street",
+                    "numberOfProperties": 138,
+                    "_id": "G_IXQIoBCa6p0_zIW7Ke"
+                },
+                {
+                    "streetSlug": "baker-street",
+                    "streetName": "Baker Street",
+                    "numberOfProperties": 167,
+                    "_id": "PvIXQIoBCa6p0_zIQbFp"
+                },
+                {
+                    "streetSlug": "bank-street",
+                    "streetName": "Bank Street",
+                    "numberOfProperties": 50,
+                    "_id": "CvIXQIoBCa6p0_zIWbLn"
+                },
+                {
+                    "streetSlug": "barkly-avenue",
+                    "streetName": "Barkly Avenue",
+                    "numberOfProperties": 10,
+                    "_id": "TfIXQIoBCa6p0_zIX7IO"
+                },
+                {
+                    "streetSlug": "barnet-way",
+                    "streetName": "Barnet Way",
+                    "numberOfProperties": 55,
+                    "_id": "o_IXQIoBCa6p0_zIZbJu"
+                },
+                {
+                    "streetSlug": "beissel-street",
+                    "streetName": "Beissel Street",
+                    "numberOfProperties": 3,
+                    "_id": "LfIXQIoBCa6p0_zIXLL5"
+                },
+                {
+                    "streetSlug": "belgium-avenue",
+                    "streetName": "Belgium Avenue",
+                    "numberOfProperties": 16,
+                    "_id": "BvIXQIoBCa6p0_zIWbIc"
+                },
+                {
+                    "streetSlug": "belgravia-street",
+                    "streetName": "Belgravia Street",
+                    "numberOfProperties": 24,
+                    "_id": "ePIXQIoBCa6p0_zIYbJ6"
+                },
+                {
+                    "streetSlug": "bell-street",
+                    "streetName": "Bell Street",
+                    "numberOfProperties": 49,
+                    "_id": "5vIXQIoBCa6p0_zIVrH4"
+                },
+                {
+                    "streetSlug": "bellevue-street",
+                    "streetName": "Bellevue Street",
+                    "numberOfProperties": 37,
+                    "_id": "efIXQIoBCa6p0_zIYbKC"
+                },
+                {
+                    "streetSlug": "bendigo-street",
+                    "streetName": "Bendigo Street",
+                    "numberOfProperties": 206,
+                    "_id": "evIXQIoBCa6p0_zIYbKf"
+                },
+                {
+                    "streetSlug": "bennett-street",
+                    "streetName": "Bennett Street",
+                    "numberOfProperties": 73,
+                    "_id": "CPIXQIoBCa6p0_zIWbKa"
+                },
+                {
+                    "streetSlug": "benson-street",
+                    "streetName": "Benson Street",
+                    "numberOfProperties": 7,
+                    "_id": "ZPIXQIoBCa6p0_zIYLKg"
+                },
+                {
+                    "streetSlug": "berry-street",
+                    "streetName": "Berry Street",
+                    "numberOfProperties": 27,
+                    "_id": "UvIXQIoBCa6p0_zIX7JZ"
+                },
+                {
+                    "streetSlug": "birch-square",
+                    "streetName": "Birch Square",
+                    "numberOfProperties": 9,
+                    "_id": "YvIXQIoBCa6p0_zIYLKa"
+                },
+                {
+                    "streetSlug": "blazey-street",
+                    "streetName": "Blazey Street",
+                    "numberOfProperties": 28,
+                    "_id": "OfIXQIoBCa6p0_zIXbKR"
+                },
+                {
+                    "streetSlug": "bliss-street",
+                    "streetName": "Bliss Street",
+                    "numberOfProperties": 11,
+                    "_id": "e_IXQIoBCa6p0_zIYbLA"
+                },
+                {
+                    "streetSlug": "boland-street",
+                    "streetName": "Boland Street",
+                    "numberOfProperties": 24,
+                    "_id": "ffIXQIoBCa6p0_zIYbLM"
+                },
+                {
+                    "streetSlug": "bolger-place",
+                    "streetName": "Bolger Place",
+                    "numberOfProperties": 2,
+                    "_id": "pPIXQIoBCa6p0_zIUrEM"
+                },
+                {
+                    "streetSlug": "bosisto-street",
+                    "streetName": "Bosisto Street",
+                    "numberOfProperties": 228,
+                    "_id": "XvIXQIoBCa6p0_zIRbG9"
+                },
+                {
+                    "streetSlug": "botherambo-street",
+                    "streetName": "Botherambo Street",
+                    "numberOfProperties": 13,
+                    "_id": "tfIXQIoBCa6p0_zIU7HR"
+                },
+                {
+                    "streetSlug": "bowen-street",
+                    "streetName": "Bowen Street",
+                    "numberOfProperties": 26,
+                    "_id": "XPIXQIoBCa6p0_zIYLIY"
+                },
+                {
+                    "streetSlug": "boyd-street",
+                    "streetName": "Boyd Street",
+                    "numberOfProperties": 24,
+                    "_id": "MPIXQIoBCa6p0_zIXbI-"
+                },
+                {
+                    "streetSlug": "brady-street",
+                    "streetName": "Brady Street",
+                    "numberOfProperties": 5,
+                    "_id": "avIXQIoBCa6p0_zIYLL9"
+                },
+                {
+                    "streetSlug": "bridge-road",
+                    "streetName": "Bridge Road",
+                    "numberOfProperties": 1342,
+                    "_id": "Y_IXQIoBCa6p0_zIR7Ek"
+                },
+                {
+                    "streetSlug": "brighton-street",
+                    "streetName": "Brighton Street",
+                    "numberOfProperties": 199,
+                    "_id": "9vIXQIoBCa6p0_zIWLE1"
+                },
+                {
+                    "streetSlug": "brock-place",
+                    "streetName": "Brock Place",
+                    "numberOfProperties": 1,
+                    "_id": "O_IXQIoBCa6p0_zIXbKh"
+                },
+                {
+                    "streetSlug": "bromham-place",
+                    "streetName": "Bromham Place",
+                    "numberOfProperties": 137,
+                    "_id": "H_IXQIoBCa6p0_zIPLHa"
+                },
+                {
+                    "streetSlug": "brooks-street",
+                    "streetName": "Brooks Street",
+                    "numberOfProperties": 14,
+                    "_id": "fPIXQIoBCa6p0_zIYbLL"
+                },
+                {
+                    "streetSlug": "brougham-street",
+                    "streetName": "Brougham Street",
+                    "numberOfProperties": 89,
+                    "_id": "tPIXQIoBCa6p0_zIU7Ga"
+                },
+                {
+                    "streetSlug": "buckhurst-lane",
+                    "streetName": "Buckhurst Lane",
+                    "numberOfProperties": 1,
+                    "_id": "dPIXQIoBCa6p0_zIYbJU"
+                },
+                {
+                    "streetSlug": "buckingham-street",
+                    "streetName": "Buckingham Street",
+                    "numberOfProperties": 332,
+                    "_id": "J_IXQIoBCa6p0_zIPbHn"
+                },
+                {
+                    "streetSlug": "bunting-street",
+                    "streetName": "Bunting Street",
+                    "numberOfProperties": 76,
+                    "_id": "fvIXQIoBCa6p0_zIYbLb"
+                },
+                {
+                    "streetSlug": "burgess-street",
+                    "streetName": "Burgess Street",
+                    "numberOfProperties": 11,
+                    "_id": "VfIXQIoBCa6p0_zIX7J4"
+                },
+                {
+                    "streetSlug": "burnley-street",
+                    "streetName": "Burnley Street",
+                    "numberOfProperties": 1476,
+                    "_id": "cPIXQIoBCa6p0_zISLEc"
+                },
+                {
+                    "streetSlug": "butler-street",
+                    "streetName": "Butler Street",
+                    "numberOfProperties": 52,
+                    "_id": "7PIXQIoBCa6p0_zIV7E5"
+                },
+                {
+                    "streetSlug": "cameron-street",
+                    "streetName": "Cameron Street",
+                    "numberOfProperties": 139,
+                    "_id": "GPIXQIoBCa6p0_zIOrHH"
+                },
+                {
+                    "streetSlug": "campbell-street",
+                    "streetName": "Campbell Street",
+                    "numberOfProperties": 21,
+                    "_id": "f_IXQIoBCa6p0_zIYbLh"
+                },
+                {
+                    "streetSlug": "canterbury-street",
+                    "streetName": "Canterbury Street",
+                    "numberOfProperties": 116,
+                    "_id": "PfIXQIoBCa6p0_zIQbFB"
+                },
+                {
+                    "streetSlug": "carroll-street",
+                    "streetName": "Carroll Street",
+                    "numberOfProperties": 44,
+                    "_id": "o_IXQIoBCa6p0_zIUbGH"
+                },
+                {
+                    "streetSlug": "charles-street",
+                    "streetName": "Charles Street",
+                    "numberOfProperties": 54,
+                    "_id": "VPIXQIoBCa6p0_zIX7Jo"
+                },
+                {
+                    "streetSlug": "charlotte-street",
+                    "streetName": "Charlotte Street",
+                    "numberOfProperties": 53,
+                    "_id": "vPIXQIoBCa6p0_zIVLE_"
+                },
+                {
+                    "streetSlug": "christine-crescent",
+                    "streetName": "Christine Crescent",
+                    "numberOfProperties": 45,
+                    "_id": "RPIXQIoBCa6p0_zIXrJW"
+                },
+                {
+                    "streetSlug": "church-street",
+                    "streetName": "Church Street",
+                    "numberOfProperties": 1255,
+                    "_id": "OfIXQIoBCa6p0_zIQbEp"
+                },
+                {
+                    "streetSlug": "clark-street",
+                    "streetName": "Clark Street",
+                    "numberOfProperties": 48,
+                    "_id": "gfIXQIoBCa6p0_zISbGe"
+                },
+                {
+                    "streetSlug": "clifton-street",
+                    "streetName": "Clifton Street",
+                    "numberOfProperties": 107,
+                    "_id": "x_IXQIoBCa6p0_zIVbFk"
+                },
+                {
+                    "streetSlug": "cole-street",
+                    "streetName": "Cole Street",
+                    "numberOfProperties": 9,
+                    "_id": "U_IXQIoBCa6p0_zIX7Je"
+                },
+                {
+                    "streetSlug": "coles-terrace",
+                    "streetName": "Coles Terrace",
+                    "numberOfProperties": 3,
+                    "_id": "bvIXQIoBCa6p0_zIYbIZ"
+                },
+                {
+                    "streetSlug": "cooke-court",
+                    "streetName": "Cooke Court",
+                    "numberOfProperties": 130,
+                    "_id": "UfIXQIoBCa6p0_zIRLEW"
+                },
+                {
+                    "streetSlug": "coppin-street",
+                    "streetName": "Coppin Street",
+                    "numberOfProperties": 520,
+                    "_id": "iPIXQIoBCa6p0_zITLGq"
+                },
+                {
+                    "streetSlug": "corsair-street",
+                    "streetName": "Corsair Street",
+                    "numberOfProperties": 44,
+                    "_id": "ZvIXQIoBCa6p0_zIR7E-"
+                },
+                {
+                    "streetSlug": "cotter-street",
+                    "streetName": "Cotter Street",
+                    "numberOfProperties": 36,
+                    "_id": "SvIXQIoBCa6p0_zIXrK8"
+                },
+                {
+                    "streetSlug": "crown-street",
+                    "streetName": "Crown Street",
+                    "numberOfProperties": 88,
+                    "_id": "DfIXQIoBCa6p0_zIWrJm"
+                },
+                {
+                    "streetSlug": "cutter-street",
+                    "streetName": "Cutter Street",
+                    "numberOfProperties": 138,
+                    "_id": "gPIXQIoBCa6p0_zIYbL0"
+                },
+                {
+                    "streetSlug": "dando-street",
+                    "streetName": "Dando Street",
+                    "numberOfProperties": 14,
+                    "_id": "NvIXQIoBCa6p0_zIXbJg"
+                },
+                {
+                    "streetSlug": "darlington-parade",
+                    "streetName": "Darlington Parade",
+                    "numberOfProperties": 15,
+                    "_id": "GvIXQIoBCa6p0_zIW7KQ"
+                },
+                {
+                    "streetSlug": "david-street",
+                    "streetName": "David Street",
+                    "numberOfProperties": 336,
+                    "_id": "SPIXQIoBCa6p0_zIXrJ5"
+                },
+                {
+                    "streetSlug": "davis-street",
+                    "streetName": "Davis Street",
+                    "numberOfProperties": 25,
+                    "_id": "E_IXQIoBCa6p0_zIWrLl"
+                },
+                {
+                    "streetSlug": "davison-street",
+                    "streetName": "Davison Street",
+                    "numberOfProperties": 270,
+                    "_id": "TvIXQIoBCa6p0_zIQ7HI"
+                },
+                {
+                    "streetSlug": "derby-street",
+                    "streetName": "Derby Street",
+                    "numberOfProperties": 24,
+                    "_id": "vvIXQIoBCa6p0_zIVLFw"
+                },
+                {
+                    "streetSlug": "dickens-street",
+                    "streetName": "Dickens Street",
+                    "numberOfProperties": 54,
+                    "_id": "gfIXQIoBCa6p0_zIYrIX"
+                },
+                {
+                    "streetSlug": "dickmann-street",
+                    "streetName": "Dickmann Street",
+                    "numberOfProperties": 47,
+                    "_id": "4fIXQIoBCa6p0_zIVrG5"
+                },
+                {
+                    "streetSlug": "docker-street",
+                    "streetName": "Docker Street",
+                    "numberOfProperties": 146,
+                    "_id": "ofIXQIoBCa6p0_zIULHq"
+                },
+                {
+                    "streetSlug": "doonside-street",
+                    "streetName": "Doonside Street",
+                    "numberOfProperties": 4,
+                    "_id": "TPIXQIoBCa6p0_zIXrLI"
+                },
+                {
+                    "streetSlug": "dove-place",
+                    "streetName": "Dove Place",
+                    "numberOfProperties": 9,
+                    "_id": "nfIXQIoBCa6p0_zIZLLJ"
+                },
+                {
+                    "streetSlug": "duke-street",
+                    "streetName": "Duke Street",
+                    "numberOfProperties": 105,
+                    "_id": "ifIXQIoBCa6p0_zITLHR"
+                },
+                {
+                    "streetSlug": "durham-street",
+                    "streetName": "Durham Street",
+                    "numberOfProperties": 36,
+                    "_id": "WvIXQIoBCa6p0_zIX7L1"
+                },
+                {
+                    "streetSlug": "dyer-street",
+                    "streetName": "Dyer Street",
+                    "numberOfProperties": 188,
+                    "_id": "p_IXQIoBCa6p0_zIZbKh"
+                },
+                {
+                    "streetSlug": "edinburgh-street",
+                    "streetName": "Edinburgh Street",
+                    "numberOfProperties": 140,
+                    "_id": "a_IXQIoBCa6p0_zIR7GV"
+                },
+                {
+                    "streetSlug": "egan-place",
+                    "streetName": "Egan Place",
+                    "numberOfProperties": 4,
+                    "_id": "I_IXQIoBCa6p0_zIXLJf"
+                },
+                {
+                    "streetSlug": "egan-street",
+                    "streetName": "Egan Street",
+                    "numberOfProperties": 199,
+                    "_id": "SfIXQIoBCa6p0_zIQ7EI"
+                },
+                {
+                    "streetSlug": "elaine-court",
+                    "streetName": "Elaine Court",
+                    "numberOfProperties": 22,
+                    "_id": "QvIXQIoBCa6p0_zIXrIh"
+                },
+                {
+                    "streetSlug": "elizabeth-street",
+                    "streetName": "Elizabeth Street",
+                    "numberOfProperties": 1100,
+                    "_id": "9PIXQIoBCa6p0_zIOLBj"
+                },
+                {
+                    "streetSlug": "ellis-street",
+                    "streetName": "Ellis Street",
+                    "numberOfProperties": 26,
+                    "_id": "2_IXQIoBCa6p0_zIVrEx"
+                },
+                {
+                    "streetSlug": "elm-grove",
+                    "streetName": "Elm Grove",
+                    "numberOfProperties": 63,
+                    "_id": "4vIXQIoBCa6p0_zIVrG6"
+                },
+                {
+                    "streetSlug": "erin-street",
+                    "streetName": "Erin Street",
+                    "numberOfProperties": 382,
+                    "_id": "GvIXQIoBCa6p0_zIO7HM"
+                },
+                {
+                    "streetSlug": "eucalyptus-street",
+                    "streetName": "Eucalyptus Street",
+                    "numberOfProperties": 5,
+                    "_id": "WfIXQIoBCa6p0_zIX7Lw"
+                },
+                {
+                    "streetSlug": "eureka-street",
+                    "streetName": "Eureka Street",
+                    "numberOfProperties": 14,
+                    "_id": "Z_IXQIoBCa6p0_zIYLLd"
+                },
+                {
+                    "streetSlug": "farmer-street",
+                    "streetName": "Farmer Street",
+                    "numberOfProperties": 57,
+                    "_id": "gvIXQIoBCa6p0_zIYrIq"
+                },
+                {
+                    "streetSlug": "fear-street",
+                    "streetName": "Fear Street",
+                    "numberOfProperties": 5,
+                    "_id": "bfIXQIoBCa6p0_zIYbIL"
+                },
+                {
+                    "streetSlug": "firebell-lane",
+                    "streetName": "Firebell Lane",
+                    "numberOfProperties": 12,
+                    "_id": "-vIXQIoBCa6p0_zIWLGA"
+                },
+                {
+                    "streetSlug": "fordham-court",
+                    "streetName": "Fordham Court",
+                    "numberOfProperties": 15,
+                    "_id": "GfIXQIoBCa6p0_zIW7J3"
+                },
+                {
+                    "streetSlug": "francis-street",
+                    "streetName": "Francis Street",
+                    "numberOfProperties": 18,
+                    "_id": "JPIXQIoBCa6p0_zIXLJi"
+                },
+                {
+                    "streetSlug": "fraser-street",
+                    "streetName": "Fraser Street",
+                    "numberOfProperties": 106,
+                    "_id": "rfIXQIoBCa6p0_zIUrHg"
+                },
+                {
+                    "streetSlug": "freeman-street",
+                    "streetName": "Freeman Street",
+                    "numberOfProperties": 8,
+                    "_id": "bPIXQIoBCa6p0_zIYLL_"
+                },
+                {
+                    "streetSlug": "gardner-street",
+                    "streetName": "Gardner Street",
+                    "numberOfProperties": 153,
+                    "_id": "DPIXQIoBCa6p0_zIOrEu"
+                },
+                {
+                    "streetSlug": "garfield-street",
+                    "streetName": "Garfield Street",
+                    "numberOfProperties": 261,
+                    "_id": "EfIXQIoBCa6p0_zIOrFU"
+                },
+                {
+                    "streetSlug": "george-street",
+                    "streetName": "George Street",
+                    "numberOfProperties": 18,
+                    "_id": "V_IXQIoBCa6p0_zIX7K3"
+                },
+                {
+                    "streetSlug": "gipps-street",
+                    "streetName": "Gipps Street",
+                    "numberOfProperties": 48,
+                    "_id": "-_IXQIoBCa6p0_zIWLGG"
+                },
+                {
+                    "streetSlug": "glass-street",
+                    "streetName": "Glass Street",
+                    "numberOfProperties": 100,
+                    "_id": "_vIXQIoBCa6p0_zIWLG-"
+                },
+                {
+                    "streetSlug": "glasshouse-street",
+                    "streetName": "Glasshouse Street",
+                    "numberOfProperties": 26,
+                    "_id": "l_IXQIoBCa6p0_zIZLJz"
+                },
+                {
+                    "streetSlug": "gleadell-street",
+                    "streetName": "Gleadell Street",
+                    "numberOfProperties": 16,
+                    "_id": "J_IXQIoBCa6p0_zIXLJ7"
+                },
+                {
+                    "streetSlug": "goodwin-street",
+                    "streetName": "Goodwin Street",
+                    "numberOfProperties": 6,
+                    "_id": "UfIXQIoBCa6p0_zIX7JW"
+                },
+                {
+                    "streetSlug": "goodwood-street",
+                    "streetName": "Goodwood Street",
+                    "numberOfProperties": 112,
+                    "_id": "YfIXQIoBCa6p0_zIRrHi"
+                },
+                {
+                    "streetSlug": "grattan-place",
+                    "streetName": "Grattan Place",
+                    "numberOfProperties": 25,
+                    "_id": "xvIXQIoBCa6p0_zIVbE4"
+                },
+                {
+                    "streetSlug": "griffiths-street",
+                    "streetName": "Griffiths Street",
+                    "numberOfProperties": 91,
+                    "_id": "hfIXQIoBCa6p0_zITLFY"
+                },
+                {
+                    "streetSlug": "harding-lane",
+                    "streetName": "Harding Lane",
+                    "numberOfProperties": 3,
+                    "_id": "6_IXQIoBCa6p0_zIV7E3"
+                },
+                {
+                    "streetSlug": "harvey-street",
+                    "streetName": "Harvey Street",
+                    "numberOfProperties": 12,
+                    "_id": "TvIXQIoBCa6p0_zIX7IP"
+                },
+                {
+                    "streetSlug": "highett-street",
+                    "streetName": "Highett Street",
+                    "numberOfProperties": 509,
+                    "_id": "IPIXQIoBCa6p0_zIPLHr"
+                },
+                {
+                    "streetSlug": "hoddle-street",
+                    "streetName": "Hoddle Street",
+                    "numberOfProperties": 142,
+                    "_id": "QfIXQIoBCa6p0_zIQrFC"
+                },
+                {
+                    "streetSlug": "hodgson-terrace",
+                    "streetName": "Hodgson Terrace",
+                    "numberOfProperties": 30,
+                    "_id": "HvIXQIoBCa6p0_zIW7L-"
+                },
+                {
+                    "streetSlug": "hofert-lane",
+                    "streetName": "Hofert Lane",
+                    "numberOfProperties": 5,
+                    "_id": "mPIXQIoBCa6p0_zIZLJ1"
+                },
+                {
+                    "streetSlug": "hollick-street",
+                    "streetName": "Hollick Street",
+                    "numberOfProperties": 9,
+                    "_id": "VvIXQIoBCa6p0_zIX7KY"
+                },
+                {
+                    "streetSlug": "hosie-street",
+                    "streetName": "Hosie Street",
+                    "numberOfProperties": 27,
+                    "_id": "WPIXQIoBCa6p0_zIX7Lm"
+                },
+                {
+                    "streetSlug": "howard-street",
+                    "streetName": "Howard Street",
+                    "numberOfProperties": 218,
+                    "_id": "C_IXQIoBCa6p0_zIWrIE"
+                },
+                {
+                    "streetSlug": "hull-street",
+                    "streetName": "Hull Street",
+                    "numberOfProperties": 105,
+                    "_id": "UPIXQIoBCa6p0_zIRLEO"
+                },
+                {
+                    "streetSlug": "hunter-street",
+                    "streetName": "Hunter Street",
+                    "numberOfProperties": 127,
+                    "_id": "c_IXQIoBCa6p0_zISLHm"
+                },
+                {
+                    "streetSlug": "jackson-street",
+                    "streetName": "Jackson Street",
+                    "numberOfProperties": 12,
+                    "_id": "g_IXQIoBCa6p0_zIYrKR"
+                },
+                {
+                    "streetSlug": "jago-street",
+                    "streetName": "Jago Street",
+                    "numberOfProperties": 24,
+                    "_id": "hPIXQIoBCa6p0_zIYrKj"
+                },
+                {
+                    "streetSlug": "james-street",
+                    "streetName": "James Street",
+                    "numberOfProperties": 23,
+                    "_id": "LPIXQIoBCa6p0_zIXLLt"
+                },
+                {
+                    "streetSlug": "jika-place",
+                    "streetName": "Jika Place",
+                    "numberOfProperties": 12,
+                    "_id": "XPIXQIoBCa6p0_zIRbGE"
+                },
+                {
+                    "streetSlug": "johnson-street",
+                    "streetName": "Johnson Street",
+                    "numberOfProperties": 53,
+                    "_id": "KPIXQIoBCa6p0_zIPrFw"
+                },
+                {
+                    "streetSlug": "jubilee-place",
+                    "streetName": "Jubilee Place",
+                    "numberOfProperties": 11,
+                    "_id": "cvIXQIoBCa6p0_zIYbI9"
+                },
+                {
+                    "streetSlug": "judd-street",
+                    "streetName": "Judd Street",
+                    "numberOfProperties": 214,
+                    "_id": "n_IXQIoBCa6p0_zIZbJA"
+                },
+                {
+                    "streetSlug": "kennedy-avenue",
+                    "streetName": "Kennedy Avenue",
+                    "numberOfProperties": 84,
+                    "_id": "pPIXQIoBCa6p0_zIZbKO"
+                },
+                {
+                    "streetSlug": "kennedy-street",
+                    "streetName": "Kennedy Street",
+                    "numberOfProperties": 10,
+                    "_id": "YfIXQIoBCa6p0_zIYLKX"
+                },
+                {
+                    "streetSlug": "kenny-street",
+                    "streetName": "Kenny Street",
+                    "numberOfProperties": 9,
+                    "_id": "IPIXQIoBCa6p0_zIXLIm"
+                },
+                {
+                    "streetSlug": "kent-street",
+                    "streetName": "Kent Street",
+                    "numberOfProperties": 226,
+                    "_id": "fPIXQIoBCa6p0_zISbEm"
+                },
+                {
+                    "streetSlug": "khartoum-street",
+                    "streetName": "Khartoum Street",
+                    "numberOfProperties": 20,
+                    "_id": "mfIXQIoBCa6p0_zIZLJ1"
+                },
+                {
+                    "streetSlug": "kimber-street",
+                    "streetName": "Kimber Street",
+                    "numberOfProperties": 16,
+                    "_id": "hfIXQIoBCa6p0_zIYrK6"
+                },
+                {
+                    "streetSlug": "king-street",
+                    "streetName": "King Street",
+                    "numberOfProperties": 13,
+                    "_id": "KvIXQIoBCa6p0_zIXLLZ"
+                },
+                {
+                    "streetSlug": "kingston-place",
+                    "streetName": "Kingston Place",
+                    "numberOfProperties": 17,
+                    "_id": "VfIXQIoBCa6p0_zIRLGd"
+                },
+                {
+                    "streetSlug": "kingston-street",
+                    "streetName": "Kingston Street",
+                    "numberOfProperties": 11,
+                    "_id": "RvIXQIoBCa6p0_zIXrJo"
+                },
+                {
+                    "streetSlug": "koorang-lane",
+                    "streetName": "Koorang Lane",
+                    "numberOfProperties": 6,
+                    "_id": "ovIXQIoBCa6p0_zIZbJT"
+                },
+                {
+                    "streetSlug": "laity-street",
+                    "streetName": "Laity Street",
+                    "numberOfProperties": 84,
+                    "_id": "I_IXQIoBCa6p0_zIPbFZ"
+                },
+                {
+                    "streetSlug": "lambert-street",
+                    "streetName": "Lambert Street",
+                    "numberOfProperties": 102,
+                    "_id": "C_IXQIoBCa6p0_zIOrEU"
+                },
+                {
+                    "streetSlug": "leeds-street",
+                    "streetName": "Leeds Street",
+                    "numberOfProperties": 11,
+                    "_id": "U_IXQIoBCa6p0_zIRLFR"
+                },
+                {
+                    "streetSlug": "leggo-place",
+                    "streetName": "Leggo Place",
+                    "numberOfProperties": 6,
+                    "_id": "oPIXQIoBCa6p0_zIZbJG"
+                },
+                {
+                    "streetSlug": "lennox-street",
+                    "streetName": "Lennox Street",
+                    "numberOfProperties": 770,
+                    "_id": "FPIXQIoBCa6p0_zIOrFv"
+                },
+                {
+                    "streetSlug": "leslie-street",
+                    "streetName": "Leslie Street",
+                    "numberOfProperties": 99,
+                    "_id": "P_IXQIoBCa6p0_zIQbF0"
+                },
+                {
+                    "streetSlug": "lesney-street",
+                    "streetName": "Lesney Street",
+                    "numberOfProperties": 16,
+                    "_id": "LvIXQIoBCa6p0_zIXbIS"
+                },
+                {
+                    "streetSlug": "lewis-court",
+                    "streetName": "Lewis Court",
+                    "numberOfProperties": 16,
+                    "_id": "1_IXQIoBCa6p0_zIVrEF"
+                },
+                {
+                    "streetSlug": "lightfoot-street",
+                    "streetName": "Lightfoot Street",
+                    "numberOfProperties": 12,
+                    "_id": "hvIXQIoBCa6p0_zIYrK9"
+                },
+                {
+                    "streetSlug": "lincoln-street",
+                    "streetName": "Lincoln Street",
+                    "numberOfProperties": 86,
+                    "_id": "QPIXQIoBCa6p0_zIXbLw"
+                },
+                {
+                    "streetSlug": "little-alfred-street",
+                    "streetName": "Little Alfred Street",
+                    "numberOfProperties": 2,
+                    "_id": "t_IXQIoBCa6p0_zIVLE4"
+                },
+                {
+                    "streetSlug": "little-buckingham-street",
+                    "streetName": "Little Buckingham Street",
+                    "numberOfProperties": 36,
+                    "_id": "9fIXQIoBCa6p0_zIV7H-"
+                },
+                {
+                    "streetSlug": "little-butler-street",
+                    "streetName": "Little Butler Street",
+                    "numberOfProperties": 4,
+                    "_id": "c_IXQIoBCa6p0_zIYbJT"
+                },
+                {
+                    "streetSlug": "little-hoddle-street",
+                    "streetName": "Little Hoddle Street",
+                    "numberOfProperties": 17,
+                    "_id": "DPIXQIoBCa6p0_zIWrIm"
+                },
+                {
+                    "streetSlug": "little-kent-street",
+                    "streetName": "Little Kent Street",
+                    "numberOfProperties": 34,
+                    "_id": "QPIXQIoBCa6p0_zIQbHk"
+                },
+                {
+                    "streetSlug": "little-lesney-street",
+                    "streetName": "Little Lesney Street",
+                    "numberOfProperties": 7,
+                    "_id": "IvIXQIoBCa6p0_zIXLJS"
+                },
+                {
+                    "streetSlug": "longfield-street",
+                    "streetName": "Longfield Street",
+                    "numberOfProperties": 12,
+                    "_id": "h_IXQIoBCa6p0_zIYrLV"
+                },
+                {
+                    "streetSlug": "lord-place",
+                    "streetName": "Lord Place",
+                    "numberOfProperties": 3,
+                    "_id": "S_IXQIoBCa6p0_zIXrLF"
+                },
+                {
+                    "streetSlug": "lord-street",
+                    "streetName": "Lord Street",
+                    "numberOfProperties": 366,
+                    "_id": "1vIXQIoBCa6p0_zIVrEA"
+                },
+                {
+                    "streetSlug": "loughnan-street",
+                    "streetName": "Loughnan Street",
+                    "numberOfProperties": 11,
+                    "_id": "BfIXQIoBCa6p0_zIWLLy"
+                },
+                {
+                    "streetSlug": "lyndhurst-street",
+                    "streetName": "Lyndhurst Street",
+                    "numberOfProperties": 201,
+                    "_id": "MvIXQIoBCa6p0_zIQLG3"
+                },
+                {
+                    "streetSlug": "madden-grove",
+                    "streetName": "Madden Grove",
+                    "numberOfProperties": 15,
+                    "_id": "R_IXQIoBCa6p0_zIXrJq"
+                },
+                {
+                    "streetSlug": "malleson-street",
+                    "streetName": "Malleson Street",
+                    "numberOfProperties": 26,
+                    "_id": "NPIXQIoBCa6p0_zIXbJe"
+                },
+                {
+                    "streetSlug": "manton-street",
+                    "streetName": "Manton Street",
+                    "numberOfProperties": 56,
+                    "_id": "iPIXQIoBCa6p0_zIYrL2"
+                },
+                {
+                    "streetSlug": "margaret-street",
+                    "streetName": "Margaret Street",
+                    "numberOfProperties": 71,
+                    "_id": "dvIXQIoBCa6p0_zIYbJk"
+                },
+                {
+                    "streetSlug": "mary-street",
+                    "streetName": "Mary Street",
+                    "numberOfProperties": 386,
+                    "_id": "N_IXQIoBCa6p0_zIQLHs"
+                },
+                {
+                    "streetSlug": "mccrae-mews",
+                    "streetName": "Mccrae Mews",
+                    "numberOfProperties": 3,
+                    "_id": "KPIXQIoBCa6p0_zIXLKA"
+                },
+                {
+                    "streetSlug": "mcgoun-street",
+                    "streetName": "Mcgoun Street",
+                    "numberOfProperties": 116,
+                    "_id": "a_IXQIoBCa6p0_zIYLL-"
+                },
+                {
+                    "streetSlug": "mcgrath-court",
+                    "streetName": "Mcgrath Court",
+                    "numberOfProperties": 125,
+                    "_id": "L_IXQIoBCa6p0_zIP7GF"
+                },
+                {
+                    "streetSlug": "mckay-street",
+                    "streetName": "Mckay Street",
+                    "numberOfProperties": 16,
+                    "_id": "XvIXQIoBCa6p0_zIYLJY"
+                },
+                {
+                    "streetSlug": "mckenzie-street",
+                    "streetName": "Mckenzie Street",
+                    "numberOfProperties": 2,
+                    "_id": "7fIXQIoBCa6p0_zIV7FL"
+                },
+                {
+                    "streetSlug": "mcnamara-street",
+                    "streetName": "Mcnamara Street",
+                    "numberOfProperties": 3,
+                    "_id": "xPIXQIoBCa6p0_zIVLG4"
+                },
+                {
+                    "streetSlug": "miles-street",
+                    "streetName": "Miles Street",
+                    "numberOfProperties": 14,
+                    "_id": "P_IXQIoBCa6p0_zIXbLg"
+                },
+                {
+                    "streetSlug": "miller-street",
+                    "streetName": "Miller Street",
+                    "numberOfProperties": 22,
+                    "_id": "AvIXQIoBCa6p0_zIWLLe"
+                },
+                {
+                    "streetSlug": "mitchell-street",
+                    "streetName": "Mitchell Street",
+                    "numberOfProperties": 12,
+                    "_id": "ifIXQIoBCa6p0_zIY7Ic"
+                },
+                {
+                    "streetSlug": "montgomery-street",
+                    "streetName": "Montgomery Street",
+                    "numberOfProperties": 15,
+                    "_id": "EPIXQIoBCa6p0_zIWrK1"
+                },
+                {
+                    "streetSlug": "moore-street",
+                    "streetName": "Moore Street",
+                    "numberOfProperties": 23,
+                    "_id": "ivIXQIoBCa6p0_zIY7I5"
+                },
+                {
+                    "streetSlug": "moorhouse-street",
+                    "streetName": "Moorhouse Street",
+                    "numberOfProperties": 24,
+                    "_id": "T_IXQIoBCa6p0_zIX7IP"
+                },
+                {
+                    "streetSlug": "muir-street",
+                    "streetName": "Muir Street",
+                    "numberOfProperties": 15,
+                    "_id": "UPIXQIoBCa6p0_zIX7IT"
+                },
+                {
+                    "streetSlug": "mulberry-street",
+                    "streetName": "Mulberry Street",
+                    "numberOfProperties": 9,
+                    "_id": "W_IXQIoBCa6p0_zIYLIN"
+                },
+                {
+                    "streetSlug": "murphy-street",
+                    "streetName": "Murphy Street",
+                    "numberOfProperties": 200,
+                    "_id": "9vIXQIoBCa6p0_zIOLB9"
+                },
+                {
+                    "streetSlug": "murray-street",
+                    "streetName": "Murray Street",
+                    "numberOfProperties": 21,
+                    "_id": "EfIXQIoBCa6p0_zIWrK5"
+                },
+                {
+                    "streetSlug": "napier-lane",
+                    "streetName": "Napier Lane",
+                    "numberOfProperties": 8,
+                    "_id": "Y_IXQIoBCa6p0_zIYLKa"
+                },
+                {
+                    "streetSlug": "neptune-street",
+                    "streetName": "Neptune Street",
+                    "numberOfProperties": 84,
+                    "_id": "FfIXQIoBCa6p0_zIW7IP"
+                },
+                {
+                    "streetSlug": "new-street",
+                    "streetName": "New Street",
+                    "numberOfProperties": 50,
+                    "_id": "T_IXQIoBCa6p0_zIRLEK"
+                },
+                {
+                    "streetSlug": "newlands-street",
+                    "streetName": "Newlands Street",
+                    "numberOfProperties": 6,
+                    "_id": "CfIXQIoBCa6p0_zIWbLU"
+                },
+                {
+                    "streetSlug": "newry-street",
+                    "streetName": "Newry Street",
+                    "numberOfProperties": 59,
+                    "_id": "QfIXQIoBCa6p0_zIXrIQ"
+                },
+                {
+                    "streetSlug": "normanby-place",
+                    "streetName": "Normanby Place",
+                    "numberOfProperties": 9,
+                    "_id": "KfIXQIoBCa6p0_zIXLKe"
+                },
+                {
+                    "streetSlug": "north-street",
+                    "streetName": "North Street",
+                    "numberOfProperties": 72,
+                    "_id": "ePIXQIoBCa6p0_zISbEW"
+                },
+                {
+                    "streetSlug": "northcote-street",
+                    "streetName": "Northcote Street",
+                    "numberOfProperties": 14,
+                    "_id": "N_IXQIoBCa6p0_zIXbJ9"
+                },
+                {
+                    "streetSlug": "oconnell-street",
+                    "streetName": "Oconnell Street",
+                    "numberOfProperties": 12,
+                    "_id": "i_IXQIoBCa6p0_zIY7KN"
+                },
+                {
+                    "streetSlug": "otto-place",
+                    "streetName": "Otto Place",
+                    "numberOfProperties": 4,
+                    "_id": "nvIXQIoBCa6p0_zIZbI-"
+                },
+                {
+                    "streetSlug": "palmer-street",
+                    "streetName": "Palmer Street",
+                    "numberOfProperties": 270,
+                    "_id": "dPIXQIoBCa6p0_zISLHo"
+                },
+                {
+                    "streetSlug": "park-avenue",
+                    "streetName": "Park Avenue",
+                    "numberOfProperties": 30,
+                    "_id": "jPIXQIoBCa6p0_zIY7Kb"
+                },
+                {
+                    "streetSlug": "park-grove",
+                    "streetName": "Park Grove",
+                    "numberOfProperties": 29,
+                    "_id": "jfIXQIoBCa6p0_zIY7Kg"
+                },
+                {
+                    "streetSlug": "park-street",
+                    "streetName": "Park Street",
+                    "numberOfProperties": 37,
+                    "_id": "jvIXQIoBCa6p0_zIY7Ky"
+                },
+                {
+                    "streetSlug": "parker-street",
+                    "streetName": "Parker Street",
+                    "numberOfProperties": 12,
+                    "_id": "X_IXQIoBCa6p0_zIYLJ1"
+                },
+                {
+                    "streetSlug": "peers-street",
+                    "streetName": "Peers Street",
+                    "numberOfProperties": 33,
+                    "_id": "B_IXQIoBCa6p0_zIWbKD"
+                },
+                {
+                    "streetSlug": "portland-street",
+                    "streetName": "Portland Street",
+                    "numberOfProperties": 8,
+                    "_id": "yPIXQIoBCa6p0_zIVbF4"
+                },
+                {
+                    "streetSlug": "prince-patrick-street",
+                    "streetName": "Prince Patrick Street",
+                    "numberOfProperties": 18,
+                    "_id": "MfIXQIoBCa6p0_zIXbI-"
+                },
+                {
+                    "streetSlug": "princess-street",
+                    "streetName": "Princess Street",
+                    "numberOfProperties": 23,
+                    "_id": "xfIXQIoBCa6p0_zIVLHc"
+                },
+                {
+                    "streetSlug": "punt-road",
+                    "streetName": "Punt Road",
+                    "numberOfProperties": 176,
+                    "_id": "q_IXQIoBCa6p0_zIUrG0"
+                },
+                {
+                    "streetSlug": "queen-street",
+                    "streetName": "Queen Street",
+                    "numberOfProperties": 13,
+                    "_id": "j_IXQIoBCa6p0_zIY7LA"
+                },
+                {
+                    "streetSlug": "reeves-crescent",
+                    "streetName": "Reeves Crescent",
+                    "numberOfProperties": 4,
+                    "_id": "YvIXQIoBCa6p0_zIR7Ei"
+                },
+                {
+                    "streetSlug": "regent-street",
+                    "streetName": "Regent Street",
+                    "numberOfProperties": 174,
+                    "_id": "7vIXQIoBCa6p0_zIV7FP"
+                },
+                {
+                    "streetSlug": "richmond-terrace",
+                    "streetName": "Richmond Terrace",
+                    "numberOfProperties": 218,
+                    "_id": "h_IXQIoBCa6p0_zITLFy"
+                },
+                {
+                    "streetSlug": "risley-street",
+                    "streetName": "Risley Street",
+                    "numberOfProperties": 6,
+                    "_id": "SfIXQIoBCa6p0_zIXrKH"
+                },
+                {
+                    "streetSlug": "river-boulevard",
+                    "streetName": "River Boulevard",
+                    "numberOfProperties": 44,
+                    "_id": "SvIXQIoBCa6p0_zIQ7Eh"
+                },
+                {
+                    "streetSlug": "river-street",
+                    "streetName": "River Street",
+                    "numberOfProperties": 439,
+                    "_id": "EPIXQIoBCa6p0_zIOrFP"
+                },
+                {
+                    "streetSlug": "roberts-way",
+                    "streetName": "Roberts Way",
+                    "numberOfProperties": 1,
+                    "_id": "dfIXQIoBCa6p0_zIYbJh"
+                },
+                {
+                    "streetSlug": "rogers-street",
+                    "streetName": "Rogers Street",
+                    "numberOfProperties": 17,
+                    "_id": "L_IXQIoBCa6p0_zIXbIa"
+                },
+                {
+                    "streetSlug": "rooney-street",
+                    "streetName": "Rooney Street",
+                    "numberOfProperties": 34,
+                    "_id": "Q_IXQIoBCa6p0_zIXrJL"
+                },
+                {
+                    "streetSlug": "rose-street",
+                    "streetName": "Rose Street",
+                    "numberOfProperties": 38,
+                    "_id": "MvIXQIoBCa6p0_zIXbJG"
+                },
+                {
+                    "streetSlug": "rotherwood-street",
+                    "streetName": "Rotherwood Street",
+                    "numberOfProperties": 96,
+                    "_id": "kvIXQIoBCa6p0_zITrFr"
+                },
+                {
+                    "streetSlug": "rowena-parade",
+                    "streetName": "Rowena Parade",
+                    "numberOfProperties": 254,
+                    "_id": "kPIXQIoBCa6p0_zITbHE"
+                },
+                {
+                    "streetSlug": "rule-street",
+                    "streetName": "Rule Street",
+                    "numberOfProperties": 5,
+                    "_id": "dfIXQIoBCa6p0_zISbEI"
+                },
+                {
+                    "streetSlug": "salisbury-street",
+                    "streetName": "Salisbury Street",
+                    "numberOfProperties": 7,
+                    "_id": "afIXQIoBCa6p0_zIYLL8"
+                },
+                {
+                    "streetSlug": "sanders-place",
+                    "streetName": "Sanders Place",
+                    "numberOfProperties": 11,
+                    "_id": "OvIXQIoBCa6p0_zIXbKX"
+                },
+                {
+                    "streetSlug": "shamrock-street",
+                    "streetName": "Shamrock Street",
+                    "numberOfProperties": 12,
+                    "_id": "ZvIXQIoBCa6p0_zIYLLW"
+                },
+                {
+                    "streetSlug": "shaw-street",
+                    "streetName": "Shaw Street",
+                    "numberOfProperties": 19,
+                    "_id": "0vIXQIoBCa6p0_zIVbHi"
+                },
+                {
+                    "streetSlug": "sheedy-street",
+                    "streetName": "Sheedy Street",
+                    "numberOfProperties": 15,
+                    "_id": "0fIXQIoBCa6p0_zIVbHf"
+                },
+                {
+                    "streetSlug": "shelley-street",
+                    "streetName": "Shelley Street",
+                    "numberOfProperties": 59,
+                    "_id": "PfIXQIoBCa6p0_zIXbKz"
+                },
+                {
+                    "streetSlug": "sherwood-street",
+                    "streetName": "Sherwood Street",
+                    "numberOfProperties": 50,
+                    "_id": "1PIXQIoBCa6p0_zIVbH6"
+                },
+                {
+                    "streetSlug": "smith-street",
+                    "streetName": "Smith Street",
+                    "numberOfProperties": 57,
+                    "_id": "9fIXQIoBCa6p0_zIOLBu"
+                },
+                {
+                    "streetSlug": "somerset-street",
+                    "streetName": "Somerset Street",
+                    "numberOfProperties": 301,
+                    "_id": "-_IXQIoBCa6p0_zIOLC7"
+                },
+                {
+                    "streetSlug": "spencer-place",
+                    "streetName": "Spencer Place",
+                    "numberOfProperties": 20,
+                    "_id": "1fIXQIoBCa6p0_zIVbH8"
+                },
+                {
+                    "streetSlug": "stanley-street",
+                    "streetName": "Stanley Street",
+                    "numberOfProperties": 75,
+                    "_id": "-fIXQIoBCa6p0_zIWLF_"
+                },
+                {
+                    "streetSlug": "stawell-street",
+                    "streetName": "Stawell Street",
+                    "numberOfProperties": 284,
+                    "_id": "kfIXQIoBCa6p0_zIY7Lk"
+                },
+                {
+                    "streetSlug": "stewart-place",
+                    "streetName": "Stewart Place",
+                    "numberOfProperties": 6,
+                    "_id": "FvIXQIoBCa6p0_zIW7IR"
+                },
+                {
+                    "streetSlug": "stewart-street",
+                    "streetName": "Stewart Street",
+                    "numberOfProperties": 44,
+                    "_id": "IfIXQIoBCa6p0_zIXLJQ"
+                },
+                {
+                    "streetSlug": "stillman-street",
+                    "streetName": "Stillman Street",
+                    "numberOfProperties": 99,
+                    "_id": "kPIXQIoBCa6p0_zIY7Lf"
+                },
+                {
+                    "streetSlug": "stockade-lane",
+                    "streetName": "Stockade Lane",
+                    "numberOfProperties": 4,
+                    "_id": "qfIXQIoBCa6p0_zIZbLb"
+                },
+                {
+                    "streetSlug": "stoke-place",
+                    "streetName": "Stoke Place",
+                    "numberOfProperties": 1,
+                    "_id": "ZfIXQIoBCa6p0_zIYLK3"
+                },
+                {
+                    "streetSlug": "strafford-street",
+                    "streetName": "Strafford Street",
+                    "numberOfProperties": 13,
+                    "_id": "HPIXQIoBCa6p0_zIW7K9"
+                },
+                {
+                    "streetSlug": "strode-place",
+                    "streetName": "Strode Place",
+                    "numberOfProperties": 6,
+                    "_id": "K_IXQIoBCa6p0_zIXLLq"
+                },
+                {
+                    "streetSlug": "strode-street",
+                    "streetName": "Strode Street",
+                    "numberOfProperties": 20,
+                    "_id": "D_IXQIoBCa6p0_zIWrKr"
+                },
+                {
+                    "streetSlug": "studio-walk",
+                    "streetName": "Studio Walk",
+                    "numberOfProperties": 30,
+                    "_id": "pfIXQIoBCa6p0_zIZbKQ"
+                },
+                {
+                    "streetSlug": "survey-street",
+                    "streetName": "Survey Street",
+                    "numberOfProperties": 9,
+                    "_id": "kvIXQIoBCa6p0_zIY7Ll"
+                },
+                {
+                    "streetSlug": "sutton-grove",
+                    "streetName": "Sutton Grove",
+                    "numberOfProperties": 24,
+                    "_id": "RfIXQIoBCa6p0_zIXrJd"
+                },
+                {
+                    "streetSlug": "swan-street",
+                    "streetName": "Swan Street",
+                    "numberOfProperties": 418,
+                    "_id": "qfIXQIoBCa6p0_zIUrGg"
+                },
+                {
+                    "streetSlug": "tanner-street",
+                    "streetName": "Tanner Street",
+                    "numberOfProperties": 298,
+                    "_id": "lvIXQIoBCa6p0_zIT7Gz"
+                },
+                {
+                    "streetSlug": "tennyson-street",
+                    "streetName": "Tennyson Street",
+                    "numberOfProperties": 39,
+                    "_id": "APIXQIoBCa6p0_zIWLLT"
+                },
+                {
+                    "streetSlug": "the-crofts",
+                    "streetName": "The Crofts",
+                    "numberOfProperties": 31,
+                    "_id": "FPIXQIoBCa6p0_zIWrLr"
+                },
+                {
+                    "streetSlug": "the-vaucluse",
+                    "streetName": "The Vaucluse",
+                    "numberOfProperties": 48,
+                    "_id": "ovIXQIoBCa6p0_zIUbEK"
+                },
+                {
+                    "streetSlug": "theresa-street",
+                    "streetName": "Theresa Street",
+                    "numberOfProperties": 9,
+                    "_id": "HfIXQIoBCa6p0_zIW7Ld"
+                },
+                {
+                    "streetSlug": "thomas-street",
+                    "streetName": "Thomas Street",
+                    "numberOfProperties": 32,
+                    "_id": "uPIXQIoBCa6p0_zIVLE5"
+                },
+                {
+                    "streetSlug": "tonkins-lane",
+                    "streetName": "Tonkins Lane",
+                    "numberOfProperties": 1,
+                    "_id": "n_IXQIoBCa6p0_zIULG7"
+                },
+                {
+                    "streetSlug": "tudor-street",
+                    "streetName": "Tudor Street",
+                    "numberOfProperties": 44,
+                    "_id": "k_IXQIoBCa6p0_zIY7L1"
+                },
+                {
+                    "streetSlug": "tullo-place",
+                    "streetName": "Tullo Place",
+                    "numberOfProperties": 55,
+                    "_id": "LfIXQIoBCa6p0_zIP7E8"
+                },
+                {
+                    "streetSlug": "tweedie-place",
+                    "streetName": "Tweedie Place",
+                    "numberOfProperties": 1,
+                    "_id": "m_IXQIoBCa6p0_zIZLKU"
+                },
+                {
+                    "streetSlug": "type-street",
+                    "streetName": "Type Street",
+                    "numberOfProperties": 152,
+                    "_id": "lPIXQIoBCa6p0_zIY7L5"
+                },
+                {
+                    "streetSlug": "tyson-street",
+                    "streetName": "Tyson Street",
+                    "numberOfProperties": 23,
+                    "_id": "GPIXQIoBCa6p0_zIW7Jh"
+                },
+                {
+                    "streetSlug": "union-street",
+                    "streetName": "Union Street",
+                    "numberOfProperties": 42,
+                    "_id": "s_IXQIoBCa6p0_zIU7Fk"
+                },
+                {
+                    "streetSlug": "vaughan-street",
+                    "streetName": "Vaughan Street",
+                    "numberOfProperties": 5,
+                    "_id": "PvIXQIoBCa6p0_zIXbLO"
+                },
+                {
+                    "streetSlug": "vere-street",
+                    "streetName": "Vere Street",
+                    "numberOfProperties": 17,
+                    "_id": "cfIXQIoBCa6p0_zIYbIt"
+                },
+                {
+                    "streetSlug": "verity-street",
+                    "streetName": "Verity Street",
+                    "numberOfProperties": 11,
+                    "_id": "lfIXQIoBCa6p0_zIT7F-"
+                },
+                {
+                    "streetSlug": "vesper-street",
+                    "streetName": "Vesper Street",
+                    "numberOfProperties": 12,
+                    "_id": "lfIXQIoBCa6p0_zIZLIA"
+                },
+                {
+                    "streetSlug": "victoria-place",
+                    "streetName": "Victoria Place",
+                    "numberOfProperties": 20,
+                    "_id": "dvIXQIoBCa6p0_zISbEI"
+                },
+                {
+                    "streetSlug": "victoria-street",
+                    "streetName": "Victoria Street",
+                    "numberOfProperties": 578,
+                    "_id": "EvIXQIoBCa6p0_zIOrFW"
+                },
+                {
+                    "streetSlug": "wall-place",
+                    "streetName": "Wall Place",
+                    "numberOfProperties": 1,
+                    "_id": "yvIXQIoBCa6p0_zIVbGR"
+                },
+                {
+                    "streetSlug": "wall-street",
+                    "streetName": "Wall Street",
+                    "numberOfProperties": 52,
+                    "_id": "6PIXQIoBCa6p0_zIV7Ep"
+                },
+                {
+                    "streetSlug": "waltham-place",
+                    "streetName": "Waltham Place",
+                    "numberOfProperties": 27,
+                    "_id": "EvIXQIoBCa6p0_zIWrLS"
+                },
+                {
+                    "streetSlug": "waltham-street",
+                    "streetName": "Waltham Street",
+                    "numberOfProperties": 77,
+                    "_id": "qvIXQIoBCa6p0_zIUrGx"
+                },
+                {
+                    "streetSlug": "wangaratta-street",
+                    "streetName": "Wangaratta Street",
+                    "numberOfProperties": 81,
+                    "_id": "mPIXQIoBCa6p0_zIULEM"
+                },
+                {
+                    "streetSlug": "waterloo-place",
+                    "streetName": "Waterloo Place",
+                    "numberOfProperties": 14,
+                    "_id": "5_IXQIoBCa6p0_zIV7EX"
+                },
+                {
+                    "streetSlug": "waverley-street",
+                    "streetName": "Waverley Street",
+                    "numberOfProperties": 22,
+                    "_id": "DvIXQIoBCa6p0_zIWrJw"
+                },
+                {
+                    "streetSlug": "wells-street",
+                    "streetName": "Wells Street",
+                    "numberOfProperties": 6,
+                    "_id": "XfIXQIoBCa6p0_zIYLJD"
+                },
+                {
+                    "streetSlug": "wertheim-street",
+                    "streetName": "Wertheim Street",
+                    "numberOfProperties": 21,
+                    "_id": "lvIXQIoBCa6p0_zIZLJi"
+                },
+                {
+                    "streetSlug": "westbank-terrace",
+                    "streetName": "Westbank Terrace",
+                    "numberOfProperties": 188,
+                    "_id": "mvIXQIoBCa6p0_zIZLKD"
+                },
+                {
+                    "streetSlug": "williams-court",
+                    "streetName": "Williams Court",
+                    "numberOfProperties": 52,
+                    "_id": "DfIXQIoBCa6p0_zIOrEw"
+                },
+                {
+                    "streetSlug": "willis-street",
+                    "streetName": "Willis Street",
+                    "numberOfProperties": 11,
+                    "_id": "YPIXQIoBCa6p0_zIYLKI"
+                },
+                {
+                    "streetSlug": "willow-lane",
+                    "streetName": "Willow Lane",
+                    "numberOfProperties": 1,
+                    "_id": "M_IXQIoBCa6p0_zIXbJb"
+                },
+                {
+                    "streetSlug": "wiltshire-street",
+                    "streetName": "Wiltshire Street",
+                    "numberOfProperties": 8,
+                    "_id": "JfIXQIoBCa6p0_zIXLJj"
+                },
+                {
+                    "streetSlug": "woodlawn-street",
+                    "streetName": "Woodlawn Street",
+                    "numberOfProperties": 23,
+                    "_id": "F_IXQIoBCa6p0_zIW7Ic"
+                },
+                {
+                    "streetSlug": "workers-lane",
+                    "streetName": "Workers Lane",
+                    "numberOfProperties": 1,
+                    "_id": "qPIXQIoBCa6p0_zIZbKq"
+                },
+                {
+                    "streetSlug": "wrede-place",
+                    "streetName": "Wrede Place",
+                    "numberOfProperties": 10,
+                    "_id": "cPIXQIoBCa6p0_zIYbIZ"
+                },
+                {
+                    "streetSlug": "yan-lane",
+                    "streetName": "Yan Lane",
+                    "numberOfProperties": 3,
+                    "_id": "pvIXQIoBCa6p0_zIZbKd"
+                },
+                {
+                    "streetSlug": "yarra-boulevard",
+                    "streetName": "Yarra Boulevard",
+                    "numberOfProperties": 14,
+                    "_id": "nPIXQIoBCa6p0_zIZLKh"
+                },
+                {
+                    "streetSlug": "yarra-street",
+                    "streetName": "Yarra Street",
+                    "numberOfProperties": 18,
+                    "_id": "NfIXQIoBCa6p0_zIXbJg"
+                },
+                {
+                    "streetSlug": "yilam-lane",
+                    "streetName": "Yilam Lane",
+                    "numberOfProperties": 1,
+                    "_id": "ofIXQIoBCa6p0_zIZbJJ"
+                },
+                {
+                    "streetSlug": "york-street",
+                    "streetName": "York Street",
+                    "numberOfProperties": 196,
+                    "_id": "g_IXQIoBCa6p0_zISrHB"
+                },
+                {
+                    "streetSlug": "yorkshire-street",
+                    "streetName": "Yorkshire Street",
+                    "numberOfProperties": 30,
+                    "_id": "aPIXQIoBCa6p0_zIYLLn"
+                }
+            ],
+            "listings": {
+                "sale": [
+                    {
+                        "address": "14  Capano Drive, Richmond, VIC 3121",
+                        "image": "",
+                        "price": "4M",
+                        "bed": 3,
+                        "bath": 2,
+                        "car": 0,
+                        "listingUrl": "/property/vic/richmond-3121/14-capano-drive-15077510/",
+                        "streetName": "capano drive"
+                    },
+                    {
+                        "address": "61/23  Hoddle Street, Richmond, VIC 3121",
+                        "image": "pics/519/15077519-1-54B6CB8.jpg",
+                        "price": "$100,000",
+                        "bed": 1,
+                        "bath": 1,
+                        "car": 1,
+                        "listingUrl": "/property/vic/richmond-3121/61-23-hoddle-street-15077519/",
+                        "streetName": "hoddle street"
+                    },
+                    {
+                        "address": "13 Kingsman Street, Richmond, VIC 3121",
+                        "image": "pics/521/15077521-1-D9A5DC9.jpeg",
+                        "price": "$100,000",
+                        "bed": 3,
+                        "bath": 3,
+                        "car": 1,
+                        "listingUrl": "/property/vic/richmond-3121/13-kingsman-street-15077521/",
+                        "streetName": "kingsman street"
+                    },
+                    {
+                        "address": "30 Buckingham Street, Richmond, VIC 3121",
+                        "image": "pics/307/14946307-1-3475E56.jpg",
+                        "price": "Private Sale $1.725m-$1.75m",
+                        "bed": 3,
+                        "bath": 2,
+                        "car": 0,
+                        "listingUrl": "/property/vic/richmond-3121/30-buckingham-street-14946307/",
+                        "streetName": "Buckingham Street"
+                    }
+                ],
+                "lease": [
+                    {
+                        "address": "12/389 Punt Road, Richmond, VIC 3121",
+                        "image": "pics/521/14720521-1-62BCCAB.jpg",
+                        "price": "$575 per week",
+                        "bed": 2,
+                        "bath": 1,
+                        "car": 1,
+                        "listingUrl": "/property/vic/richmond-3121/12-389-punt-road-14720521/",
+                        "streetName": "Punt Road"
+                    },
+                    {
+                        "address": "2/7 Jika Place, Richmond, VIC 3121",
+                        "image": "pics/259/15067259-1-4AABBD3.jpg",
+                        "price": "$700 per week",
+                        "bed": 2,
+                        "bath": 1,
+                        "car": 1,
+                        "listingUrl": "/property/vic/richmond-3121/2-7-jika-place-15067259/",
+                        "streetName": "Jika Place"
+                    },
+                    {
+                        "address": "2/253 Church Street, Richmond, VIC 3121",
+                        "image": "pics/473/15068473-1-83AB6DF.jpg",
+                        "price": "$450 per week",
+                        "bed": 1,
+                        "bath": 1,
+                        "car": 0,
+                        "listingUrl": "/property/vic/richmond-3121/2-253-church-street-15068473/",
+                        "streetName": "Church Street"
+                    },
+                    {
+                        "address": "59B Somerset Street, Richmond, VIC 3121",
+                        "image": "pics/794/15052794-1-CC1B219.jpg",
+                        "price": "$1.25m-$1.35m",
+                        "bed": 2,
+                        "bath": 1,
+                        "car": 0,
+                        "listingUrl": "/property/vic/richmond-3121/59b-somerset-street-15052794/",
+                        "streetName": "Somerset Street"
+                    }
+                ]
+            },
+            "agencies": [
+                {
+                    "id": 4458,
+                    "agencyUrl": "/real-estate-agency/nelson-alexander-fitzroy-4458/",
+                    "brandColour": "1e0f14",
+                    "image": "office/0004458-o-Fo9TBoV.jpg",
+                    "name": "Nelson Alexander Fitzroy",
+                    "streetName": "205 Brunswick Street",
+                    "suburb": "FITZROY",
+                    "numberOfSoldListings": 143,
+                    "numberOfBuyListings": 59,
+                    "numberOfRentListings": 32
+                },
+                {
+                    "id": 4326,
+                    "agencyUrl": "/real-estate-agency/biggin-scott-richmond-4326/",
+                    "brandColour": "010037",
+                    "image": "821e197e770543fc96928b0d8d9aa349.jpg",
+                    "name": "BigginScott Richmond",
+                    "streetName": "28 Bridge Road",
+                    "suburb": "RICHMOND",
+                    "numberOfSoldListings": 121,
+                    "numberOfBuyListings": 52,
+                    "numberOfRentListings": 58
+                },
+                {
+                    "id": 13487,
+                    "agencyUrl": "/real-estate-agency/jellis-craig-richmond-13487/",
+                    "brandColour": "1D252D",
+                    "image": "office/0013487-o-RxUZnec.jpg",
+                    "name": "Jellis Craig Richmond \u0026 Surrounds",
+                    "streetName": "57-59 Bridge Road",
+                    "suburb": "RICHMOND",
+                    "numberOfSoldListings": 99,
+                    "numberOfBuyListings": 50,
+                    "numberOfRentListings": 7
+                },
+                {
+                    "id": 11473,
+                    "agencyUrl": "/real-estate-agency/twig-real-estate-melbourne-11473/",
+                    "brandColour": "0F294E",
+                    "image": "office/0011473-o-fnuwUKB.jpg",
+                    "name": "Twig Real Estate",
+                    "streetName": "Suite 801/1 Queens Rd",
+                    "suburb": "MELBOURNE",
+                    "numberOfSoldListings": 8,
+                    "numberOfBuyListings": 35,
+                    "numberOfRentListings": 6
+                },
+                {
+                    "id": 29408,
+                    "agencyUrl": "/real-estate-agency/realco-collingwood-29408/",
+                    "brandColour": "00004F",
+                    "image": "428f9585ffcf469aaab1a09cb8a51a11.png",
+                    "name": "Realco",
+                    "streetName": "1/88 Cambridge Street",
+                    "suburb": "COLLINGWOOD",
+                    "numberOfSoldListings": 9,
+                    "numberOfBuyListings": 25,
+                    "numberOfRentListings": 1
+                },
+                {
+                    "id": 29040,
+                    "agencyUrl": "/real-estate-agency/motion-property-south-melbourne-29040/",
+                    "brandColour": "000000",
+                    "image": "1506c4819a314d83bcb30cc03780ae02.png",
+                    "name": "Motion Property",
+                    "streetName": "288 Rosslyn Street",
+                    "suburb": "WEST MELBOURNE",
+                    "numberOfSoldListings": 22,
+                    "numberOfBuyListings": 22,
+                    "numberOfRentListings": 72
+                },
+                {
+                    "id": 27837,
+                    "agencyUrl": "/real-estate-agency/burne-property-27837/",
+                    "brandColour": "FFFFFF",
+                    "image": "1c9111c8b4484792963ab744b4d3c662.png",
+                    "name": "Burne Property",
+                    "streetName": "387 Bridge Road",
+                    "suburb": "RICHMOND",
+                    "numberOfSoldListings": 4,
+                    "numberOfBuyListings": 3,
+                    "numberOfRentListings": 3
+                },
+                {
+                    "id": 27363,
+                    "agencyUrl": "/real-estate-agency/lynda-white-real-estate-27363/",
+                    "brandColour": "ffffff",
+                    "image": "5e08851f1ab645739c4e3fafef55a42c.png",
+                    "name": "Lynda White Real Estate",
+                    "streetName": "PO Box 5188",
+                    "suburb": "EAST GEELONG",
+                    "numberOfSoldListings": 0,
+                    "numberOfBuyListings": 2,
+                    "numberOfRentListings": 2
+                },
+                {
+                    "id": 6856,
+                    "agencyUrl": "/real-estate-agency/mpc-moss-property-consultants-richmond-6856/",
+                    "brandColour": "0A1533",
+                    "image": "office/0006856-o-VLFuWty.jpg",
+                    "name": "MPC Moss Property Consultants",
+                    "streetName": "1/429 Bridge Rd",
+                    "suburb": "RICHMOND",
+                    "numberOfSoldListings": 0,
+                    "numberOfBuyListings": 1,
+                    "numberOfRentListings": 1
+                },
+                {
+                    "id": 29775,
+                    "agencyUrl": "/real-estate-agency/meadows-property-group-29775/",
+                    "brandColour": "283053",
+                    "image": "b10f874f6e5643cab3a21eacb1f1c3eb.png",
+                    "name": "Meadows Property Group",
+                    "streetName": "Level 3 16 Claremont Street ",
+                    "suburb": "SOUTH YARRA",
+                    "numberOfSoldListings": 8,
+                    "numberOfBuyListings": 1,
+                    "numberOfRentListings": 0
+                },
+                {
+                    "id": 29023,
+                    "agencyUrl": "/real-estate-agency/space-estate-agents-29023/",
+                    "brandColour": "000",
+                    "image": "ccabb1ea99e04ec3988c4aa5353d484b.png",
+                    "name": "Space Estate Agents",
+                    "streetName": "8 Burnley Street ",
+                    "suburb": "RICHMOND",
+                    "numberOfSoldListings": 0,
+                    "numberOfBuyListings": 0,
+                    "numberOfRentListings": 6
+                },
+                {
+                    "id": 4572,
+                    "agencyUrl": "/real-estate-agency/thomas-moreland-real-estate-richmond-4572/",
+                    "brandColour": "EBBB01",
+                    "image": "office/0004572-o-eTcgJN9.gif",
+                    "name": "Thomas Moreland Real Estate Pty Ltd",
+                    "streetName": "506 Bridge Road",
+                    "suburb": "RICHMOND",
+                    "numberOfSoldListings": 1,
+                    "numberOfBuyListings": 0,
+                    "numberOfRentListings": 0
+                }
+            ],
+            "breadCrumbs": [
+                {
+                    "displayName": "Location Profiles",
+                    "urlPath": "/location/"
+                },
+                {
+                    "displayName": "VIC",
+                    "urlPath": "/vic/"
+                },
+                {
+                    "displayName": "Inner East",
+                    "urlPath": "/vic/inner-east-region-54/"
+                },
+                {
+                    "displayName": "Richmond"
+                }
+            ],
+            "city": "Melbourne",
+            "region": "Inner East"
+        },
+        "profileType": "suburb-profile-page",
+        "isBot": false,
+        "locationSlug": "/vic/richmond-3121/",
+        "isMobile": false
+    },
+    "__N_SSP": true,
+    "page": "/[slug]/[locationSlug]",
+    "query": {
+        "slug": "vic",
+        "locationSlug": "richmond-3121"
+    },
+    "buildId": "NU-G46qej5NPpe-Owcvhb",
+    "assetPrefix": "https://resi.uatz.view.com.au/viewstatic/lancer",
+    "isFallback": false,
+    "dynamicIds": [
+        45034
+    ],
+    "gssp": true,
+    "customServer": true,
+    "scriptLoader": []
+}
