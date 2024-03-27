@@ -4,7 +4,7 @@ import settleEasyLogo from "../../../public/assets/conveyancing/settle-easy.svg"
 import Accordion from "@/shared/components/Accordion";
 import CustomerFeedback from "@/shared/components/CustomerFeedback";
 import RedeemOfferForm from "@/shared/components/RedeemOfferForm";
-import { accordionFAQsList, feedBacks, pageDescription } from "@/module/mobile/constants/conveyancing";
+import { ACCORDION_FAQS_LIST, FEEDBACKS, PAGE_DESCRIPTION } from "@/module/convayancing/convayancing.constants";
 
 const conveyancingPage = () => {
 	return (
@@ -32,14 +32,14 @@ const conveyancingPage = () => {
 							</a>
 							and a free contract review. You&apos;ll only pay $880 incl. GST plus disbursements on a standard conveyancing transaction. Redeem today and use within 12 months.
 						</p>
-						{pageDescription.map((disc, i) => (
+						{PAGE_DESCRIPTION.map((disc, i) => (
 							<p className="text-base font-normal mb-4" key={i}>
 								{disc}
 							</p>
 						))}
 					</article>
 					<h2 className="text-base font-bold mb-4 lg:mb-6 ">Frequently Asked Questions</h2>
-					{accordionFAQsList.map((list, i) => (
+					{ACCORDION_FAQS_LIST.map((list, i) => (
 						<Accordion key={i} list={list} />
 					))}
 				</div>
@@ -48,7 +48,7 @@ const conveyancingPage = () => {
 			<section className="bg-light-gray rounded-xl lg:mt-16 lg:mb-3 mt-4">
 				<h6 className="mx-4 pt-6 mb-4 lg:pl-10 lg:mx-auto lg:pt-10 lg:m b-6 text-base font-bold lg:text-2xl">What Settle Easy customers are saying...</h6>
 				<div className="grid grid-cols-1 lg:grid-cols-3 gap-4 pb-6 px-4 lg:px-10 lg:pb-10">
-					{feedBacks.map((feedBack, i) => (
+					{FEEDBACKS.map((feedBack, i) => (
 						<CustomerFeedback key={i} feedBack={feedBack} />
 					))}
 				</div>

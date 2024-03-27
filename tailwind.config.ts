@@ -41,6 +41,8 @@ const config: Config = {
 			borderColor: {
 				"primary-black": "#333333",
 				"b-gray": "#999999",
+				"primary-blue": "#0073CF",
+				"light-black": "#666666",
 			},
 			fontSize: {
 				"18px": "18px",

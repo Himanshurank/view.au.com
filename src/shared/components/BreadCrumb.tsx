@@ -1,19 +1,20 @@
+import { IBreadcrumb } from "@/module/agency/agency.interface";
 import { IoIosArrowForward } from "react-icons/io";
 
-const BreadCrumb = (props: any) => {
+interface IProps {
+	breadCrumb: IBreadcrumb;
+	className?: string;
+	showArrow?: boolean;
+}
+
+const BreadCrumb = (props: IProps) => {
 	return (
-		<ul className="flex items-center gap-3 pb-4 overflow-x-auto text-light-black ">
-			{props.breadCrumb?.map((link: any, i: number) => {
-				return (
-					<li key={i} className="flex items-center gap-3 whitespace-nowrap text-sm">
-						<a className={props.breadCrumb.length - 1 === i ? "text-black w-full" : ""} href={link.item}>
-							{link.name}
-						</a>
-						{props.breadCrumb.length - 1 !== i && <IoIosArrowForward />}
-					</li>
-				);
-			})}
-		</ul>
+		<li className="flex items-center gap-3 whitespace-nowrap text-sm">
+			<a className={props.className} href={props.breadCrumb.urlPath}>
+				{props.breadCrumb.name ? props.breadCrumb.name : props.breadCrumb.displayName}
+			</a>
+			{props.showArrow && <IoIosArrowForward />}
+		</li>
 	);
 };
 

@@ -1,4 +1,4 @@
-export const feedBacks = [
+export const FEEDBACKS = [
 	{
 		name: "Jake Curtis",
 		comment: "Marie was excellent, very prompt, clear and friendly. Would recommend for first home buyers who want to be kept in the loop and shown all the steps.",
@@ -12,9 +12,9 @@ export const feedBacks = [
 	},
 ];
 
-export const pageDescription = ["Settle Easy provides reliable, secure, fast and hassle-free conveyancing services to help you buy or sell property.", "Think of Settle Easy as a legal expert in your corner. Someone to guide you through the process and to provide you with a seamless experience in the lead up to settlement.", "Alongside the $220 conveyancing voucher, you will also be eligible for a free contract review during your conveyancing transaction, knowing no surprises are waiting.", "Simply fill out the form and a member from the Settle Easy Success Specialist team will get in touch within 24 hours.", "This offer is eligible for customers transacting in Victoria, New South Wales and Queensland."];
+export const PAGE_DESCRIPTION = ["Settle Easy provides reliable, secure, fast and hassle-free conveyancing services to help you buy or sell property.", "Think of Settle Easy as a legal expert in your corner. Someone to guide you through the process and to provide you with a seamless experience in the lead up to settlement.", "Alongside the $220 conveyancing voucher, you will also be eligible for a free contract review during your conveyancing transaction, knowing no surprises are waiting.", "Simply fill out the form and a member from the Settle Easy Success Specialist team will get in touch within 24 hours.", "This offer is eligible for customers transacting in Victoria, New South Wales and Queensland."];
 
-export const accordionFAQsList = [
+export const ACCORDION_FAQS_LIST = [
 	{
 		qus: "What is conveyancing?",
 		ans: "<p>Conveyancing is the process of moving the legal ownership of property or land from one person or entity to another.</p>",

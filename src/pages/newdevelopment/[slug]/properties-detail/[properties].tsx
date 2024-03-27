@@ -27,7 +27,7 @@ export const getServerSideProps = async (context: any) => {
 			},
 		};
 	}
-	const response = await fetch("http://localhost:8000/props");
+	const response = await fetch("http://localhost:8000");
 	const props = await response.json();
 
 	return {
@@ -104,7 +104,7 @@ const PropertiesDetailPage = (props: any) => {
 						<PropertiesDetails key={i} info={info} className={`${i === 0 && "lg:pl-0"} ${KEY_INFO.length - 1 !== i && "lg:border-r"}`} />
 					))}
 				</div>
-				<DropDown className="mb-8 mt-6 lg:mt-8 pb-8" description={props.property.description.textProfile} globalStyle={true} defaultHeight={"200px"} shadow={true} />
+				<DropDown className="mb-8 mt-6 lg:mt-8 pb-8 border-b" description={props.property.description.textProfile} globalStyle={true} defaultHeight={"200px"} shadow={true} shadowBottomValue="bottom-14" />
 				<div className="border-b pb-8 mb-8">
 					<h2 className="text-18px font-bold mb-6 lg:mb-4">Features And Amenities Of {props.property.title}</h2>
 					<div className="w-full h-40 rounded-xl overflow-hidden lg:h-360px">
@@ -150,7 +150,11 @@ const PropertiesDetailPage = (props: any) => {
 	return (
 		<>
 			<section className="px-4 lg:px-0 mt-3">
-				<BreadCrumb breadCrumb={props.breadcrumb} />
+				<ul className="flex items-center gap-3 pb-4 overflow-x-auto text-light-black ">
+					{props.breadcrumb.map((crumb: any, i: any) => (
+						<BreadCrumb key={i} className={props.breadcrumb.length - 1 === i ? "text-black w-full" : ""} breadCrumb={crumb} showArrow={props.breadcrumb.length - 1 !== i ? true : false} />
+					))}
+				</ul>
 			</section>
 
 			<section className="mb-8 lg:flex lg:justify-between gap-4 mt-6">
@@ -173,7 +177,14 @@ const PropertiesDetailPage = (props: any) => {
 
 					{renderLocationDetail()}
 
-					<PropertiesInsights insights={SUBURB_INSIGHT} area={props.property.address.area} />
+					<h2 className="text-18px font-bold pt-8">Insights on {props.area}</h2>
+					<div className="border-b">
+						<ul className="flex flex-col gap-4 my-10 w-full ">
+							{SUBURB_INSIGHT.map((insight, i) => (
+								<PropertiesInsights key={i} insight={insight.title} area={props.property.address.area} />
+							))}
+						</ul>
+					</div>
 
 					<div className="pt-12">
 						<div className="flex rounded-lg border overflow-hidden cursor-pointer">
