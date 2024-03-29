@@ -207,7 +207,7 @@
                 "Percentage41To50": "13",
                 "PercentageAbove50": "23",
                 "Households": {
-                    "Childless Couples": 53.2,
+                    "ChildlessCouples": 53.2,
                     "Couples with Children": 28.7,
                     "Single Parents": 14.3,
                     "Other": 3.8
@@ -2299,9 +2299,5 @@
         ],
         "city": "Melbourne",
         "region": "Inner East"
-    },
-    "profileType": "suburb-profile-page",
-    "isBot": false,
-    "locationSlug": "/vic/richmond-3121/",
-    "isMobile": false
+    }
 }

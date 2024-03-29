@@ -23,6 +23,7 @@ export interface IAgent {
 export interface IListing {
 	propertyTypes: string[];
 	carparks: number;
+	car?: number;
 	city: string;
 	unitNumber: string | null;
 	isPriceHidden: boolean;
@@ -40,7 +41,9 @@ export interface IListing {
 	isStreetHidden: boolean;
 	soldAt: string;
 	bathrooms: number;
+	bath?: number;
 	bedrooms: number;
+	bed?: number;
 	primaryPropertyType: string;
 	isSoldPriceHidden: boolean;
 	streetAddress: string;

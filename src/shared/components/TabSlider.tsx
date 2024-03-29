@@ -1,15 +1,20 @@
-import React from "react";
+import { TAB_SLIDER } from "@/module/suburb/suburb.constants";
+import React, { useState } from "react";
 
-interface IProps {
-	tabs: string;
-}
-
-const TabSlider = (props: IProps) => {
+const TabSlider = () => {
+	const [index, setIndex] = useState(0);
+	const onTab = (i: number) => {
+		setIndex(i);
+	};
 	return (
-		<div className="p-4 relative font-bold text-sm border-b whitespace-nowrap">
-			<a href="#">{props.tabs}</a>
-			<div className="w-1/4 h-1 bg-primary-blue rounded-t-full absolute bottom-0 left-1/3"></div>
-		</div>
+		<>
+			{TAB_SLIDER.map((tab, i) => (
+				<div key={i} onClick={() => onTab(i)} className={`p-4 w-auto text-sm relative whitespace-nowrap ${index === i ? "font-bold" : "font-medium"}`}>
+					<a href={tab.link}>{tab.title}</a>
+					{index === i && <div className="w-1/4 lg:w-1/2 mx-auto h-1 bg-primary-blue rounded-t-full absolute bottom-0 left-0 right-0"></div>}
+				</div>
+			))}
+		</>
 	);
 };
 

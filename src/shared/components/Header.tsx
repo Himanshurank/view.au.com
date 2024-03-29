@@ -11,8 +11,8 @@ const Header = () => {
 	};
 	return (
 		<>
-			<div id="header" className="w-full border-b font-medium fixed top-0  flex justify-center items-center z-50">
-				<nav className="w-full flex h-12 items-center  bg-white lgc:h-64px lgc:max-w-1200px ">
+			<div id="header" className="w-full border-b font-medium sticky top-0  flex justify-center items-center z-50">
+				<nav className="w-full flex h-12 items-center bg-white lgc:h-64px lgc:max-w-1200px ">
 					<div className="hamburger lgc:hidden" onClick={sidebarToggle}>
 						<span className={isShowSidebar ? "active" : ""}></span>
 						<span className={isShowSidebar ? "active" : ""}></span>

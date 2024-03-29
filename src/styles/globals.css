@@ -92,3 +92,7 @@ body {
 	list-style: disc;
 	margin-bottom: 1rem;
 }
+
+#introduction p {
+	margin-bottom: 1rem;
+}
