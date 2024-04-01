@@ -16,7 +16,7 @@ import DropDown from "@/shared/components/DropDown";
 import PropertyCard from "@/shared/components/PropertyCard";
 import { IAgencyProps } from "@/module/agency/agency.interface";
 import Head from "next/head";
-import { META_TAGS } from "@/module/agency/agency.constants";
+import { AGENCY_META_TAGS } from "@/module/agency/agency.constants";
 
 export const getServerSideProps = async (context: any) => {
 	const { slag, propertyStatus } = context.params;
@@ -197,7 +197,7 @@ const AgencyPropertiesPage = (props: IAgencyProps) => {
 	return (
 		<>
 			<Head>
-				{META_TAGS.map((tag, i) => (
+				{AGENCY_META_TAGS.map((tag, i) => (
 					<meta key={i} name={tag.name} content={tag.content} />
 				))}
 				<link rel="canonical" href={`https://resi.uatz.view.com.au/real-estate-agency/${router.query.slug}`}></link>

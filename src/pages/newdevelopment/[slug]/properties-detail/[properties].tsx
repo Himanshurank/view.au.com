@@ -16,6 +16,10 @@ import mailCloseIcon from "../../../../../public/assets/common/mail-fill-close.s
 import mapIcon from "../../../../../public/assets/newdevelopment/location.svg";
 import homeSizeIcon from "../../../../../public/assets/newdevelopment/homesize.svg";
 import mapImage from "../../../../../public/assets/map.png";
+import { IBreadcrumbItem, IBreadcrumbs, IDevelopmentDetail, ISuburbProfile } from "@/module/newDevelopment/newDevelopment.interface";
+import Head from "next/head";
+import { NEW_DEVELOPMENT_LD_JSON, NEW_DEVELOPMENT_META_TAGS } from "@/module/newDevelopment/newDevelopment.constant";
+import { useRouter } from "next/router";
 
 export const getServerSideProps = async (context: any) => {
 	const params = context.params;
@@ -27,7 +31,7 @@ export const getServerSideProps = async (context: any) => {
 			},
 		};
 	}
-	const response = await fetch("http://localhost:8000");
+	const response = await fetch("http://localhost:8000/props");
 	const props = await response.json();
 
 	return {
@@ -39,7 +43,14 @@ export const getServerSideProps = async (context: any) => {
 	};
 };
 
-const PropertiesDetailPage = (props: any) => {
+interface IProps {
+	property: IDevelopmentDetail;
+	suburb: ISuburbProfile;
+	breadcrumb: IBreadcrumbItem[];
+}
+
+const PropertiesDetailPage = (props: IProps) => {
+	const router = useRouter();
 	const SOCIALICON = [fbIcon, tweeterIcon, mailCloseIcon];
 
 	const PROPERTY_DISPLAY_LOCATION = {
@@ -118,7 +129,7 @@ const PropertiesDetailPage = (props: any) => {
 	const renderProperties = () => {
 		return (
 			<>
-				<h2 className="text-18px font-bold mb-4">Off-The-Plan Residences For Sale At {props.title}</h2>
+				<h2 className="text-18px font-bold mb-4">Off-The-Plan Residences For Sale At {props.property.title}</h2>
 				<ul className="border-b border-at-light-500 pb-8 my-8 w-full">
 					{props.property.properties.map((property: any) => (
 						<PropertiesList key={property.id} property={property} />
@@ -149,9 +160,16 @@ const PropertiesDetailPage = (props: any) => {
 
 	return (
 		<>
+			<Head>
+				{NEW_DEVELOPMENT_META_TAGS.map((tag, i) => (
+					<meta key={i} name={tag.name} content={tag.content} />
+				))}
+				<link rel="canonical" href={`https://resi.uatz.view.com.au/real-estate-agency/${router.query.slug}`}></link>
+				<script type="application/ld+json">{JSON.stringify(NEW_DEVELOPMENT_LD_JSON)}</script>
+			</Head>
 			<section className="px-4 lg:px-0 mt-3">
 				<ul className="flex items-center gap-3 pb-4 overflow-x-auto text-light-black ">
-					{props.breadcrumb.map((crumb: any, i: any) => (
+					{props.breadcrumb.map((crumb: IBreadcrumbItem, i: number) => (
 						<BreadCrumb key={i} className={props.breadcrumb.length - 1 === i ? "text-black w-full" : ""} breadCrumb={crumb} showArrow={props.breadcrumb.length - 1 !== i ? true : false} />
 					))}
 				</ul>
@@ -177,7 +195,7 @@ const PropertiesDetailPage = (props: any) => {
 
 					{renderLocationDetail()}
 
-					<h2 className="text-18px font-bold pt-8">Insights on {props.area}</h2>
+					<h2 className="text-18px font-bold pt-8">Insights on {props.property.title}</h2>
 					<div className="border-b">
 						<ul className="flex flex-col gap-4 my-10 w-full ">
 							{SUBURB_INSIGHT.map((insight, i) => (

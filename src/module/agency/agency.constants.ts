@@ -2,7 +2,7 @@ import linkedinIcon from "../../../public/assets/common/linkdinLogo.svg";
 import fbIcon from "../../../public/assets/common/facebookLogo.svg";
 import instaLogo from "../../../public/assets/common/instagramLogo.svg";
 
-export const META_TAGS = [
+export const AGENCY_META_TAGS = [
 	{ name: "viewport", content: "width=device-width, initial-scale=1" },
 	{ name: "apple-mobile-web-app-capable", content: "yes" },
 	{ name: "og:type", content: "website" },

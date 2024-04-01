@@ -3,12 +3,12 @@ import React from "react";
 import bathIcon from "../../../../public/assets/newdevelopment/bath.svg";
 import bedIcon from "../../../../public/assets/newdevelopment/bed.svg";
 import parkingCarIcon from "../../../../public/assets/newdevelopment/parking.svg";
+import { ISuburbListing } from "../suburb.interface";
 
 interface IProps {
 	className?: string;
 	property: ISuburbListing;
 }
-import { ISuburbListing } from "../suburb.interface";
 
 const SuburbPropertyCard = (props: IProps) => {
 	return (

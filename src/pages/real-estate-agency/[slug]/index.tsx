@@ -12,7 +12,7 @@ import AgencyPerformance from "@/module/agency/components/AgencyPerformance";
 import DropDown from "@/shared/components/DropDown";
 import PropertyCard from "@/shared/components/PropertyCard";
 import AgentCard from "@/module/agency/components/AgentCard";
-import { META_TAGS, SOCIALICON } from "@/module/agency/agency.constants";
+import { SOCIALICON } from "@/module/agency/agency.constants";
 import { IAgencyProps } from "@/module/agency/agency.interface";
 
 export const getServerSideProps = async (context: any) => {

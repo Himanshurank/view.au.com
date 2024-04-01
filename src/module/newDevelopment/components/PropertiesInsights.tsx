@@ -1,7 +1,14 @@
+import { title } from "process";
 import React, { useEffect, useRef, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
-const PropertiesInsights = (props: any) => {
+interface IProps {
+	insight: String;
+	area: string;
+}
+
+const PropertiesInsights = (props: IProps) => {
+	console.log(props);
 	const [isShowInsight, setIsShowInsight] = useState(false);
 	const [height, setHeight] = useState<string>("0px");
 	const scrollHeightRef = useRef<any>();
@@ -23,7 +30,7 @@ const PropertiesInsights = (props: any) => {
 		<li className="p-4 border rounded-lg shadow-sm">
 			<div>
 				<div className="flex justify-between items-center cursor-pointer" onClick={onShowInsight}>
-					<h3 className="text-base font-bold">{props.insight.title}</h3>
+					<h3 className="text-base font-bold">{props.insight}</h3>
 					<span className={isShowInsight ? "rotate-180" : ""}>
 						<IoIosArrowDown />
 					</span>

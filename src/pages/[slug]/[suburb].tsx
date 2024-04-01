@@ -18,10 +18,12 @@ import StatisticsCard from "@/shared/components/StatisticsCard";
 import Caption from "@/shared/components/Caption";
 import HouseholdChart from "@/shared/components/HouseholdChart";
 import SchoolInfoCard from "@/shared/components/SchoolInfoCard";
-import { OCCUPATIONS_TITLES } from "@/module/suburb/suburb.constants";
-import { IStreet, ISuburbListing } from "@/module/suburb/suburb.interface";
-import AgencyCardDropDown from "@/module/suburb/components/AgencyCardDropDown";
+import { OCCUPATIONS_TITLES, SUBURB_JSON_LD, SUBURB_META_TAGS } from "@/module/suburb/suburb.constants";
+import { IAgency, IStreet, ISuburbListing, IbreadCrumbs } from "@/module/suburb/suburb.interface";
 import SuburbPropertyCard from "@/module/suburb/components/SuburbPropertyCard";
+import AgencyCard from "@/shared/components/AgencyCard";
+import { useRouter } from "next/router";
+import { IBreadcrumbItem } from "@/module/newDevelopment/newDevelopment.interface";
 
 export const getServerSideProps = async (context: any) => {
 	const params = context.resolvedUrl;
@@ -41,6 +43,26 @@ export const getServerSideProps = async (context: any) => {
 	};
 };
 
+interface ISaleMethod {
+	sale: boolean;
+	rent: boolean;
+}
+
+interface IHouseholdStatistic {
+	title: string;
+	value: number;
+	color: string;
+}
+
+interface ISuburb {
+	image: string;
+	title: string;
+	subTitle: string;
+	description: string;
+	bgColor: string;
+	textColor: string;
+}
+
 const renderSuburbTrend = (props: any) => {
 	return (
 		<section id="suburb-trend" className="mt-8 border-b">
@@ -57,7 +79,7 @@ const renderSuburbTrend = (props: any) => {
 					<div className="w-1/2 border-r p-4 relative">
 						<p className="text-center font-bold">{`$${Math.round(props.suburbDetail.SuburbTrends.LocalityTrendsHouse.LatestMedianPrice)}`.replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}</p>
 						<p className="text-center text-sm text-light-black">Median sale price</p>
-						<div className="w-1/4 h-1 bg-primary-blue rounded-t-full absolute bottom-0 left-1/3"></div>
+						<div className="w-1/4 h-1 bg-primary-blue rounded-t-full mx-auto absolute bottom-0 left-0 right-0"></div>
 					</div>
 					<div className="w-1/2 p-4">
 						<p className="text-center font-bold">{`$${Math.round(props.suburbDetail.SuburbTrends.LocalityTrendsHouse.LatestMedianLease)}`.replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}</p>
@@ -69,25 +91,24 @@ const renderSuburbTrend = (props: any) => {
 	);
 };
 
-const renderProperties = (props: any, sale: () => void, rent: () => void, method: any) => {
+const renderProperties = (props: any, sale: () => void, rent: () => void, method: ISaleMethod) => {
 	return (
 		<section id="recently-listed" className="w-full border-b">
-			<div>
-				<div className="flex justify-between mt-8">
-					<h2 className="text-2xl font-bold">Houses For Sale And Rent in Richmond</h2>
-					<button className=" items-center gap-2 text-primary-blue text-sm hidden lg:flex">
-						See More <IoMdArrowRoundForward />
-					</button>
-				</div>
-				<div className="flex gap-2 mt-8">
-					<button onClick={sale} className={`${method.sale ? "border-primary-blue text-primary-blue" : "text-primary-black "} border-2 hover:text-primary-blue  text-[14px]  hover:border-primary-blue  px-4 py-1.5 rounded-lg font-medium`}>
-						Sale
-					</button>
-					<button onClick={rent} className={`${method.rent ? "border-primary-blue text-primary-blue" : "text-primary-black "} border-2 hover:text-primary-blue  text-[14px]  hover:border-primary-blue  px-4 py-1.5 rounded-lg font-medium`}>
-						Rent
-					</button>
-				</div>
+			<div className="flex justify-between mt-8">
+				<h2 className="text-2xl font-bold">Houses For Sale And Rent in Richmond</h2>
+				<button className=" items-center gap-2 text-primary-blue text-sm hidden lg:flex">
+					See More <IoMdArrowRoundForward />
+				</button>
 			</div>
+			<div className="flex gap-2 mt-8">
+				<button onClick={sale} className={`${method.sale ? "border-primary-blue text-primary-blue" : "text-primary-black "} border-2 hover:text-primary-blue  text-[14px]  hover:border-primary-blue  px-4 py-1.5 rounded-lg font-medium`}>
+					Sale
+				</button>
+				<button onClick={rent} className={`${method.rent ? "border-primary-blue text-primary-blue" : "text-primary-black "} border-2 hover:text-primary-blue  text-[14px]  hover:border-primary-blue  px-4 py-1.5 rounded-lg font-medium`}>
+					Rent
+				</button>
+			</div>
+
 			<div className="flex gap-2 md:grid md:grid-cols-4 md:gap-3 w-full overflow-x-auto mt-4">
 				{method.sale && (
 					<>
@@ -139,7 +160,7 @@ const renderCharts = () => {
 	);
 };
 
-const renderNeighbours = (households: any, suburb: any) => {
+const renderNeighbours = (households: IHouseholdStatistic[], suburb: ISuburb[]) => {
 	return (
 		<section id="your-neighbours" className="mt-6 border-b">
 			<h2 className="text-2xl font-bold my-6">Neighbours in Richmond</h2>
@@ -167,7 +188,7 @@ const renderNeighbours = (households: any, suburb: any) => {
 					<h4 className="mb-1 mt-8 md:mt-0 text-base font-bold md:text-lg ">Households</h4>
 					<Caption className="md:text-sm" imgUrl={starsIcon} title={"The majority of households in this area are Childless Couples"} />
 					<div className="p-4 border rounded-lg mt-4 md:mt-3 md:h-64">
-						{households.map((chart: any) => (
+						{households.map((chart: IHouseholdStatistic) => (
 							<HouseholdChart key={chart.color} title={chart.title} color={chart.color} value={chart.value} />
 						))}
 					</div>
@@ -221,6 +242,9 @@ const renderSchools = (props: any) => {
 
 function SuburbProfilePage(props: any) {
 	const [saleMethod, setSaleMethod] = useState({ sale: true, rent: false });
+	const [isShowCards, setIsShowCards] = useState(false);
+	const router = useRouter();
+
 	const HOUSEHOLD_CHART = [
 		{
 			title: "Childless Couples",
@@ -276,21 +300,29 @@ function SuburbProfilePage(props: any) {
 	const onRent = () => {
 		setSaleMethod({ sale: false, rent: true });
 	};
+	const onShowCards = () => {
+		setIsShowCards(!isShowCards);
+	};
 
 	return (
 		<>
 			<Head>
-				<meta name="gfdjnhnhgo" content="gnreikegbhdfyui" />
+				{SUBURB_META_TAGS.map((tag, i) => (
+					<meta key={i} name={tag.name} content={tag.content} />
+				))}
+				<link rel="canonical" href={`https://resi.uatz.view.com.au/real-estate-agency/${router.query.slug}`}></link>
+				<script type="application/ld+json">{JSON.stringify(SUBURB_JSON_LD)}</script>
 			</Head>
 
 			<section className="mb-4 lg:mb-0 mt-5 lg:flex lg:justify-between gap-4">
 				<HeroSection className="relative lg:w-2/3" titleClassName="mt-8" title="Richmond" subTitle={props.suburbDetail.profile.headline}>
 					<ul className="flex absolute top-0 my-4 text-light-black">
-						{props.suburbDetail.breadCrumbs.map((crumb: any, i: any) => (
+						{props.suburbDetail.breadCrumbs.map((crumb: IBreadcrumbItem, i: number) => (
 							<BreadCrumb key={i} breadCrumb={crumb} className={`${i !== 0 && "pl-2"} my-6`} showArrow={true} />
 						))}
 					</ul>
 				</HeroSection>
+
 				<div className="mt-4 lg:w-2/5 lg:h-auto lg:mt-0 lg:p-0">
 					<div className="w-full h-44 lg:h-[356px] relative overflow-hidden rounded-lg ">
 						<Image src={mapImg} layout="fill" objectFit="cover" alt="properties image" />
@@ -320,7 +352,23 @@ function SuburbProfilePage(props: any) {
 			{renderSchools(props)}
 
 			<section id="agents" className="pb-10 border-b">
-				<AgencyCardDropDown title={props.suburbDetail.Suburb} agencies={props.suburbDetail.agencies} />
+				{isShowCards && (
+					<div className="flex overflow-x-auto pb-4 md:grid md:grid-cols-4 gap-4 mt-4 lg:overflow-hidden">
+						{props.suburbDetail.agencies.map((agency: IAgency) => (
+							<AgencyCard key={agency.id} agency={agency} />
+						))}
+					</div>
+				)}
+				{!isShowCards && (
+					<div className="flex overflow-x-auto pb-4 md:grid md:grid-cols-4 gap-4 mt-4 lg:overflow-hidden">
+						{props.suburbDetail.agencies.slice(0, 4).map((agency: IAgency) => (
+							<AgencyCard key={agency.id} agency={agency} />
+						))}
+					</div>
+				)}
+				<button onClick={onShowCards} className="px-4 py-2 mt-4 border font-medium shadow-sm text-black hover:border-b-gray hover:bg-light-gray w-full rounded-lg flex items-center justify-center gap-2 my-5">
+					See More
+				</button>
 			</section>
 
 			<section id="streets">

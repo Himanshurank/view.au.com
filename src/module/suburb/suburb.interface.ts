@@ -1,3 +1,7 @@
+export interface ISuburbProps {
+	suburbDetail: ISuburbDetailProps;
+}
+
 export interface ISuburbDetailProps {
 	IsBot: boolean;
 	Suburb: string;
@@ -9,18 +13,22 @@ export interface ISuburbDetailProps {
 	SuburbMapImgUrl: string;
 	Schools: ISchool[];
 	SchoolMapImgUrl: string;
-	Disclaimers: IDisclaimer;
+	Disclaimers: IDisclaimers;
 	suburbId: number;
 	profile: IProfile;
-	streets: IStreets;
-	listings: ISuburbListings;
-	agencies: IAgencies;
+	streets: IStreet[];
+	listings: IListings;
+	agencies: IAgency[];
+	breadCrumbs: IbreadCrumbs[];
 	city: string;
 	region: string;
-	breadCrumbs: IBreadCrumb[];
+	profileType: string;
+	isBot: boolean;
+	locationSlug: string;
+	isMobile: boolean;
 }
 
-interface IBreadCrumb {
+export interface IbreadCrumbs {
 	displayName: string;
 	urlPath: string;
 }
@@ -38,8 +46,9 @@ export interface IAgency {
 	numberOfRentListings: number;
 }
 
-interface IAgencies {
-	agencies: IAgency[];
+interface IListings {
+	sale: ISuburbListing[];
+	lease: ISuburbListing[];
 }
 
 export interface ISuburbListing {
@@ -52,12 +61,6 @@ export interface ISuburbListing {
 	listingUrl: string;
 	streetName: string;
 }
-
-export interface ISuburbListings {
-	sale: ISuburbListing[];
-	lease: ISuburbListing[];
-}
-
 export interface IStreet {
 	streetSlug: string;
 	streetName: string;
@@ -65,22 +68,24 @@ export interface IStreet {
 	_id: string;
 }
 
-interface IStreets {
-	streets: IStreet[];
-}
-
-interface Image {
-	sequence: number;
-	fileName: string;
-}
-
 interface IProfile {
 	suburbId: number;
-	images: Image[];
+	images: ImageData[];
 	metaTitle: string;
 	description: string;
 	headline: string;
 	metaDescription: string;
+}
+
+interface ImageData {
+	sequence: number;
+	fileName: string;
+}
+interface IDisclaimers {
+	clCopyright_au: IDisclaimer;
+	clData_anz: IDisclaimer;
+	abs_au: IDisclaimer;
+	state_au: IDisclaimer;
 }
 
 interface IDisclaimer {
@@ -105,62 +110,47 @@ interface ISchool {
 	grade6_fees: number | null;
 	y12_fees: number | null;
 	is_client: number;
-	catchment: string | null;
+	catchment: any; // Assuming catchment can be of any type
 	link: string;
+}
+
+interface IWages {
+	Labels: string[];
+	SuburbValues: ISuburbValues;
+}
+
+interface ISuburbValues {
+	Name: string;
+	Values: number[];
+}
+interface ISuburbTrends {
+	title: string;
+	LocalityTrendsHouse: ILocalityTrends;
+	LocalityTrendsUnit: ILocalityTrends;
+}
+
+interface ILocalityTrends {
+	LatestMedianPrice: string;
+	LatestMedianLease: string;
+	MedianSalePrice: IMedianPrice;
+	MedianRentalPrice: IMedianPrice;
+}
+
+interface IMedianPrice {
+	Labels: string[];
+	SortLabels: string[];
+	Series: string[];
 }
 
 interface IPocketInsights {
 	Suburb: string;
 	DisplayNoWagesText: boolean;
 	AreaStatistics: IAreaStatistics;
-	Wages: IWagesAndMortgage;
-	MortgageRepayments: IWagesAndMortgage;
+	Wages: IWages;
+	MortgageRepayments: IWages;
 	Title: string;
 	Subtitle: string;
 }
-interface ISuburbTrends {
-	Title: string;
-	LocalityTrendsHouse: ILocalityTrendsHouse;
-}
-
-interface ILocalityTrendsHouse {
-	LatestMedianPrice: string;
-	LatestMedianLease: string;
-}
-interface LocalityTrendsUnit {
-	LatestMedianPrice: string;
-	LatestMedianLease: string;
-	MedianSalePrice: IMedianSalePrice;
-	MedianRentalPrice: IMedianRentalPrice;
-}
-
-interface IMedianSalePrice {
-	Labels: string[];
-	SortLabels: string[];
-	Series: string[];
-}
-
-interface IMedianRentalPrice {
-	Labels: string[];
-	SortLabels: string[];
-	Series: string[];
-}
-
-interface IHouseholds {
-	ChildlessCouples: number;
-	CouplesWithChildren: number;
-	SingleParents: number;
-	Other: number;
-}
-
-interface IOccupancy {
-	OwnsOutright: number;
-	Purchaser: number;
-	Renting: number;
-	Other: number;
-	NotStated: number;
-}
-
 interface IAreaStatistics {
 	OccupationTypeFirst: string;
 	OccupationTypeSecond: string;
@@ -172,16 +162,19 @@ interface IAreaStatistics {
 	Percentage31To40: string;
 	Percentage41To50: string;
 	PercentageAbove50: string;
-	Households: IHouseholds;
-	Occupancy: IOccupancy;
+	Households: IHouseholdStatistics;
+	Occupancy: IOccupancyStatistics;
 }
-
-interface IWagesAndMortgage {
-	Labels: string[];
-	SuburbValues: ISuburbValues;
+interface IHouseholdStatistics {
+	ChildlessCouples: number;
+	CoupleswithChildren: number;
+	SingleParents: number;
+	Other: number;
 }
-
-interface ISuburbValues {
-	Name: string;
-	Values: number[];
+interface IOccupancyStatistics {
+	"Owns Outright": number;
+	Purchaser: number;
+	Renting: number;
+	Other: number;
+	"Not Stated": number;
 }

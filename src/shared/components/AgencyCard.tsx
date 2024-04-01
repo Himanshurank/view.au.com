@@ -8,12 +8,12 @@ interface IProps {
 
 const AgencyCard = (props: IProps) => {
 	return (
-		<div className="border rounded-lg w-full h-full shadow-md">
+		<div className="border rounded-lg max-w-7xl h-full shadow-md">
 			<div className="w-72 h-119px flex justify-center items-center relative rounded-t-lg border-b" style={{ backgroundColor: ` #${props.agency.brandColour} ` }}>
 				<Image src={`https://resi.uatz.view.com.au/viewstatic/images/listing/200-w/${props.agency.image}`} alt="agency img" layout="fill" objectFit="scale-down" />
 			</div>
 			<div className="p-4">
-				<p className="text-base font-bold mb-2 whitespace-nowrap overflow-hidden text-ellipsis ">{props.agency.name}</p>
+				<p className="text-base font-bold mb-2 whitespace-nowrap text-ellipsis truncate">{props.agency.name}</p>
 				<p className="text-sm font-normal text-light-black mb-3 ">{props.agency.streetName}</p>
 				<div className="flex justify-between items-center px-2">
 					<p className="text-xs font-normal flex items-center gap-2">
