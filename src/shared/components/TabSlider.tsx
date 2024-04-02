@@ -3,7 +3,6 @@ import React, { useState } from "react";
 
 const TabSlider = () => {
 	const [index, setIndex] = useState(0);
-	const [activeSection, setActiveSection] = useState("slider");
 
 	const scrollToSection = (sectionId: string, i: number) => {
 		setIndex(i);

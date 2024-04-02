@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Head from "next/head";
+import { useRouter } from "next/router";
 import { IoMdArrowRoundForward } from "react-icons/io";
 import BreadCrumb from "@/shared/components/BreadCrumb";
 import HeroSection from "@/shared/components/HeroSection";
@@ -18,12 +19,11 @@ import StatisticsCard from "@/shared/components/StatisticsCard";
 import Caption from "@/shared/components/Caption";
 import HouseholdChart from "@/shared/components/HouseholdChart";
 import SchoolInfoCard from "@/shared/components/SchoolInfoCard";
-import { OCCUPATIONS_TITLES, SUBURB_JSON_LD, SUBURB_META_TAGS } from "@/module/suburb/suburb.constants";
-import { IAgency, IStreet, ISuburbListing, IbreadCrumbs } from "@/module/suburb/suburb.interface";
 import SuburbPropertyCard from "@/module/suburb/components/SuburbPropertyCard";
 import AgencyCard from "@/shared/components/AgencyCard";
-import { useRouter } from "next/router";
+import { OCCUPATIONS_TITLES, SUBURB_JSON_LD, SUBURB_META_TAGS } from "@/module/suburb/suburb.constants";
 import { IBreadcrumbItem } from "@/module/newDevelopment/newDevelopment.interface";
+import { IAgency, IHouseholdStatistic, ISaleMethod, IStreet, ISuburb, ISuburbListing, ISuburbProps } from "@/module/suburb/suburb.interface";
 
 export const getServerSideProps = async (context: any) => {
 	const params = context.resolvedUrl;
@@ -43,27 +43,7 @@ export const getServerSideProps = async (context: any) => {
 	};
 };
 
-interface ISaleMethod {
-	sale: boolean;
-	rent: boolean;
-}
-
-interface IHouseholdStatistic {
-	title: string;
-	value: number;
-	color: string;
-}
-
-interface ISuburb {
-	image: string;
-	title: string;
-	subTitle: string;
-	description: string;
-	bgColor: string;
-	textColor: string;
-}
-
-const renderSuburbTrend = (props: any) => {
+const renderSuburbTrend = (props: ISuburbProps) => {
 	return (
 		<section id="suburb-trend" className="mt-8 border-b">
 			<h2 className="text-2xl font-bold">Suburb Trends</h2>
@@ -77,12 +57,12 @@ const renderSuburbTrend = (props: any) => {
 				</div>
 				<div className="flex justify-center items-center">
 					<div className="w-1/2 border-r p-4 relative">
-						<p className="text-center font-bold">{`$${Math.round(props.suburbDetail.SuburbTrends.LocalityTrendsHouse.LatestMedianPrice)}`.replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}</p>
+						<p className="text-center font-bold">{`$${Math.round(parseFloat(props.suburbDetail.SuburbTrends.LocalityTrendsHouse.LatestMedianPrice))}`.replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}</p>
 						<p className="text-center text-sm text-light-black">Median sale price</p>
 						<div className="w-1/4 h-1 bg-primary-blue rounded-t-full mx-auto absolute bottom-0 left-0 right-0"></div>
 					</div>
 					<div className="w-1/2 p-4">
-						<p className="text-center font-bold">{`$${Math.round(props.suburbDetail.SuburbTrends.LocalityTrendsHouse.LatestMedianLease)}`.replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}</p>
+						<p className="text-center font-bold">{`$${Math.round(parseFloat(props.suburbDetail.SuburbTrends.LocalityTrendsHouse.LatestMedianLease))}`.replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",")}</p>
 						<p className="text-center text-sm text-light-black">Median rental price</p>
 					</div>
 				</div>
@@ -91,7 +71,7 @@ const renderSuburbTrend = (props: any) => {
 	);
 };
 
-const renderProperties = (props: any, sale: () => void, rent: () => void, method: ISaleMethod) => {
+const renderProperties = (props: ISuburbProps, sale: () => void, rent: () => void, method: ISaleMethod) => {
 	return (
 		<section id="recently-listed" className="w-full border-b">
 			<div className="flex justify-between mt-8">
@@ -207,7 +187,7 @@ const renderNeighbours = (households: IHouseholdStatistic[], suburb: ISuburb[]) 
 	);
 };
 
-const renderSchools = (props: any) => {
+const renderSchools = (props: ISuburbProps) => {
 	return (
 		<section id="schools-nearby" className="border-b">
 			<div className="flex justify-between items-center my-8 md:mb-4">
@@ -240,7 +220,7 @@ const renderSchools = (props: any) => {
 	);
 };
 
-function SuburbProfilePage(props: any) {
+function SuburbProfilePage(props: ISuburbProps) {
 	const [saleMethod, setSaleMethod] = useState({ sale: true, rent: false });
 	const [isShowCards, setIsShowCards] = useState(false);
 	const router = useRouter();

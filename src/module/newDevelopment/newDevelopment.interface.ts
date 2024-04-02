@@ -46,10 +46,10 @@ export interface IBreadcrumbs {
 }
 
 export interface IBreadcrumbItem {
-	"@type": string;
+	"@type"?: string;
 	item?: string;
 	urlPath?: string;
-	position: number;
+	position?: number;
 	name?: string;
 	displayName?: string;
 }

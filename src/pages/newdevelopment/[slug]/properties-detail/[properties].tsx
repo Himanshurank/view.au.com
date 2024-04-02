@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Head from "next/head";
+import { useRouter } from "next/router";
 import { IoIosArrowForward } from "react-icons/io";
 import HeroSection from "@/shared/components/HeroSection";
 import Button from "@/shared/components/buttons/Button";
@@ -16,10 +18,8 @@ import mailCloseIcon from "../../../../../public/assets/common/mail-fill-close.s
 import mapIcon from "../../../../../public/assets/newdevelopment/location.svg";
 import homeSizeIcon from "../../../../../public/assets/newdevelopment/homesize.svg";
 import mapImage from "../../../../../public/assets/map.png";
-import { IBreadcrumbItem, IBreadcrumbs, IDevelopmentDetail, ISuburbProfile } from "@/module/newDevelopment/newDevelopment.interface";
-import Head from "next/head";
+import { IBreadcrumbItem, IDevelopmentDetail, ISuburbProfile } from "@/module/newDevelopment/newDevelopment.interface";
 import { NEW_DEVELOPMENT_LD_JSON, NEW_DEVELOPMENT_META_TAGS } from "@/module/newDevelopment/newDevelopment.constant";
-import { useRouter } from "next/router";
 
 export const getServerSideProps = async (context: any) => {
 	const params = context.params;

@@ -1,4 +1,3 @@
-import { title } from "process";
 import React, { useEffect, useRef, useState } from "react";
 import { IoIosArrowDown } from "react-icons/io";
 
@@ -8,7 +7,6 @@ interface IProps {
 }
 
 const PropertiesInsights = (props: IProps) => {
-	console.log(props);
 	const [isShowInsight, setIsShowInsight] = useState(false);
 	const [height, setHeight] = useState<string>("0px");
 	const scrollHeightRef = useRef<any>();

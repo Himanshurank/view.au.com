@@ -1,5 +1,27 @@
+import { IBreadcrumbItem } from "../newDevelopment/newDevelopment.interface";
+
 export interface ISuburbProps {
 	suburbDetail: ISuburbDetailProps;
+}
+
+export interface ISaleMethod {
+	sale: boolean;
+	rent: boolean;
+}
+
+export interface IHouseholdStatistic {
+	title: string;
+	value: number;
+	color: string;
+}
+
+export interface ISuburb {
+	image: string;
+	title: string;
+	subTitle: string;
+	description: string;
+	bgColor: string;
+	textColor: string;
 }
 
 export interface ISuburbDetailProps {
@@ -19,18 +41,13 @@ export interface ISuburbDetailProps {
 	streets: IStreet[];
 	listings: IListings;
 	agencies: IAgency[];
-	breadCrumbs: IbreadCrumbs[];
+	breadCrumbs: IBreadcrumbItem[];
 	city: string;
 	region: string;
 	profileType: string;
 	isBot: boolean;
 	locationSlug: string;
 	isMobile: boolean;
-}
-
-export interface IbreadCrumbs {
-	displayName: string;
-	urlPath: string;
 }
 
 export interface IAgency {
